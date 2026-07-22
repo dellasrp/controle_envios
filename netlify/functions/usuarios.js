@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import { readDb, writeDb } from './_lib/db.js';
+import { readDb, writeDb, connectLambda } from './_lib/db.js';
 import {
   authenticate,
   requireRole,
@@ -17,6 +17,7 @@ function publicUser(u) {
 }
 
 export const handler = async (event) => {
+  connectLambda(event);
   const user = authenticate(event);
   if (!requireRole(user, ['administrador'])) return json(403, { error: 'forbidden' });
 
