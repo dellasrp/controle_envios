@@ -1,10 +1,11 @@
-import { readDb } from './_lib/db.js';
+import { readDb, connectLambda } from './_lib/db.js';
 import { authenticate, requireRole, json } from './_lib/security.js';
 
 const MESES = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
 const NOMES = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
 
 export const handler = async (event) => {
+  connectLambda(event);
   const user = authenticate(event);
   if (!requireRole(user, ['diretoria', 'administrador'])) return json(403, { error: 'forbidden' });
 
