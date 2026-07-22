@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Controle de Envios · Usuários</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { ink: '#0f172a', slab: '#1e293b', accent: '#4f46e5' } } }
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-slate-100 font-sans text-slate-800">
+  <header class="border-b border-slate-200 bg-ink text-slate-100">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-3">
+        <div class="flex h-8 w-8 items-center justify-center rounded bg-accent text-sm font-bold">CE</div>
+        <span class="font-semibold tracking-tight">Controle de Envios</span>
+      </div>
+      <nav class="flex items-center gap-1 text-sm">
+        <a href="/app.html" class="rounded px-3 py-1.5 text-slate-300 hover:bg-white/10">Tabela</a>
+        <a href="/dashboard.html" class="rounded px-3 py-1.5 text-slate-300 hover:bg-white/10">Dashboard</a>
+        <a href="/usuarios.html" class="rounded px-3 py-1.5 font-medium text-white bg-white/10">Usuários</a>
+        <div class="mx-2 h-5 w-px bg-white/20"></div>
+        <div id="userNome" class="text-sm font-medium"></div>
+        <button onclick="logout()" class="ml-2 rounded px-3 py-1.5 text-slate-300 hover:bg-white/10">Sair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-4xl px-4 py-6">
+    <div class="mb-4 flex items-center justify-between">
+      <h1 class="text-xl font-semibold tracking-tight">Usuários e permissões</h1>
+      <button onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Novo usuário</button>
+    </div>
+
+    <div class="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500">
+            <th class="px-4 py-3">Nome</th>
+            <th class="px-4 py-3">Usuário</th>
+            <th class="px-4 py-3">Perfil</th>
+            <th class="px-4 py-3">Status</th>
+            <th class="px-4 py-3 text-right">Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <div id="modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-black/50 p-4">
+    <div class="w-full max-w-md rounded-xl bg-white shadow-2xl">
+      <div class="flex items-center justify-between border-b border-slate-200 px-6 py-4">
+        <h2 id="modalTitulo" class="text-lg font-semibold">Novo usuário</h2>
+        <button onclick="fecharModal()" class="text-slate-400 hover:text-slate-700">✕</button>
+      </div>
+      <div class="space-y-4 px-6 py-5">
+        <label class="block text-sm">Nome
+          <input id="f_nome" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+        </label>
+        <label class="block text-sm">Usuário
+          <input id="f_username" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+        </label>
+        <label class="block text-sm">Perfil
+          <select id="f_role" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent">
+            <option value="operacional">Operacional</option>
+            <option value="diretoria">Diretoria</option>
+            <option value="administrador">Administrador</option>
+          </select>
+        </label>
+        <label class="block text-sm">Senha <span id="senhaHint" class="text-xs text-slate-400">(mínimo 8 caracteres)</span>
+          <input id="f_senha" type="password" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+        </label>
+        <label id="ativoWrap" class="hidden items-center gap-2 text-sm">
+          <input id="f_ativo" type="checkbox" class="h-4 w-4 rounded border-slate-300" /> Usuário ativo
+        </label>
+        <div id="modalErro" class="hidden rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700"></div>
+      </div>
+      <div class="flex justify-end gap-2 border-t border-slate-200 px-6 py-4">
+        <button onclick="fecharModal()" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium hover:bg-slate-50">Cancelar</button>
+        <button id="btnSalvar" onclick="salvar()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/auth.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/usuarios.js"></script>
+</body>
+</html>

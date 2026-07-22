@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Controle de Envios · Tabela</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { ink: '#0f172a', slab: '#1e293b', accent: '#4f46e5' } } }
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-slate-100 font-sans text-slate-800">
+  <header class="border-b border-slate-200 bg-ink text-slate-100">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+      <div class="flex items-center gap-3">
+        <div class="flex h-8 w-8 items-center justify-center rounded bg-accent text-sm font-bold">CE</div>
+        <span class="font-semibold tracking-tight">Controle de Envios</span>
+      </div>
+      <nav class="flex items-center gap-1 text-sm">
+        <a href="/app.html" class="rounded px-3 py-1.5 font-medium text-white bg-white/10">Tabela</a>
+        <a id="linkDashboard" href="/dashboard.html" class="hidden rounded px-3 py-1.5 text-slate-300 hover:bg-white/10">Dashboard</a>
+        <a id="linkUsuarios" href="/usuarios.html" class="hidden rounded px-3 py-1.5 text-slate-300 hover:bg-white/10">Usuários</a>
+        <div class="mx-2 h-5 w-px bg-white/20"></div>
+        <div class="text-right leading-tight">
+          <div id="userNome" class="text-sm font-medium"></div>
+          <div id="userRole" class="text-xs uppercase tracking-wide text-slate-400"></div>
+        </div>
+        <button onclick="logout()" class="ml-2 rounded px-3 py-1.5 text-slate-300 hover:bg-white/10">Sair</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-7xl px-4 py-6">
+    <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <h1 class="text-xl font-semibold tracking-tight">Validação mensal de clientes</h1>
+        <p id="contador" class="text-sm text-slate-500"></p>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <select id="mesSelect" class="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-accent"></select>
+        <input id="busca" type="text" placeholder="Buscar cliente ou órgão..." oninput="render()"
+          class="w-56 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none focus:border-accent" />
+        <button id="btnNovo" onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Novo cliente</button>
+      </div>
+    </div>
+
+    <div class="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
+      <table class="w-full text-sm">
+        <thead>
+          <tr class="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500">
+            <th class="px-4 py-3">Cliente</th>
+            <th class="px-4 py-3">Órgão</th>
+            <th class="px-4 py-3">Status</th>
+            <th class="px-4 py-3">Data validação</th>
+            <th class="px-4 py-3">Técnico</th>
+            <th class="px-4 py-3">Observações</th>
+            <th class="px-4 py-3">Contato</th>
+            <th class="px-4 py-3 text-right">Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <div id="modal" class="fixed inset-0 z-40 hidden items-center justify-center bg-black/50 p-4">
+    <div class="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-xl bg-white shadow-2xl">
+      <div class="flex items-center justify-between border-b border-slate-200 px-6 py-4">
+        <h2 id="modalTitulo" class="text-lg font-semibold">Novo cliente</h2>
+        <button onclick="fecharModal()" class="text-slate-400 hover:text-slate-700">✕</button>
+      </div>
+      <div class="space-y-5 px-6 py-5">
+        <div>
+          <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Dados do cliente</h3>
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <label class="text-sm">Cliente
+              <input id="f_cliente" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+            <label class="text-sm">Órgão
+              <input id="f_org" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+            <label class="text-sm">Integração AM x CP
+              <select id="f_integracao" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent">
+                <option>Não</option><option>Sim</option>
+              </select>
+            </label>
+            <label class="text-sm">Cliente com Gerador
+              <select id="f_gerador" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent">
+                <option>Não</option><option>Sim</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Abertura contábil</h3>
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <label class="text-sm">Data
+              <input id="f_ab_data" type="date" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+            <label class="text-sm">Técnico
+              <input id="f_ab_tecnico" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+            <label class="text-sm">WEB ou DD
+              <select id="f_ab_web" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent">
+                <option value="">—</option><option>Web</option><option>DD</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <h3 id="modalMesTitulo" class="mb-2 text-xs font-semibold uppercase tracking-wide text-slate-400">Controle do mês</h3>
+          <div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+            <label class="text-sm">Data validação Audesp
+              <input id="f_m_data" type="date" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+            <label class="text-sm">Técnico
+              <input id="f_m_tecnico" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+            <label class="text-sm sm:col-span-2">Observações
+              <textarea id="f_m_obs" rows="2" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent"></textarea>
+            </label>
+            <label class="text-sm sm:col-span-2">Contato no cliente
+              <input id="f_m_contato" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+          </div>
+        </div>
+
+        <div id="modalErro" class="hidden rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700"></div>
+      </div>
+      <div class="flex justify-end gap-2 border-t border-slate-200 px-6 py-4">
+        <button onclick="fecharModal()" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium hover:bg-slate-50">Cancelar</button>
+        <button id="btnSalvar" onclick="salvar()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/auth.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/envios.js"></script>
+</body>
+</html>
