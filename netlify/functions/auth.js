@@ -1,4 +1,4 @@
-import { readDb } from './_lib/db.js';
+import { readDb, connectLambda } from './_lib/db.js';
 import { verifyPassword, signToken, json, parseBody, sanitizeString } from './_lib/security.js';
 
 const attempts = new Map();
@@ -26,6 +26,7 @@ function registerFail(key) {
 }
 
 export const handler = async (event) => {
+  connectLambda(event);
   if (event.httpMethod !== 'POST') return json(405, { error: 'method_not_allowed' });
 
   let body;
