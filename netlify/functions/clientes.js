@@ -1,5 +1,5 @@
 import crypto from 'crypto';
-import { readDb, writeDb } from './_lib/db.js';
+import { readDb, writeDb, connectLambda } from './_lib/db.js';
 import {
   authenticate,
   requireRole,
@@ -44,6 +44,7 @@ function sanitizeCliente(body) {
 }
 
 export const handler = async (event) => {
+  connectLambda(event);
   const user = authenticate(event);
   if (!user) return json(401, { error: 'unauthorized' });
 
