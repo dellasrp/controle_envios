@@ -4,10 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Controle de Envios · Usuários</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
-      theme: { extend: { colors: { ink: '#0f172a', slab: '#1e293b', accent: '#4f46e5' } } }
+      theme: { extend: { colors: { ink: '#093E34', slab: '#305D54', accent: '#16836D', accentBright: '#1BA085', lime: '#8DC540' }, fontFamily: { sans: ['Host Grotesk', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'] } } }
     };
   </script>
 </head>
@@ -15,7 +18,7 @@
   <header class="border-b border-slate-200 bg-ink text-slate-100">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
       <div class="flex items-center gap-3">
-        <div class="flex h-8 w-8 items-center justify-center rounded bg-accent text-sm font-bold">CE</div>
+        <img src="/img/logo-white.png" alt="smar(apd)" class="h-6 w-auto" />
         <span class="font-semibold tracking-tight">Controle de Envios</span>
       </div>
       <nav class="flex items-center gap-1 text-sm">
@@ -32,7 +35,7 @@
   <main class="mx-auto max-w-4xl px-4 py-6">
     <div class="mb-4 flex items-center justify-between">
       <h1 class="text-xl font-semibold tracking-tight">Usuários e permissões</h1>
-      <button onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Novo usuário</button>
+      <button onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accentBright">Novo usuário</button>
     </div>
 
     <div class="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
@@ -81,7 +84,7 @@
       </div>
       <div class="flex justify-end gap-2 border-t border-slate-200 px-6 py-4">
         <button onclick="fecharModal()" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium hover:bg-slate-50">Cancelar</button>
-        <button id="btnSalvar" onclick="salvar()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-500">Salvar</button>
+        <button id="btnSalvar" onclick="salvar()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accentBright">Salvar</button>
       </div>
     </div>
   </div>
