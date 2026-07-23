@@ -15,7 +15,7 @@ function renderMensal(porMes) {
     data: {
       labels: porMes.map((m) => m.mes),
       datasets: [
-        { label: 'Concluído', data: porMes.map((m) => m.concluido), backgroundColor: '#10b981' },
+        { label: 'Concluído', data: porMes.map((m) => m.concluido), backgroundColor: '#8DC540' },
         { label: 'Pendente', data: porMes.map((m) => m.pendente), backgroundColor: '#f59e0b' }
       ]
     },
@@ -29,7 +29,7 @@ function renderMensal(porMes) {
 
 function renderOrg(porOrg) {
   const ctx = document.getElementById('chartOrg');
-  const paleta = ['#4f46e5', '#10b981', '#f59e0b', '#ef4444', '#0ea5e9', '#8b5cf6', '#14b8a6', '#f97316', '#64748b', '#ec4899'];
+  const paleta = ['#1BA085', '#8DC540', '#0EA5E9', '#F59E0B', '#8B5CF6', '#EF4444', '#14B8A6', '#F97316', '#64748B', '#EC4899'];
   charts.org = new Chart(ctx, {
     type: 'doughnut',
     data: {
@@ -50,8 +50,8 @@ function renderEvolucao(porMes, total) {
       datasets: [{
         label: 'Conclusão (%)',
         data: pct,
-        borderColor: '#4f46e5',
-        backgroundColor: 'rgba(79,70,229,0.1)',
+        borderColor: '#1BA085',
+        backgroundColor: 'rgba(27,160,133,0.12)',
         fill: true,
         tension: 0.3
       }]
