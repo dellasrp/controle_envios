@@ -4,11 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Controle de Envios · Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script>
     tailwind.config = {
-      theme: { extend: { colors: { ink: '#0f172a', slab: '#1e293b', accent: '#4f46e5' } } }
+      theme: { extend: { colors: { ink: '#093E34', slab: '#305D54', accent: '#16836D', accentBright: '#1BA085', lime: '#8DC540' }, fontFamily: { sans: ['Host Grotesk', 'ui-sans-serif', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif'] } } }
     };
   </script>
 </head>
@@ -16,7 +19,7 @@
   <header class="border-b border-slate-200 bg-ink text-slate-100">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
       <div class="flex items-center gap-3">
-        <div class="flex h-8 w-8 items-center justify-center rounded bg-accent text-sm font-bold">CE</div>
+        <img src="/img/logo-white.png" alt="smar(apd)" class="h-6 w-auto" />
         <span class="font-semibold tracking-tight">Controle de Envios</span>
       </div>
       <nav class="flex items-center gap-1 text-sm">
