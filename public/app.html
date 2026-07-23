@@ -129,4 +129,25 @@
               <input id="f_m_tecnico" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
             </label>
             <label class="text-sm sm:col-span-2">Observações
-              <textarea id="f_m_obs" rows="2" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent"></text
+              <textarea id="f_m_obs" rows="2" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent"></textarea>
+            </label>
+            <label class="text-sm sm:col-span-2">Contato no cliente
+              <input id="f_m_contato" class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 outline-none focus:border-accent" />
+            </label>
+          </div>
+        </div>
+
+        <div id="modalErro" class="hidden rounded-lg border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-700"></div>
+      </div>
+      <div class="flex justify-end gap-2 border-t border-slate-200 px-6 py-4">
+        <button onclick="fecharModal()" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium hover:bg-slate-50">Cancelar</button>
+        <button id="btnSalvar" onclick="salvar()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accentBright">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/auth.js"></script>
+  <script src="/js/api.js"></script>
+  <script src="/js/envios.js"></script>
+</body>
+</html>
