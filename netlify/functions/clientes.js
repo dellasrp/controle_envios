@@ -11,9 +11,9 @@ import {
 
 const SIM_NAO = ['Sim', 'Não'];
 const WEB_DD = ['Web', 'DD', ''];
-const MESES = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
+const PERIODOS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
 
-function sanitizeMes(src) {
+function sanitizePeriodo(src) {
   const obj = src && typeof src === 'object' ? src : {};
   return {
     dataValidacao: sanitizeString(obj.dataValidacao, 20),
@@ -23,11 +23,31 @@ function sanitizeMes(src) {
   };
 }
 
-function sanitizeCliente(body) {
-  const meses = {};
-  for (const m of MESES) {
-    meses[m] = sanitizeMes(body.meses ? body.meses[m] : null);
+function sanitizeAno(ano) {
+  const s = sanitizeString(ano, 4);
+  return /^[0-9]{4}$/.test(s) ? s : null;
+}
+
+function sanitizePeriodosPorAno(src, anosConhecidos) {
+  const out = {};
+  const origem = src && typeof src === 'object' ? src : {};
+  const anos = new Set(anosConhecidos || []);
+  for (const anoRaw of Object.keys(origem)) {
+    const ano = sanitizeAno(anoRaw);
+    if (ano) anos.add(ano);
   }
+  for (const ano of anos) {
+    const periodosAno = {};
+    const origemAno = origem[ano] && typeof origem[ano] === 'object' ? origem[ano] : {};
+    for (const p of PERIODOS) {
+      periodosAno[p] = sanitizePeriodo(origemAno[p]);
+    }
+    out[ano] = periodosAno;
+  }
+  return out;
+}
+
+function sanitizeCliente(body, anosConhecidos) {
   const abertura = body.abertura && typeof body.abertura === 'object' ? body.abertura : {};
   return {
     cliente: sanitizeString(body.cliente, 120),
@@ -39,7 +59,7 @@ function sanitizeCliente(body) {
       tecnico: sanitizeString(abertura.tecnico, 120),
       webOuDd: sanitizeEnum(abertura.webOuDd, WEB_DD, '')
     },
-    meses
+    periodos: sanitizePeriodosPorAno(body.periodos, anosConhecidos)
   };
 }
 
@@ -50,22 +70,23 @@ export const handler = async (event) => {
 
   const db = await readDb();
   db.clientes = db.clientes || [];
+  const anosConhecidos = Object.keys(db.prazos || {});
 
   if (event.httpMethod === 'GET') {
-    return json(200, { clientes: db.clientes });
+    return json(200, { clientes: db.clientes, anos: anosConhecidos });
   }
 
   if (!requireRole(user, ['operacional', 'administrador'])) return json(403, { error: 'forbidden' });
 
   let body;
   try {
-    body = parseBody(event, 200000);
+    body = parseBody(event, 300000);
   } catch (e) {
     return json(400, { error: e.message });
   }
 
   if (event.httpMethod === 'POST') {
-    const data = sanitizeCliente(body);
+    const data = sanitizeCliente(body, anosConhecidos);
     if (!data.cliente) return json(400, { error: 'cliente_required' });
     const registro = { id: crypto.randomUUID(), ...data };
     db.clientes.push(registro);
@@ -77,7 +98,7 @@ export const handler = async (event) => {
     const id = sanitizeString(body.id, 40);
     const idx = db.clientes.findIndex((c) => c.id === id);
     if (idx === -1) return json(404, { error: 'not_found' });
-    const data = sanitizeCliente(body);
+    const data = sanitizeCliente(body, anosConhecidos);
     if (!data.cliente) return json(400, { error: 'cliente_required' });
     db.clientes[idx] = { id, ...data };
     await writeDb(db);
