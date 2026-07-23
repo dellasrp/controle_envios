@@ -2,7 +2,11 @@ const session = requireAuth();
 let clientes = [];
 let mesAtual = String(new Date().getMonth() + 1).padStart(2, '0');
 let editId = null;
+let filtroStatus = 'todos';
+let sortCol = null;
+let sortDir = 'asc';
 
+const ORDEM_MESES = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
 const NOMES_MES = {
   '01': 'Janeiro', '02': 'Fevereiro', '03': 'Março', '04': 'Abril',
   '05': 'Maio', '06': 'Junho', '07': 'Julho', '08': 'Agosto',
@@ -25,10 +29,10 @@ function initHeader() {
 
 function initMes() {
   const sel = document.getElementById('mesSelect');
-  Object.entries(NOMES_MES).forEach(([k, v]) => {
+  ORDEM_MESES.forEach((k) => {
     const opt = document.createElement('option');
     opt.value = k;
-    opt.textContent = v;
+    opt.textContent = NOMES_MES[k];
     if (k === mesAtual) opt.selected = true;
     sel.appendChild(opt);
   });
@@ -36,6 +40,33 @@ function initMes() {
     mesAtual = sel.value;
     render();
   });
+}
+
+function initFiltros() {
+  const sel = document.getElementById('filtroStatus');
+  sel.addEventListener('change', () => {
+    filtroStatus = sel.value;
+    render();
+  });
+}
+
+function ordenarPor(coluna) {
+  if (sortCol === coluna) {
+    sortDir = sortDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    sortCol = coluna;
+    sortDir = 'asc';
+  }
+  render();
+}
+
+function atualizarSetas() {
+  const colunas = ['cliente', 'org', 'status', 'dataValidacao', 'tecnico'];
+  for (const c of colunas) {
+    const el = document.getElementById('seta-' + c);
+    if (!el) continue;
+    el.textContent = sortCol === c ? (sortDir === 'asc' ? '▲' : '▼') : '';
+  }
 }
 
 function td(texto, extra) {
@@ -86,17 +117,47 @@ async function carregar() {
   render();
 }
 
-function render() {
+function prepararLista() {
   const termo = document.getElementById('busca').value.toLowerCase();
+  let linhas = clientes.map((c) => {
+    const mes = (c.meses && c.meses[mesAtual]) || {};
+    const status = mes.dataValidacao ? 'Concluído' : 'Pendente';
+    return {
+      id: c.id,
+      cliente: c.cliente,
+      org: c.org || '',
+      status,
+      dataValidacao: mes.dataValidacao || '',
+      tecnico: mes.tecnico || '',
+      observacoes: mes.observacoes || '',
+      contato: mes.contato || '',
+      raw: c
+    };
+  });
+
+  linhas = linhas.filter((l) =>
+    (l.cliente.toLowerCase().includes(termo) || l.org.toLowerCase().includes(termo)) &&
+    (filtroStatus === 'todos' || l.status === filtroStatus)
+  );
+
+  if (sortCol) {
+    const dir = sortDir === 'desc' ? -1 : 1;
+    linhas.sort((a, b) => String(a[sortCol] || '').localeCompare(String(b[sortCol] || ''), 'pt-BR') * dir);
+  }
+
+  return linhas;
+}
+
+function render() {
   const tbody = document.getElementById('tabelaBody');
   tbody.innerHTML = '';
-  const filtrados = clientes.filter((c) =>
-    c.cliente.toLowerCase().includes(termo) || (c.org || '').toLowerCase().includes(termo)
-  );
-  document.getElementById('contador').textContent =
-    filtrados.length + ' de ' + clientes.length + ' cliente(s) · ' + NOMES_MES[mesAtual];
+  const linhas = prepararLista();
+  atualizarSetas();
 
-  if (filtrados.length === 0) {
+  document.getElementById('contador').textContent =
+    linhas.length + ' de ' + clientes.length + ' cliente(s) · ' + NOMES_MES[mesAtual];
+
+  if (linhas.length === 0) {
     const tr = document.createElement('tr');
     const cell = td('Nenhum cliente encontrado.', 'text-slate-400');
     cell.colSpan = 8;
@@ -105,19 +166,17 @@ function render() {
     return;
   }
 
-  for (const c of filtrados) {
-    const mes = (c.meses && c.meses[mesAtual]) || {};
-    const status = mes.dataValidacao ? 'Concluído' : 'Pendente';
+  for (const l of linhas) {
     const tr = document.createElement('tr');
     tr.className = 'border-b border-slate-100 hover:bg-slate-50';
-    tr.appendChild(td(c.cliente, 'font-medium text-slate-800'));
-    tr.appendChild(td(c.org || '-'));
-    tr.appendChild(tdBadge(status));
-    tr.appendChild(td(mes.dataValidacao || '-'));
-    tr.appendChild(td(mes.tecnico || '-'));
-    tr.appendChild(td(mes.observacoes || '-', 'max-w-xs text-slate-600'));
-    tr.appendChild(td(mes.contato || '-'));
-    tr.appendChild(tdAcoes(c));
+    tr.appendChild(td(l.cliente, 'font-medium text-slate-800'));
+    tr.appendChild(td(l.org || '-'));
+    tr.appendChild(tdBadge(l.status));
+    tr.appendChild(td(l.dataValidacao || '-'));
+    tr.appendChild(td(l.tecnico || '-'));
+    tr.appendChild(td(l.observacoes || '-', 'max-w-xs text-slate-600'));
+    tr.appendChild(td(l.contato || '-'));
+    tr.appendChild(tdAcoes(l.raw));
     tbody.appendChild(tr);
   }
 }
@@ -166,8 +225,7 @@ function fecharModal() {
 
 function mesesBase(registro) {
   const base = {};
-  const chaves = Object.keys(NOMES_MES);
-  for (const k of chaves) {
+  for (const k of ORDEM_MESES) {
     const origem = (registro && registro.meses && registro.meses[k]) || {};
     base[k] = {
       dataValidacao: origem.dataValidacao || '',
@@ -243,4 +301,5 @@ async function excluir(id, nome) {
 
 initHeader();
 initMes();
+initFiltros();
 carregar();
