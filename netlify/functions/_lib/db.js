@@ -6,19 +6,17 @@ export { connectLambda };
 const STORE_NAME = 'controle-envios';
 const KEY = 'database';
 
-function precisaMigrar(data) {
-  if (!data || !Array.isArray(data.clientes)) return false;
-  if (!data.prazos) return true;
-  if (data.clientes.length > 0 && !data.clientes[0].periodos) return true;
-  return false;
+function precisaAtualizarSemente(data) {
+  if (!data || !Array.isArray(data.clientes)) return true;
+  return data.seedVersion !== initialData.seedVersion;
 }
 
-function migrar(data) {
-  const semente = initialData;
+function aplicarSemente(data) {
   return {
-    usuarios: data.usuarios || semente.usuarios,
-    prazos: data.prazos || semente.prazos,
-    clientes: semente.clientes
+    seedVersion: initialData.seedVersion,
+    usuarios: Array.isArray(data.usuarios) && data.usuarios.length > 0 ? data.usuarios : initialData.usuarios,
+    prazos: initialData.prazos,
+    clientes: initialData.clientes
   };
 }
 
@@ -29,8 +27,8 @@ export async function readDb() {
     await store.setJSON(KEY, initialData);
     return initialData;
   }
-  if (precisaMigrar(data)) {
-    data = migrar(data);
+  if (precisaAtualizarSemente(data)) {
+    data = aplicarSemente(data);
     await store.setJSON(KEY, data);
   }
   return data;
