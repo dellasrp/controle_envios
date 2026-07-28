@@ -6,6 +6,10 @@ export { connectLambda };
 const STORE_NAME = 'controle-envios';
 const KEY = 'database';
 
+function abrirStore() {
+  return getStore({ name: STORE_NAME, consistency: 'strong' });
+}
+
 function precisaAtualizarSemente(data) {
   if (!data || !Array.isArray(data.clientes)) return true;
   return data.seedVersion !== initialData.seedVersion;
@@ -21,7 +25,7 @@ function aplicarSemente(data) {
 }
 
 export async function readDb() {
-  const store = getStore(STORE_NAME);
+  const store = abrirStore();
   let data = await store.get(KEY, { type: 'json' });
   if (!data) {
     await store.setJSON(KEY, initialData);
@@ -35,7 +39,7 @@ export async function readDb() {
 }
 
 export async function writeDb(data) {
-  const store = getStore(STORE_NAME);
+  const store = abrirStore();
   await store.setJSON(KEY, data);
   return data;
 }
