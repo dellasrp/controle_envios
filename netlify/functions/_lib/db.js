@@ -22,7 +22,7 @@ function aplicarSemente(data) {
 
 export async function readDb() {
   const store = getStore(STORE_NAME);
-  let data = await store.get(KEY, { type: 'json', consistency: 'strong' });
+  let data = await store.get(KEY, { type: 'json' });
   if (!data) {
     await store.setJSON(KEY, initialData);
     return initialData;
