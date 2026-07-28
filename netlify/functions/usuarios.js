@@ -13,13 +13,21 @@ import {
 const ROLES = ['diretoria', 'operacional', 'administrador'];
 
 function publicUser(u) {
-  return { id: u.id, nome: u.nome, username: u.username, role: u.role, ativo: u.ativo !== false };
+  return {
+    id: u.id,
+    nome: u.nome,
+    username: u.username,
+    role: u.role,
+    ativo: u.ativo !== false,
+    senhaProvisoria: u.mustChangePassword === true
+  };
 }
 
 export const handler = async (event) => {
   connectLambda(event);
   const user = authenticate(event);
   if (!requireRole(user, ['administrador'])) return json(403, { error: 'forbidden' });
+  if (user.mustChange === true) return json(403, { error: 'senha_pendente' });
 
   const db = await readDb();
   db.usuarios = db.usuarios || [];
@@ -48,7 +56,8 @@ export const handler = async (event) => {
       username,
       role,
       senha: hashPassword(senha),
-      ativo: true
+      ativo: true,
+      mustChangePassword: true
     };
     db.usuarios.push(novo);
     await writeDb(db);
@@ -63,7 +72,10 @@ export const handler = async (event) => {
     if (body.nome !== undefined) u.nome = sanitizeString(body.nome, 80) || u.nome;
     if (body.role !== undefined) u.role = sanitizeEnum(body.role, ROLES, u.role);
     if (body.ativo !== undefined) u.ativo = Boolean(body.ativo);
-    if (typeof body.senha === 'string' && body.senha.length >= 8) u.senha = hashPassword(body.senha);
+    if (typeof body.senha === 'string' && body.senha.length >= 8) {
+      u.senha = hashPassword(body.senha);
+      u.mustChangePassword = user.sub !== u.id;
+    }
     db.usuarios[idx] = u;
     await writeDb(db);
     return json(200, { usuario: publicUser(u) });

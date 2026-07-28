@@ -28,6 +28,7 @@ export const handler = async (event) => {
   connectLambda(event);
   const user = authenticate(event);
   if (!requireRole(user, ['diretoria', 'administrador'])) return json(403, { error: 'forbidden' });
+  if (user.mustChange === true) return json(403, { error: 'senha_pendente' });
 
   const db = await readDb();
   const clientes = db.clientes || [];

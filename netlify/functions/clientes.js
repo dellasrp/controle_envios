@@ -67,6 +67,7 @@ export const handler = async (event) => {
   connectLambda(event);
   const user = authenticate(event);
   if (!user) return json(401, { error: 'unauthorized' });
+  if (user.mustChange === true) return json(403, { error: 'senha_pendente' });
 
   const db = await readDb();
   db.clientes = db.clientes || [];

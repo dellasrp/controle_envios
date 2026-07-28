@@ -53,9 +53,16 @@ export const handler = async (event) => {
   }
 
   attempts.delete(key);
-  const token = signToken({ sub: user.id, username: user.username, role: user.role, nome: user.nome });
+  const mustChange = user.mustChangePassword === true;
+  const token = signToken({
+    sub: user.id,
+    username: user.username,
+    role: user.role,
+    nome: user.nome,
+    mustChange
+  });
   return json(200, {
     token,
-    user: { id: user.id, username: user.username, role: user.role, nome: user.nome }
+    user: { id: user.id, username: user.username, role: user.role, nome: user.nome, mustChange }
   });
 };
