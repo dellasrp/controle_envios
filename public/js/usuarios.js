@@ -38,6 +38,12 @@ function render() {
       (u.ativo ? 'bg-emerald-100 text-emerald-700' : 'bg-slate-200 text-slate-600');
     badge.textContent = u.ativo ? 'Ativo' : 'Inativo';
     statusCell.appendChild(badge);
+    if (u.senhaProvisoria) {
+      const aviso = document.createElement('span');
+      aviso.className = 'ml-2 inline-flex rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-medium text-amber-700';
+      aviso.textContent = 'Senha provisória';
+      statusCell.appendChild(aviso);
+    }
     tr.appendChild(statusCell);
 
     const acoes = document.createElement('td');

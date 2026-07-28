@@ -78,12 +78,71 @@ function initSeletores() {
   });
 }
 
+function diasAtePrazo(prazoIso) {
+  const hoje = new Date();
+  const inicioHoje = Date.UTC(hoje.getFullYear(), hoje.getMonth(), hoje.getDate());
+  const partes = prazoIso.split('-');
+  const alvo = Date.UTC(Number(partes[0]), Number(partes[1]) - 1, Number(partes[2]));
+  return Math.round((alvo - inicioHoje) / 86400000);
+}
+
+function textoContagem(dias) {
+  if (dias > 1) return 'Faltam ' + dias + ' dias';
+  if (dias === 1) return 'Falta 1 dia';
+  if (dias === 0) return 'Vence hoje';
+  if (dias === -1) return 'Vencido há 1 dia';
+  return 'Vencido há ' + Math.abs(dias) + ' dias';
+}
+
+function pintarBannerPrazo(prazo, rotuloPeriodo) {
+  const banner = document.getElementById('prazoBanner');
+  const titulo = document.getElementById('prazoTitulo');
+  const dataEl = document.getElementById('prazoData');
+  const contagem = document.getElementById('prazoContagem');
+  const baseBanner = 'mb-4 flex flex-wrap items-center justify-between gap-3 rounded-xl border px-4 py-3 ';
+  const baseBadge = 'rounded-full px-3 py-1 text-sm font-bold ';
+
+  banner.classList.remove('hidden');
+
+  if (!prazo) {
+    banner.className = baseBanner + 'border-slate-300 bg-slate-100';
+    titulo.className = 'text-sm font-semibold text-slate-600';
+    titulo.textContent = 'Prazo do TCE-SP não definido';
+    dataEl.className = 'text-sm text-slate-500';
+    dataEl.textContent = ' para ' + rotuloPeriodo + '.';
+    contagem.className = 'hidden';
+    return;
+  }
+
+  const dias = diasAtePrazo(prazo);
+  let cores;
+  let badge;
+  if (dias < 0) {
+    cores = 'border-red-300 bg-red-50';
+    badge = baseBadge + 'bg-red-600 text-white';
+  } else if (dias === 0) {
+    cores = 'border-red-300 bg-red-50';
+    badge = baseBadge + 'bg-red-600 text-white';
+  } else if (dias <= 7) {
+    cores = 'border-amber-300 bg-amber-50';
+    badge = baseBadge + 'bg-amber-500 text-white';
+  } else {
+    cores = 'border-emerald-300 bg-emerald-50';
+    badge = baseBadge + 'bg-accent text-white';
+  }
+
+  banner.className = baseBanner + cores;
+  titulo.className = 'text-sm font-semibold text-slate-700';
+  titulo.textContent = 'Prazo final do TCE-SP para ' + rotuloPeriodo + ': ';
+  dataEl.className = 'text-sm font-semibold text-slate-900';
+  dataEl.textContent = formatarDataBr(prazo);
+  contagem.className = badge;
+  contagem.textContent = textoContagem(dias);
+}
+
 function atualizarPrazoInfo() {
-  const el = document.getElementById('prazoInfo');
   const prazo = prazos[anoAtual] && prazos[anoAtual][periodoAtual];
-  el.textContent = prazo
-    ? 'Prazo final do TCE-SP para ' + NOMES_PERIODO[periodoAtual] + '/' + anoAtual + ': ' + formatarDataBr(prazo)
-    : 'Prazo final ainda não definido para ' + NOMES_PERIODO[periodoAtual] + '/' + anoAtual + '.';
+  pintarBannerPrazo(prazo, NOMES_PERIODO[periodoAtual] + '/' + anoAtual);
 }
 
 function initFiltros() {

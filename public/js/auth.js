@@ -32,6 +32,13 @@ function isExpired(token) {
   return p.exp * 1000 < Date.now();
 }
 
+function senhaPendente(s) {
+  if (!s) return false;
+  if (s.user && s.user.mustChange === true) return true;
+  const p = tokenPayload(s.token);
+  return Boolean(p && p.mustChange === true);
+}
+
 function requireAuth(allowedRoles) {
   const s = getSession();
   if (!s || !s.token || isExpired(s.token)) {
@@ -39,8 +46,22 @@ function requireAuth(allowedRoles) {
     window.location.replace('/index.html');
     return null;
   }
+  if (senhaPendente(s)) {
+    window.location.replace('/trocar-senha.html');
+    return null;
+  }
   if (allowedRoles && !allowedRoles.includes(s.user.role)) {
     window.location.replace('/app.html');
+    return null;
+  }
+  return s;
+}
+
+function requireAuthTrocaSenha() {
+  const s = getSession();
+  if (!s || !s.token || isExpired(s.token)) {
+    clearSession();
+    window.location.replace('/index.html');
     return null;
   }
   return s;

@@ -3,7 +3,7 @@ const errorBox = document.getElementById('loginError');
 
 const existente = getSession();
 if (existente && existente.token && !isExpired(existente.token)) {
-  window.location.replace('/app.html');
+  window.location.replace(senhaPendente(existente) ? '/trocar-senha.html' : '/app.html');
 }
 
 function mensagemErro(code) {
@@ -33,7 +33,7 @@ form.addEventListener('submit', async (e) => {
     const data = await res.json();
     if (!res.ok) throw new Error(data.error || 'invalid_credentials');
     saveSession({ token: data.token, user: data.user });
-    window.location.replace('/app.html');
+    window.location.replace(data.user && data.user.mustChange === true ? '/trocar-senha.html' : '/app.html');
   } catch (err) {
     errorBox.textContent = mensagemErro(err.message);
     errorBox.classList.remove('hidden');
