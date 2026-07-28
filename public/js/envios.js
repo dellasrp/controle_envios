@@ -41,12 +41,19 @@ function anosOrdenados() {
   return Object.keys(prazos).sort();
 }
 
-function initSeletores() {
-  const anoSel = document.getElementById('anoSelect');
+function popularSeletores() {
   const anos = anosOrdenados();
   const anoRealAtual = String(new Date().getFullYear());
-  anoAtual = anos.includes(anoRealAtual) ? anoRealAtual : (anos[anos.length - 1] || anoRealAtual);
+  if (!anoAtual || !anos.includes(anoAtual)) {
+    anoAtual = anos.includes(anoRealAtual) ? anoRealAtual : (anos[anos.length - 1] || anoRealAtual);
+  }
+  if (!periodoAtual) {
+    const mesAtualNum = String(new Date().getMonth() + 1).padStart(2, '0');
+    periodoAtual = anoAtual === anoRealAtual ? mesAtualNum : '01';
+  }
 
+  const anoSel = document.getElementById('anoSelect');
+  anoSel.innerHTML = '';
   anos.forEach((a) => {
     const opt = document.createElement('option');
     opt.value = a;
@@ -54,16 +61,9 @@ function initSeletores() {
     if (a === anoAtual) opt.selected = true;
     anoSel.appendChild(opt);
   });
-  anoSel.addEventListener('change', () => {
-    anoAtual = anoSel.value;
-    atualizarPrazoInfo();
-    render();
-  });
-
-  const mesAtualNum = String(new Date().getMonth() + 1).padStart(2, '0');
-  periodoAtual = anoAtual === anoRealAtual ? mesAtualNum : '01';
 
   const mesSel = document.getElementById('mesSelect');
+  mesSel.innerHTML = '';
   PERIODOS_ORDEM.forEach((k) => {
     const opt = document.createElement('option');
     opt.value = k;
@@ -71,8 +71,16 @@ function initSeletores() {
     if (k === periodoAtual) opt.selected = true;
     mesSel.appendChild(opt);
   });
-  mesSel.addEventListener('change', () => {
-    periodoAtual = mesSel.value;
+}
+
+function ligarEventosSeletores() {
+  document.getElementById('anoSelect').addEventListener('change', (e) => {
+    anoAtual = e.target.value;
+    atualizarPrazoInfo();
+    render();
+  });
+  document.getElementById('mesSelect').addEventListener('change', (e) => {
+    periodoAtual = e.target.value;
     atualizarPrazoInfo();
     render();
   });
@@ -239,7 +247,7 @@ async function carregar() {
   const [dataClientes, dataPrazos] = await Promise.all([apiFetch('clientes'), apiFetch('prazos')]);
   clientes = dataClientes.clientes || [];
   prazos = dataPrazos.prazos || {};
-  initSeletores();
+  popularSeletores();
   atualizarPrazoInfo();
   render();
 }
@@ -454,4 +462,5 @@ async function excluir(id, nome) {
 
 initHeader();
 initFiltros();
+ligarEventosSeletores();
 carregar();
