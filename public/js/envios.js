@@ -434,13 +434,20 @@ async function salvar() {
   btn.disabled = true;
   btn.textContent = 'Salvando...';
   try {
-    if (editId) {
-      const resultado = await apiFetch('clientes', { method: 'PUT', body: JSON.stringify({ id: editId, ...payload }) });
-      const idx = clientes.findIndex((c) => c.id === editId);
-      if (idx !== -1) clientes[idx] = resultado.cliente;
+    const idParaSalvar = editId;
+    if (idParaSalvar) {
+      const resultado = await apiFetch('clientes', { method: 'PUT', body: JSON.stringify({ id: idParaSalvar, ...payload }) });
+      const idx = clientes.findIndex((c) => c.id === idParaSalvar);
+      if (idx !== -1) {
+        clientes[idx] = resultado.cliente;
+      } else {
+        clientes = clientes.filter((c) => c.id !== resultado.cliente.id);
+        clientes.push(resultado.cliente);
+      }
     } else {
       const resultado = await apiFetch('clientes', { method: 'POST', body: JSON.stringify(payload) });
-      clientes.push(resultado.cliente);
+      const jaExiste = clientes.findIndex((c) => c.id === resultado.cliente.id);
+      if (jaExiste === -1) clientes.push(resultado.cliente);
     }
     fecharModal();
     render();
