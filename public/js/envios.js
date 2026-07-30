@@ -435,12 +435,15 @@ async function salvar() {
   btn.textContent = 'Salvando...';
   try {
     if (editId) {
-      await apiFetch('clientes', { method: 'PUT', body: JSON.stringify({ id: editId, ...payload }) });
+      const resultado = await apiFetch('clientes', { method: 'PUT', body: JSON.stringify({ id: editId, ...payload }) });
+      const idx = clientes.findIndex((c) => c.id === editId);
+      if (idx !== -1) clientes[idx] = resultado.cliente;
     } else {
-      await apiFetch('clientes', { method: 'POST', body: JSON.stringify(payload) });
+      const resultado = await apiFetch('clientes', { method: 'POST', body: JSON.stringify(payload) });
+      clientes.push(resultado.cliente);
     }
     fecharModal();
-    await carregar();
+    render();
   } catch (err) {
     erro.textContent = 'Não foi possível salvar. ' + (err.message === 'forbidden' ? 'Sem permissão.' : 'Tente novamente.');
     erro.classList.remove('hidden');
@@ -454,7 +457,8 @@ async function excluir(id, nome) {
   if (!confirm('Excluir o cliente "' + nome + '"? Esta ação remove todo o histórico, de todos os anos.')) return;
   try {
     await apiFetch('clientes', { method: 'DELETE', body: JSON.stringify({ id }) });
-    await carregar();
+    clientes = clientes.filter((c) => c.id !== id);
+    render();
   } catch (err) {
     alert('Não foi possível excluir. ' + (err.message === 'forbidden' ? 'Sem permissão.' : 'Tente novamente.'));
   }

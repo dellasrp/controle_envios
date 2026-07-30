@@ -1,3 +1,23 @@
+async function exportarBackup() {
+  try {
+    const session = getSession();
+    const res = await fetch('/api/exportar', {
+      headers: { 'Authorization': 'Bearer ' + (session ? session.token : '') }
+    });
+    if (!res.ok) { alert('Sem permissão para exportar.'); return; }
+    const blob = await res.blob();
+    const hoje = new Date();
+    const data = hoje.getFullYear() + '-' + String(hoje.getMonth() + 1).padStart(2, '0') + '-' + String(hoje.getDate()).padStart(2, '0');
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'backup-controle-envios-' + data + '.json';
+    a.click();
+    URL.revokeObjectURL(a.href);
+  } catch (err) {
+    alert('Não foi possível exportar. Tente novamente.');
+  }
+}
+
 const session = requireAuth(['administrador']);
 let usuarios = [];
 let editId = null;
@@ -124,12 +144,15 @@ async function salvar() {
     if (editId) {
       const payload = { id: editId, nome, role, ativo: document.getElementById('f_ativo').checked };
       if (senha) payload.senha = senha;
-      await apiFetch('usuarios', { method: 'PUT', body: JSON.stringify(payload) });
+      const resultado = await apiFetch('usuarios', { method: 'PUT', body: JSON.stringify(payload) });
+      const idx = usuarios.findIndex((u) => u.id === resultado.usuario.id);
+      if (idx !== -1) usuarios[idx] = resultado.usuario;
     } else {
-      await apiFetch('usuarios', { method: 'POST', body: JSON.stringify({ nome, username, role, senha }) });
+      const resultado = await apiFetch('usuarios', { method: 'POST', body: JSON.stringify({ nome, username, role, senha }) });
+      usuarios.push(resultado.usuario);
     }
     fecharModal();
-    await carregar();
+    render();
   } catch (err) {
     erro.textContent = mensagemErro(err.message);
     erro.classList.remove('hidden');
@@ -143,7 +166,8 @@ async function excluir(id, nome) {
   if (!confirm('Excluir o usuário "' + nome + '"?')) return;
   try {
     await apiFetch('usuarios', { method: 'DELETE', body: JSON.stringify({ id }) });
-    await carregar();
+    usuarios = usuarios.filter((u) => u.id !== id);
+    render();
   } catch (err) {
     alert(mensagemErro(err.message));
   }

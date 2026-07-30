@@ -111,8 +111,8 @@ async function salvar() {
   btn.disabled = true;
   btn.textContent = 'Salvando...';
   try {
-    await apiFetch('prazos', { method: 'PUT', body: JSON.stringify({ ano: anoAtual, periodos }) });
-    prazos[anoAtual] = periodos;
+    const resultado = await apiFetch('prazos', { method: 'PUT', body: JSON.stringify({ ano: anoAtual, periodos }) });
+    prazos[anoAtual] = resultado.periodos || periodos;
     mostrarMsg('Prazos de ' + anoAtual + ' salvos com sucesso.', false);
   } catch (err) {
     mostrarMsg('Não foi possível salvar. Tente novamente.', true);
