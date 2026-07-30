@@ -1,3 +1,36 @@
+async function importarBackup(input) {
+  const arquivo = input.files[0];
+  if (!arquivo) return;
+  input.value = '';
+
+  if (!confirm('Isso vai SUBSTITUIR todos os dados atuais (clientes, prazos e usuários) pelo conteúdo do backup. Tem certeza?')) return;
+
+  let dados;
+  try {
+    const texto = await arquivo.text();
+    dados = JSON.parse(texto);
+  } catch {
+    alert('O arquivo selecionado não é um JSON válido.');
+    return;
+  }
+
+  try {
+    const resultado = await apiFetch('importar', {
+      method: 'POST',
+      body: JSON.stringify(dados)
+    });
+    const msg = 'Backup restaurado com sucesso! Clientes: ' + resultado.clientes + ' | Usuarios: ' + resultado.usuarios + ' | Anos: ' + resultado.anos.join(', ') + '. A pagina sera recarregada.';
+    alert(msg);
+    window.location.reload();
+  } catch (err) {
+    const mensagens = {
+      forbidden: 'Sem permissão.',
+      payload_invalido: 'Arquivo inválido ou muito grande.',
+    };
+    alert('Erro ao restaurar: ' + (mensagens[err.message] || err.message));
+  }
+}
+
 async function exportarBackup() {
   try {
     const session = getSession();
