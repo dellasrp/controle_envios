@@ -36,7 +36,10 @@
   <main class="mx-auto max-w-4xl px-4 py-6">
     <div class="mb-4 flex items-center justify-between">
       <h1 class="text-xl font-semibold tracking-tight">Usuários e permissões</h1>
-      <button onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accentBright">Novo usuário</button>
+      <div class="flex items-center gap-2">
+        <button onclick="exportarBackup()" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Exportar backup</button>
+        <button onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accentBright">Novo usuário</button>
+      </div>
     </div>
 
     <div class="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
