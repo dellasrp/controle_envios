@@ -38,6 +38,10 @@
       <h1 class="text-xl font-semibold tracking-tight">Usuários e permissões</h1>
       <div class="flex items-center gap-2">
         <button onclick="exportarBackup()" class="rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">Exportar backup</button>
+        <label class="cursor-pointer rounded-lg border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50">
+          Importar backup
+          <input id="inputImportar" type="file" accept=".json" class="hidden" onchange="importarBackup(this)" />
+        </label>
         <button onclick="abrirModal()" class="rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-white hover:bg-accentBright">Novo usuário</button>
       </div>
     </div>
