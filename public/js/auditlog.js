@@ -129,6 +129,64 @@ async function carregar() {
   render(data);
 }
 
+function jsonParaLinhas(obj) {
+  if (obj === null || obj === undefined) return [];
+  return JSON.stringify(obj, null, 2).split('\n');
+}
+
+function renderDiff(elAnterior, elAtual, dadoAnterior, dadoAtual) {
+  if (!dadoAnterior && !dadoAtual) {
+    elAnterior.textContent = '(sem dado anterior)';
+    elAtual.textContent = '(sem dado atual)';
+    return;
+  }
+  if (!dadoAnterior) {
+    elAnterior.textContent = '(sem dado anterior)';
+    elAtual.innerHTML = '';
+    jsonParaLinhas(dadoAtual).forEach(linha => {
+      const span = document.createElement('div');
+      span.className = 'bg-emerald-100 text-emerald-800';
+      span.textContent = linha;
+      elAtual.appendChild(span);
+    });
+    return;
+  }
+  if (!dadoAtual) {
+    elAtual.textContent = '(sem dado atual)';
+    elAnterior.innerHTML = '';
+    jsonParaLinhas(dadoAnterior).forEach(linha => {
+      const span = document.createElement('div');
+      span.className = 'bg-red-100 text-red-800';
+      span.textContent = linha;
+      elAnterior.appendChild(span);
+    });
+    return;
+  }
+
+  const linhasAnt = jsonParaLinhas(dadoAnterior);
+  const linhasAtu = jsonParaLinhas(dadoAtual);
+  const maxLen = Math.max(linhasAnt.length, linhasAtu.length);
+
+  elAnterior.innerHTML = '';
+  elAtual.innerHTML = '';
+
+  for (let i = 0; i < maxLen; i++) {
+    const la = linhasAnt[i] !== undefined ? linhasAnt[i] : '';
+    const lu = linhasAtu[i] !== undefined ? linhasAtu[i] : '';
+    const mudou = la !== lu;
+
+    const dA = document.createElement('div');
+    dA.textContent = la || ' ';
+    if (mudou && la) dA.className = 'bg-red-100 text-red-800 font-semibold rounded';
+    elAnterior.appendChild(dA);
+
+    const dU = document.createElement('div');
+    dU.textContent = lu || ' ';
+    if (mudou && lu) dU.className = 'bg-emerald-100 text-emerald-800 font-semibold rounded';
+    elAtual.appendChild(dU);
+  }
+}
+
 function verDetalhe(id) {
   const r = ultimoResultado.find(x => x.id === id);
   if (!r) return;
@@ -144,10 +202,9 @@ function verDetalhe(id) {
     <div><span class="font-medium text-slate-500">Ação:</span> ${LABELS_ACAO[r.acao] || r.acao}</div>
     <div class="col-span-2 font-mono text-xs break-all"><span class="font-medium text-slate-500">Máquina:</span> ${r.maquina}</div>
   `;
-  document.getElementById('detalheAnterior').textContent =
-    r.dadoAnterior ? JSON.stringify(r.dadoAnterior, null, 2) : '(sem dado anterior)';
-  document.getElementById('detalheAtual').textContent =
-    r.dadoAtual ? JSON.stringify(r.dadoAtual, null, 2) : '(sem dado atual)';
+  const elAnt = document.getElementById('detalheAnterior');
+  const elAtu = document.getElementById('detalheAtual');
+  renderDiff(elAnt, elAtu, r.dadoAnterior, r.dadoAtual);
   const m = document.getElementById('modalDetalhe');
   m.classList.remove('hidden');
   m.classList.add('flex');
