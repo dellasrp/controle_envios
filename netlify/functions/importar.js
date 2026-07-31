@@ -1,4 +1,5 @@
 import { writeDb, connectLambda } from './_lib/db.js';
+import { gravarLog } from './_lib/log.js';
 import { authenticate, requireRole, json, parseBody } from './_lib/security.js';
 
 const PERIODOS = ['01','02','03','04','05','06','07','08','09','10','11','12','13','14','anual'];
@@ -95,6 +96,7 @@ export const handler = async (event) => {
 
   const db = sanitizarBackup(body);
   await writeDb(db);
+  await gravarLog(event, user, { funcionalidade: 'Backup', rotina: 'POST /api/importar', acao: 'importar_backup', dadoAnterior: null, dadoAtual: { clientes: db.clientes.length, usuarios: db.usuarios.length, anos: Object.keys(db.prazos) } });
 
   return json(200, {
     ok: true,

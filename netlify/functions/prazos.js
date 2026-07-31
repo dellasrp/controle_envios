@@ -1,4 +1,5 @@
 import { readDb, writeDb, connectLambda } from './_lib/db.js';
+import { gravarLog } from './_lib/log.js';
 import { authenticate, requireRole, json, parseBody, sanitizeString } from './_lib/security.js';
 
 const PERIODOS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
@@ -43,8 +44,10 @@ export const handler = async (event) => {
     for (const p of PERIODOS) {
       periodosAno[p] = sanitizeData(origem[p]);
     }
+    const anteriorPrazo = JSON.parse(JSON.stringify(db.prazos[ano] || {}));
     db.prazos[ano] = periodosAno;
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Parametrização', rotina: 'PUT /api/prazos', acao: 'editar_prazos', dadoAnterior: { ano, periodos: anteriorPrazo }, dadoAtual: { ano, periodos: periodosAno } });
     return json(200, { ano, periodos: periodosAno });
   }
 

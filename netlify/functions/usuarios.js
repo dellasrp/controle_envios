@@ -1,5 +1,6 @@
 import crypto from 'crypto';
 import { readDb, writeDb, connectLambda } from './_lib/db.js';
+import { gravarLog } from './_lib/log.js';
 import {
   authenticate,
   requireRole,
@@ -61,6 +62,7 @@ export const handler = async (event) => {
     };
     db.usuarios.push(novo);
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Usuários', rotina: 'POST /api/usuarios', acao: 'criar_usuario', dadoAnterior: null, dadoAtual: publicUser(novo) });
     return json(201, { usuario: publicUser(novo) });
   }
 
@@ -68,7 +70,9 @@ export const handler = async (event) => {
     const id = sanitizeString(body.id, 40);
     const idx = db.usuarios.findIndex((u) => u.id === id);
     if (idx === -1) return json(404, { error: 'not_found' });
+    const uAnterior = { ...db.usuarios[idx] };
     const u = db.usuarios[idx];
+    const anteriorPublico = publicUser(u);
     if (body.nome !== undefined) u.nome = sanitizeString(body.nome, 80) || u.nome;
     if (body.role !== undefined) u.role = sanitizeEnum(body.role, ROLES, u.role);
     if (body.ativo !== undefined) u.ativo = Boolean(body.ativo);
@@ -78,16 +82,19 @@ export const handler = async (event) => {
     }
     db.usuarios[idx] = u;
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Usuários', rotina: 'PUT /api/usuarios', acao: 'editar_usuario', dadoAnterior: anteriorPublico, dadoAtual: publicUser(u) });
     return json(200, { usuario: publicUser(u) });
   }
 
   if (event.httpMethod === 'DELETE') {
     const id = sanitizeString(body.id, 40);
     if (user.sub === id) return json(400, { error: 'cannot_delete_self' });
+    const usuarioRemovido = publicUser(db.usuarios.find((u) => u.id === id) || {});
     const before = db.usuarios.length;
     db.usuarios = db.usuarios.filter((u) => u.id !== id);
     if (db.usuarios.length === before) return json(404, { error: 'not_found' });
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Usuários', rotina: 'DELETE /api/usuarios', acao: 'excluir_usuario', dadoAnterior: usuarioRemovido, dadoAtual: null });
     return json(200, { ok: true });
   }
 

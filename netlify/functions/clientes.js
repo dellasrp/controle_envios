@@ -1,5 +1,6 @@
 import crypto from 'crypto';
 import { readDb, writeDb, connectLambda } from './_lib/db.js';
+import { gravarLog } from './_lib/log.js';
 import {
   authenticate,
   requireRole,
@@ -92,6 +93,7 @@ export const handler = async (event) => {
     const registro = { id: crypto.randomUUID(), ...data };
     db.clientes.push(registro);
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Clientes', rotina: 'POST /api/clientes', acao: 'criar', dadoAnterior: null, dadoAtual: registro });
     return json(201, { cliente: registro });
   }
 
@@ -99,19 +101,23 @@ export const handler = async (event) => {
     const id = sanitizeString(body.id, 40);
     const idx = db.clientes.findIndex((c) => c.id === id);
     if (idx === -1) return json(404, { error: 'not_found' });
+    const anterior = JSON.parse(JSON.stringify(db.clientes[idx]));
     const data = sanitizeCliente(body, anosConhecidos);
     if (!data.cliente) return json(400, { error: 'cliente_required' });
     db.clientes[idx] = { id, ...data };
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Clientes', rotina: 'PUT /api/clientes', acao: 'editar', dadoAnterior: anterior, dadoAtual: db.clientes[idx] });
     return json(200, { cliente: db.clientes[idx] });
   }
 
   if (event.httpMethod === 'DELETE') {
     const id = sanitizeString(body.id, 40);
+    const clienteRemovido = db.clientes.find((c) => c.id === id);
     const before = db.clientes.length;
     db.clientes = db.clientes.filter((c) => c.id !== id);
     if (db.clientes.length === before) return json(404, { error: 'not_found' });
     await writeDb(db);
+    await gravarLog(event, user, { funcionalidade: 'Clientes', rotina: 'DELETE /api/clientes', acao: 'excluir', dadoAnterior: clienteRemovido, dadoAtual: null });
     return json(200, { ok: true });
   }
 

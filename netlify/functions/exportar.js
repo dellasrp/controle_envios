@@ -1,4 +1,5 @@
 import { readDb, connectLambda } from './_lib/db.js';
+import { gravarLog } from './_lib/log.js';
 import { authenticate, requireRole, json } from './_lib/security.js';
 
 export const handler = async (event) => {
@@ -24,6 +25,7 @@ export const handler = async (event) => {
     }))
   };
 
+  await gravarLog(event, user, { funcionalidade: 'Backup', rotina: 'GET /api/exportar', acao: 'exportar_backup', dadoAnterior: null, dadoAtual: { exportadoEm: seguro.exportadoEm, totalClientes: seguro.clientes.length, totalUsuarios: seguro.usuarios.length } });
   return {
     statusCode: 200,
     headers: {

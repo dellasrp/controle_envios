@@ -1,4 +1,5 @@
 import { readDb, writeDb, connectLambda } from './_lib/db.js';
+import { gravarLog } from './_lib/log.js';
 import {
   authenticate,
   verifyPassword,
@@ -42,6 +43,7 @@ export const handler = async (event) => {
   usuario.mustChangePassword = false;
   db.usuarios[idx] = usuario;
   await writeDb(db);
+  await gravarLog(event, sessao, { funcionalidade: 'Senha', rotina: 'PUT /api/senha', acao: 'troca_senha', dadoAnterior: { username: usuario.username }, dadoAtual: { username: usuario.username, senha: '[alterado]' } });
 
   const token = signToken({
     sub: usuario.id,
