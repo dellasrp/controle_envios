@@ -1,0 +1,123 @@
+name: Backup diário — Controle de Envios
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_BACKUP_TOKEN }}
+          fetch-depth: 1
+
+      - name: Obter token de acesso à API
+        id: login
+        run: |
+          RESPONSE=$(curl -s -X POST \
+            -H "Content-Type: application/json" \
+            -d "{\"username\":\"${{ secrets.BACKUP_USERNAME }}\",\"password\":\"${{ secrets.BACKUP_PASSWORD }}\"}" \
+            "${{ secrets.APP_URL }}/api/auth")
+
+          TOKEN=$(echo "$RESPONSE" | python3 -c "import sys,json; print(json.load(sys.stdin)['token'])")
+
+          if [ -z "$TOKEN" ] || [ "$TOKEN" = "None" ]; then
+            echo "ERRO: nao foi possivel obter o token de acesso"
+            echo "$RESPONSE"
+            exit 1
+          fi
+
+          echo "token=$TOKEN" >> $GITHUB_OUTPUT
+          echo "Login realizado com sucesso"
+
+      - name: Exportar banco de dados (clientes, prazos, usuários)
+        run: |
+          mkdir -p backups
+
+          HTTP_STATUS=$(curl -s -o backups/database.json -w "%{http_code}" \
+            -H "Authorization: Bearer ${{ steps.login.outputs.token }}" \
+            "${{ secrets.APP_URL }}/api/exportar")
+
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "ERRO ao exportar banco: HTTP $HTTP_STATUS"
+            cat backups/database.json
+            exit 1
+          fi
+
+          TOTAL=$(python3 -c "import json; d=json.load(open('backups/database.json')); print(len(d.get('clientes',[])))")
+          echo "Banco exportado: $TOTAL clientes"
+
+      - name: Exportar log de auditoria
+        run: |
+          HTTP_STATUS=$(curl -s -o backups/auditlog.json -w "%{http_code}" \
+            -H "Authorization: Bearer ${{ steps.login.outputs.token }}" \
+            "${{ secrets.APP_URL }}/api/exportar-log")
+
+          if [ "$HTTP_STATUS" != "200" ]; then
+            echo "AVISO: nao foi possivel exportar o log (HTTP $HTTP_STATUS) — continuando sem ele"
+            echo '{"exportadoEm":"'$(date -u +%Y-%m-%dT%H:%M:%SZ)'","total":0,"registros":[]}' > backups/auditlog.json
+          else
+            TOTAL=$(python3 -c "import json; d=json.load(open('backups/auditlog.json')); print(d.get('total',0))")
+            echo "Log exportado: $TOTAL registros"
+          fi
+
+      - name: Criar manifesto do backup
+        run: |
+          DATA=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          DATA_BR=$(TZ='America/Sao_Paulo' date +"%d/%m/%Y %H:%M")
+          CLIENTES=$(python3 -c "import json; print(len(json.load(open('backups/database.json')).get('clientes',[])))")
+          USUARIOS=$(python3 -c "import json; print(len(json.load(open('backups/database.json')).get('usuarios',[])))")
+          LOGS=$(python3 -c "import json; print(json.load(open('backups/auditlog.json')).get('total',0))")
+
+          cat > backups/manifesto.json << MANIFESTO
+          {
+            "geradoEm": "$DATA",
+            "geradoEmBR": "$DATA_BR",
+            "fonte": "${{ secrets.APP_URL }}",
+            "arquivos": {
+              "database.json": "Banco de dados completo (clientes, prazos, usuários com senhas)",
+              "auditlog.json": "Log de auditoria completo",
+              "manifesto.json": "Este arquivo — metadados do backup"
+            },
+            "totais": {
+              "clientes": $CLIENTES,
+              "usuarios": $USUARIOS,
+              "registrosAuditoria": $LOGS
+            },
+            "comoRestaurar": "Acesse o sistema como Administrador, vá em Usuários → Importar backup e selecione o arquivo database.json"
+          }
+          MANIFESTO
+
+          echo ""
+          echo "=== RESUMO DO BACKUP ==="
+          echo "Data: $DATA_BR"
+          echo "Clientes: $CLIENTES"
+          echo "Usuários: $USUARIOS"
+          echo "Registros de auditoria: $LOGS"
+
+      - name: Commit e push do backup
+        run: |
+          DATA_BR=$(TZ='America/Sao_Paulo' date +"%d/%m/%Y %H:%M")
+          CLIENTES=$(python3 -c "import json; print(len(json.load(open('backups/database.json')).get('clientes',[])))")
+
+          git config user.name "Backup Automático"
+          git config user.email "backup@controleenvios"
+
+          git add backups/
+
+          if git diff --staged --quiet; then
+            echo "Sem alteracoes nos dados desde o ultimo backup — nenhum commit necessario"
+          else
+            git commit -m "backup: $DATA_BR | $CLIENTES clientes"
+            git push
+            echo "Backup salvo no repositório com sucesso"
+          fi
