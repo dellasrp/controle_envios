@@ -78,7 +78,13 @@ export const handler = async (event) => {
     return json(200, { clientes: db.clientes, anos: anosConhecidos });
   }
 
-  if (!requireRole(user, ['operacional', 'administrador'])) return json(403, { error: 'forbidden' });
+  if (event.httpMethod === 'GET') {
+    if (!requireRole(user, ['operacional', 'administrador', 'diretoria'])) return json(403, { error: 'forbidden' });
+  } else if (event.httpMethod === 'PUT') {
+    if (!requireRole(user, ['operacional', 'administrador'])) return json(403, { error: 'forbidden' });
+  } else {
+    if (!requireRole(user, ['administrador'])) return json(403, { error: 'forbidden' });
+  }
 
   let body;
   try {
