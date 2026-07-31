@@ -1,0 +1,419 @@
+{
+  "exportadoEm": "2026-07-31T10:57:18.162Z",
+  "total": 1,
+  "registros": [
+    {
+      "id": "1785495240136-3i9g7",
+      "dataHora": "2026-07-31T10:54:00.136Z",
+      "data": "31/07/2026",
+      "hora": "10:54:00",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "201.72.16.136",
+      "maquina": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "funcionalidade": "Clientes",
+      "rotina": "PUT /api/clientes",
+      "acao": "editar",
+      "dadoAnterior": {
+        "id": "ce9adbd1-2934-4347-bc80-e315e62858bd",
+        "cliente": "ALUMINIO CM",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "CM",
+        "abertura": {
+          "data": "2025-02-26",
+          "tecnico": "Gabriel Toledo",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-19",
+              "tecnico": "Gabriel Toledo / Gabriel Souza",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C251112-175"
+            },
+            "11": {
+              "dataValidacao": "2025-12-08",
+              "tecnico": "Gabriel Toledo",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C251208-155"
+            },
+            "12": {
+              "dataValidacao": "2026-01-19",
+              "tecnico": "Marcelo",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C260105-299"
+            },
+            "13": {
+              "dataValidacao": "2026-02-04",
+              "tecnico": "Marcelo",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "CM atualmente esta sem contador, entao foi autorizado o envio pelo Sr Paulo responsavel no momento via wzpp"
+            },
+            "14": {
+              "dataValidacao": "2026-02-16",
+              "tecnico": "Marcelo",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2025-03-06",
+              "tecnico": "Carolina",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C250210-378"
+            },
+            "02": {
+              "dataValidacao": "2025-03-25",
+              "tecnico": "Carolina",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C250307-066- Lavério"
+            },
+            "03": {
+              "dataValidacao": "2025-04-15",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C250410-056"
+            },
+            "04": {
+              "dataValidacao": "2025-05-09",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250508-182"
+            },
+            "05": {
+              "dataValidacao": "2025-06-16",
+              "tecnico": "Carolina",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250611-110/C250616-074"
+            },
+            "06": {
+              "dataValidacao": "2025-07-21",
+              "tecnico": "Larissa",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": ""
+            },
+            "07": {
+              "dataValidacao": "2025-08-15",
+              "tecnico": "Lima",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250813-092"
+            },
+            "08": {
+              "dataValidacao": "2025-09-08",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C250903-149"
+            },
+            "09": {
+              "dataValidacao": "2025-10-14",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C251014-050"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-31",
+              "tecnico": "Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-19",
+              "tecnico": "Marcelo",
+              "observacoes": "documento validado e aguardando iberacao",
+              "contato": ""
+            },
+            "02": {
+              "dataValidacao": "2026-05-05",
+              "tecnico": "Jacque",
+              "observacoes": "Documento armazenado",
+              "contato": "C260505-216"
+            },
+            "03": {
+              "dataValidacao": "2026-05-19",
+              "tecnico": "Marcelo",
+              "observacoes": "documento armazenado",
+              "contato": "C260507-118"
+            },
+            "04": {
+              "dataValidacao": "2026-05-20",
+              "tecnico": "marcelo",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "envio aut via zap"
+            },
+            "05": {
+              "dataValidacao": "2026-06-22",
+              "tecnico": "Jéssica Cruz",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C260612-116"
+            },
+            "06": {
+              "dataValidacao": "2026-07-08",
+              "tecnico": "Marcelo / Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      },
+      "dadoAtual": {
+        "id": "ce9adbd1-2934-4347-bc80-e315e62858bd",
+        "cliente": "ALUMINIO CM",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "CM",
+        "abertura": {
+          "data": "2025-02-26",
+          "tecnico": "Gabriel Toledo",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-19",
+              "tecnico": "Gabriel Toledo / Gabriel Souza",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C251112-175"
+            },
+            "11": {
+              "dataValidacao": "2025-12-08",
+              "tecnico": "Gabriel Toledo",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C251208-155"
+            },
+            "12": {
+              "dataValidacao": "2026-01-19",
+              "tecnico": "Marcelo",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C260105-299"
+            },
+            "13": {
+              "dataValidacao": "2026-02-04",
+              "tecnico": "Marcelo",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "CM atualmente esta sem contador, entao foi autorizado o envio pelo Sr Paulo responsavel no momento via wzpp"
+            },
+            "14": {
+              "dataValidacao": "2026-02-16",
+              "tecnico": "Marcelo",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2025-03-06",
+              "tecnico": "Carolina",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C250210-378"
+            },
+            "02": {
+              "dataValidacao": "2025-03-25",
+              "tecnico": "Carolina",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C250307-066- Lavério"
+            },
+            "03": {
+              "dataValidacao": "2025-04-15",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C250410-056"
+            },
+            "04": {
+              "dataValidacao": "2025-05-09",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250508-182"
+            },
+            "05": {
+              "dataValidacao": "2025-06-16",
+              "tecnico": "Carolina",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250611-110/C250616-074"
+            },
+            "06": {
+              "dataValidacao": "2025-07-21",
+              "tecnico": "Larissa",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": ""
+            },
+            "07": {
+              "dataValidacao": "2025-08-15",
+              "tecnico": "Lima",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250813-092"
+            },
+            "08": {
+              "dataValidacao": "2025-09-08",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C250903-149"
+            },
+            "09": {
+              "dataValidacao": "2025-10-14",
+              "tecnico": "Daiane",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C251014-050"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-31",
+              "tecnico": "Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-19",
+              "tecnico": "Marcelo",
+              "observacoes": "documento validado e aguardando iberacao",
+              "contato": ""
+            },
+            "02": {
+              "dataValidacao": "2026-05-05",
+              "tecnico": "Jacque",
+              "observacoes": "Documento armazenado",
+              "contato": "C260505-216"
+            },
+            "03": {
+              "dataValidacao": "2026-05-19",
+              "tecnico": "Marcelo",
+              "observacoes": "documento armazenado",
+              "contato": "C260507-118"
+            },
+            "04": {
+              "dataValidacao": "2026-05-20",
+              "tecnico": "marcelo",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "envio aut via zap"
+            },
+            "05": {
+              "dataValidacao": "2026-06-22",
+              "tecnico": "Jéssica Cruz",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "C260612-116"
+            },
+            "06": {
+              "dataValidacao": "2026-07-08",
+              "tecnico": "Marcelo / Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      }
+    }
+  ]
+}
