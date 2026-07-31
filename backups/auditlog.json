@@ -1,7 +1,30 @@
 {
-  "exportadoEm": "2026-07-31T10:57:18.162Z",
-  "total": 1,
+  "exportadoEm": "2026-07-31T11:10:38.210Z",
+  "total": 2,
   "registros": [
+    {
+      "id": "1785495436959-lkdca",
+      "dataHora": "2026-07-31T10:57:16.959Z",
+      "data": "31/07/2026",
+      "hora": "10:57:16",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "52.157.32.50",
+      "maquina": "curl/8.5.0",
+      "funcionalidade": "Backup",
+      "rotina": "GET /api/exportar",
+      "acao": "exportar_backup",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "exportadoEm": "2026-07-31T10:57:16.943Z",
+        "totalClientes": 109,
+        "totalUsuarios": 16
+      }
+    },
     {
       "id": "1785495240136-3i9g7",
       "dataHora": "2026-07-31T10:54:00.136Z",
