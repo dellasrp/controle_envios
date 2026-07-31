@@ -17,6 +17,7 @@ const NOMES_PERIODO = {
 };
 
 const podeEditar = session && ['operacional', 'administrador'].includes(session.user.role);
+const podeGerenciar = session && session.user.role === 'administrador';
 
 function initHeader() {
   document.getElementById('userNome').textContent = session.user.nome;
@@ -29,7 +30,7 @@ function initHeader() {
     document.getElementById('linkPrazos').classList.remove('hidden');
     document.getElementById('linkAuditoria').classList.remove('hidden');
   }
-  if (!podeEditar) document.getElementById('btnNovo').classList.add('hidden');
+  if (!podeGerenciar) document.getElementById('btnNovo').classList.add('hidden');
 }
 
 function formatarDataBr(iso) {
@@ -234,12 +235,14 @@ function tdAcoes(c) {
   bEdit.className = 'rounded border border-slate-300 px-2 py-1 text-xs font-medium hover:bg-slate-50';
   bEdit.textContent = 'Editar';
   bEdit.addEventListener('click', () => abrirModal(c.id));
-  const bDel = document.createElement('button');
-  bDel.className = 'rounded border border-red-200 px-2 py-1 text-xs font-medium text-red-600 hover:bg-red-50';
-  bDel.textContent = 'Excluir';
-  bDel.addEventListener('click', () => excluir(c.id, c.cliente));
   wrap.appendChild(bEdit);
-  wrap.appendChild(bDel);
+  if (podeGerenciar) {
+    const bDel = document.createElement('button');
+    bDel.className = 'rounded border border-red-200 px-2 py-1 text-xs font-medium text-red-600 hover:bg-red-50';
+    bDel.textContent = 'Excluir';
+    bDel.addEventListener('click', () => excluir(c.id, c.cliente));
+    wrap.appendChild(bDel);
+  }
   cell.appendChild(wrap);
   return cell;
 }
