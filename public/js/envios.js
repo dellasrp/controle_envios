@@ -27,6 +27,7 @@ function initHeader() {
   if (session.user.role === 'administrador') {
     document.getElementById('linkUsuarios').classList.remove('hidden');
     document.getElementById('linkPrazos').classList.remove('hidden');
+    document.getElementById('linkAuditoria').classList.remove('hidden');
   }
   if (!podeEditar) document.getElementById('btnNovo').classList.add('hidden');
 }
