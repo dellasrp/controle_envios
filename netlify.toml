@@ -1,6 +1,7 @@
 [build]
   publish = "public"
   functions = "netlify/functions"
+  ignore = "git diff --quiet HEAD^ HEAD -- . ':(exclude)backups'"
 
 [functions]
   node_bundler = "esbuild"
