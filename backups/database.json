@@ -1,5 +1,5 @@
 {
-  "exportadoEm": "2026-07-31T11:10:36.935Z",
+  "exportadoEm": "2026-08-01T05:50:35.967Z",
   "seedVersion": 3,
   "prazos": {
     "2025": {
@@ -11102,8 +11102,8 @@
           "07": {
             "dataValidacao": "",
             "tecnico": "",
-            "observacoes": "a partir deste mês, o contábil deve ser gerado, os balancetes isolados deverão ser transmitidos mesmo vazios para que o cliente solicite ao audesp, o armazenamento manual citando ID do pacote transmitido, já que a entidade Fumares foi extinta.Enviar e-mail para fumaresmarilia@yahoo.com.br a/c Issamo Sasaki, com cópia para contabilidade@marilia.sp.gov.br a/c Érica, fornecendo ao cliente o ID do pacote transmitido.",
-            "contato": ""
+            "observacoes": "no SMARcp, julho foi gerado e consistido. Os arquivos xml gerados e transmitidos ao audesp onde, os cadastros contábeis foram armazenados de imediato, os balancetes isolados como esperado, foram rejeitados por estarem vazios. Foi encaminhado e-mail ao cliente informando a ele o ID do pacote 12642490, objetivando abertura de chamado junto ao audesp solicitando validação manual. Esta Fundação foi extinta, sendo junho/2026 o último mês enviado contendo movimentação. De julho a novembro, os balancetes serão encaminhados vazios e deverão ser validados manual através de pedido por chamado no audesp. OBS: o cliente foi informado por e-mail também, que está inadimplente com a conciliação bancária e atualização do cadastro geral de entidades mensal, para as providências e regularizar estas prestações faltantes. O cliente foi orientado a solicitar auxilios necessários à SMARapd com a abertura de chamados.",
+            "contato": "Issamo Sasaki - Fundação Fumares e Érica Aparecida - PM Marília"
           },
           "08": {
             "dataValidacao": "",
@@ -11696,7 +11696,7 @@
           "07": {
             "dataValidacao": "",
             "tecnico": "",
-            "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026, cujas datas de movimento eram 13/05/2026. Esta exclusão causou diferença entre a execução orçamentária e os balancetes de maio e junho que já estavam armazenados no audesp. Para corrigir, foi inserido lançamento no evento 7.1.99.06.9583115120000000 com data de 01/07/2026.",
+            "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026. Os registros foram recuperados pela colaboradora Aline. Vida que segue.",
             "contato": ""
           },
           "08": {
@@ -21765,6 +21765,15 @@
       "ativo": true,
       "mustChangePassword": true,
       "senha": "eaa7a430fe62aeddb9174a0c05532641:7cbb465d870676456e11ee0ec887b6f12720103dc11891a9d426b772b466f347a052d053c33a3d97344c3dd3bf0227d86e7e31cc4a961cf4196fcd4e21979740"
+    },
+    {
+      "id": "2df1fae2-da0b-42b4-be05-4c81852d5139",
+      "nome": "Suporte CP",
+      "username": "suporte",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "6778c6dec29f4673e085251273eb7159:2c6a6f0bfab3c212cf67d61500ee7fb023ce96c47d83b3612494c301f7fa005a9fd6f11b4fe5cb2d3c1d47b550ef0e1e22a6e934c58052ee1f08ab8a8a34b5c2"
     }
   ]
 }

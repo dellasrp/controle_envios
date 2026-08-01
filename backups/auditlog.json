@@ -1,7 +1,1341 @@
 {
-  "exportadoEm": "2026-07-31T11:10:38.210Z",
-  "total": 2,
+  "exportadoEm": "2026-08-01T05:50:37.457Z",
+  "total": 9,
   "registros": [
+    {
+      "id": "1785563435984-ppajm",
+      "dataHora": "2026-08-01T05:50:35.984Z",
+      "data": "01/08/2026",
+      "hora": "05:50:35",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "172.212.164.18",
+      "maquina": "curl/8.5.0",
+      "funcionalidade": "Backup",
+      "rotina": "GET /api/exportar",
+      "acao": "exportar_backup",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "exportadoEm": "2026-08-01T05:50:35.967Z",
+        "totalClientes": 109,
+        "totalUsuarios": 17
+      }
+    },
+    {
+      "id": "1785523132742-1r7bs",
+      "dataHora": "2026-07-31T18:38:52.742Z",
+      "data": "31/07/2026",
+      "hora": "18:38:52",
+      "usuario": {
+        "id": "0d292f87-2a4b-4ef3-ad43-887f56949b8a",
+        "nome": "Sérgio Donizete Procópio",
+        "username": "soprocopio",
+        "role": "operacional"
+      },
+      "ip": "189.41.47.78",
+      "maquina": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "funcionalidade": "Clientes",
+      "rotina": "PUT /api/clientes",
+      "acao": "editar",
+      "dadoAnterior": {
+        "id": "fc9be5bc-244b-4b32-bc82-df4b6067b0b5",
+        "cliente": "MARILIA PM",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "PM",
+        "abertura": {
+          "data": "2026-02-25",
+          "tecnico": "SérgioP",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica Aparecida"
+            },
+            "11": {
+              "dataValidacao": "2025-12-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "12": {
+              "dataValidacao": "2026-01-23",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "13": {
+              "dataValidacao": "2026-02-05",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "14": {
+              "dataValidacao": "2026-02-16",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "01": {
+              "dataValidacao": "2025-03-06",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2025-03-24",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2025-04-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2025-05-14",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica - C250513-022"
+            },
+            "05": {
+              "dataValidacao": "2025-06-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica - C250611-004"
+            },
+            "06": {
+              "dataValidacao": "2025-07-11",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "2025-08-12",
+              "tecnico": "Lima",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250811-021"
+            },
+            "08": {
+              "dataValidacao": "2025-09-12",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica Aparecida"
+            },
+            "09": {
+              "dataValidacao": "2025-10-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-12",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2026-03-23",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2026-04-09",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2026-05-20",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "Érica"
+            },
+            "05": {
+              "dataValidacao": "2026-06-22",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "06": {
+              "dataValidacao": "2026-07-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026, cujas datas de movimento eram 13/05/2026. Esta exclusão causou diferença entre a execução orçamentária e os balancetes de maio e junho que já estavam armazenados no audesp. Para corrigir, foi inserido lançamento no evento 7.1.99.06.9583115120000000 com data de 01/07/2026.A Aline ficou de falar com a Érica, contadora da PM Marilia, a expectativa é reaver as anulações excluídas, caso isso ocorra, o lançamento incluído no evento citado acima, precisará ser excluído.",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      },
+      "dadoAtual": {
+        "id": "fc9be5bc-244b-4b32-bc82-df4b6067b0b5",
+        "cliente": "MARILIA PM",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "PM",
+        "abertura": {
+          "data": "2026-02-25",
+          "tecnico": "SérgioP",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica Aparecida"
+            },
+            "11": {
+              "dataValidacao": "2025-12-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "12": {
+              "dataValidacao": "2026-01-23",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "13": {
+              "dataValidacao": "2026-02-05",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "14": {
+              "dataValidacao": "2026-02-16",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "01": {
+              "dataValidacao": "2025-03-06",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2025-03-24",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2025-04-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2025-05-14",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica - C250513-022"
+            },
+            "05": {
+              "dataValidacao": "2025-06-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica - C250611-004"
+            },
+            "06": {
+              "dataValidacao": "2025-07-11",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "2025-08-12",
+              "tecnico": "Lima",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250811-021"
+            },
+            "08": {
+              "dataValidacao": "2025-09-12",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica Aparecida"
+            },
+            "09": {
+              "dataValidacao": "2025-10-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-12",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2026-03-23",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2026-04-09",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2026-05-20",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "Érica"
+            },
+            "05": {
+              "dataValidacao": "2026-06-22",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "06": {
+              "dataValidacao": "2026-07-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026. Os registros foram recuperados pela colaboradora Aline. Vida que segue.",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1785518557813-m2rhm",
+      "dataHora": "2026-07-31T17:22:37.813Z",
+      "data": "31/07/2026",
+      "hora": "17:22:37",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "177.69.27.233",
+      "maquina": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "funcionalidade": "Backup",
+      "rotina": "GET /api/exportar",
+      "acao": "exportar_backup",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "exportadoEm": "2026-07-31T17:22:37.811Z",
+        "totalClientes": 109,
+        "totalUsuarios": 17
+      }
+    },
+    {
+      "id": "1785508221903-ufwj2",
+      "dataHora": "2026-07-31T14:30:21.903Z",
+      "data": "31/07/2026",
+      "hora": "14:30:21",
+      "usuario": {
+        "id": "0d292f87-2a4b-4ef3-ad43-887f56949b8a",
+        "nome": "Sérgio Donizete Procópio",
+        "username": "soprocopio",
+        "role": "operacional"
+      },
+      "ip": "201.72.16.136",
+      "maquina": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "funcionalidade": "Clientes",
+      "rotina": "PUT /api/clientes",
+      "acao": "editar",
+      "dadoAnterior": {
+        "id": "fc9be5bc-244b-4b32-bc82-df4b6067b0b5",
+        "cliente": "MARILIA PM",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "PM",
+        "abertura": {
+          "data": "2026-02-25",
+          "tecnico": "SérgioP",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica Aparecida"
+            },
+            "11": {
+              "dataValidacao": "2025-12-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "12": {
+              "dataValidacao": "2026-01-23",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "13": {
+              "dataValidacao": "2026-02-05",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "14": {
+              "dataValidacao": "2026-02-16",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "01": {
+              "dataValidacao": "2025-03-06",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2025-03-24",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2025-04-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2025-05-14",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica - C250513-022"
+            },
+            "05": {
+              "dataValidacao": "2025-06-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica - C250611-004"
+            },
+            "06": {
+              "dataValidacao": "2025-07-11",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "2025-08-12",
+              "tecnico": "Lima",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250811-021"
+            },
+            "08": {
+              "dataValidacao": "2025-09-12",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica Aparecida"
+            },
+            "09": {
+              "dataValidacao": "2025-10-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-12",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2026-03-23",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2026-04-09",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2026-05-20",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "Érica"
+            },
+            "05": {
+              "dataValidacao": "2026-06-22",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "06": {
+              "dataValidacao": "2026-07-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026, cujas datas de movimento eram 13/05/2026. Esta exclusão causou diferença entre a execução orçamentária e os balancetes de maio e junho que já estavam armazenados no audesp. Para corrigir, foi inserido lançamento no evento 7.1.99.06.9583115120000000 com data de 01/07/2026.",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      },
+      "dadoAtual": {
+        "id": "fc9be5bc-244b-4b32-bc82-df4b6067b0b5",
+        "cliente": "MARILIA PM",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "PM",
+        "abertura": {
+          "data": "2026-02-25",
+          "tecnico": "SérgioP",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica Aparecida"
+            },
+            "11": {
+              "dataValidacao": "2025-12-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "12": {
+              "dataValidacao": "2026-01-23",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "13": {
+              "dataValidacao": "2026-02-05",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "14": {
+              "dataValidacao": "2026-02-16",
+              "tecnico": "SérgioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "01": {
+              "dataValidacao": "2025-03-06",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2025-03-24",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2025-04-16",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2025-05-14",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica - C250513-022"
+            },
+            "05": {
+              "dataValidacao": "2025-06-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica - C250611-004"
+            },
+            "06": {
+              "dataValidacao": "2025-07-11",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "2025-08-12",
+              "tecnico": "Lima",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250811-021"
+            },
+            "08": {
+              "dataValidacao": "2025-09-12",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica Aparecida"
+            },
+            "09": {
+              "dataValidacao": "2025-10-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-12",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "02": {
+              "dataValidacao": "2026-03-23",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "03": {
+              "dataValidacao": "2026-04-09",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Érica"
+            },
+            "04": {
+              "dataValidacao": "2026-05-20",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "Érica"
+            },
+            "05": {
+              "dataValidacao": "2026-06-22",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "06": {
+              "dataValidacao": "2026-07-13",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Érica"
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026, cujas datas de movimento eram 13/05/2026. Esta exclusão causou diferença entre a execução orçamentária e os balancetes de maio e junho que já estavam armazenados no audesp. Para corrigir, foi inserido lançamento no evento 7.1.99.06.9583115120000000 com data de 01/07/2026.A Aline ficou de falar com a Érica, contadora da PM Marilia, a expectativa é reaver as anulações excluídas, caso isso ocorra, o lançamento incluído no evento citado acima, precisará ser excluído.",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1785502408864-vb3zl",
+      "dataHora": "2026-07-31T12:53:28.864Z",
+      "data": "31/07/2026",
+      "hora": "12:53:28",
+      "usuario": {
+        "id": "0d292f87-2a4b-4ef3-ad43-887f56949b8a",
+        "nome": "Sérgio Donizete Procópio",
+        "username": "soprocopio",
+        "role": "operacional"
+      },
+      "ip": "201.72.16.136",
+      "maquina": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0",
+      "funcionalidade": "Clientes",
+      "rotina": "PUT /api/clientes",
+      "acao": "editar",
+      "dadoAnterior": {
+        "id": "f543f304-8485-478e-88d6-aed7c31be1cf",
+        "cliente": "MARILIA FUMARES",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "FUND",
+        "abertura": {
+          "data": "2026-02-26",
+          "tecnico": "SérgioP",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-14",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Alisson - C251114-044"
+            },
+            "11": {
+              "dataValidacao": "2025-12-10",
+              "tecnico": "Cliente",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Alisson - consultado no audesp 11/12/2025"
+            },
+            "12": {
+              "dataValidacao": "2026-01-21",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Alison"
+            },
+            "13": {
+              "dataValidacao": "2026-02-12",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "consultado no audesp"
+            },
+            "14": {
+              "dataValidacao": "2026-02-18",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "consultado no audesp em 19/02/2026"
+            },
+            "01": {
+              "dataValidacao": "2025-03-14",
+              "tecnico": "cliente",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C250218-242 - C250311-236 - Alisson"
+            },
+            "02": {
+              "dataValidacao": "2025-03-20",
+              "tecnico": "cliente",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Alisson"
+            },
+            "03": {
+              "dataValidacao": "2025-04-17",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Alisson - C250416-025 pesquisa no audesp 17/04/2025"
+            },
+            "04": {
+              "dataValidacao": "2025-05-21",
+              "tecnico": "SergioP",
+              "observacoes": "documento armazenado",
+              "contato": "Escritório Magnun"
+            },
+            "05": {
+              "dataValidacao": "2025-06-10",
+              "tecnico": "Carol/cliente",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Alisson - C250610-162 - consultado no audesp em 11/06"
+            },
+            "06": {
+              "dataValidacao": "2025-07-08",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Alisson - Cliente enviou. Consulta no audesp em 10/07/2025"
+            },
+            "07": {
+              "dataValidacao": "2025-08-20",
+              "tecnico": "Jacque/cliente",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250814-034/C250820-080/C250820-080"
+            },
+            "08": {
+              "dataValidacao": "2025-09-15",
+              "tecnico": "Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Consultado no audesp em 18/09/2025"
+            },
+            "09": {
+              "dataValidacao": "2025-10-14",
+              "tecnico": "Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Consultado no audesp em 16/10/2025"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-05",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "João Cardoso"
+            },
+            "02": {
+              "dataValidacao": "2026-03-23",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "João Cardoso"
+            },
+            "03": {
+              "dataValidacao": "2026-04-07",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Issamo"
+            },
+            "04": {
+              "dataValidacao": "2026-05-12",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "Issamo"
+            },
+            "05": {
+              "dataValidacao": "2026-06-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Issamo"
+            },
+            "06": {
+              "dataValidacao": "2026-07-01",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Issamo"
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "a partir deste mês, o contábil deve ser gerado, os balancetes isolados deverão ser transmitidos mesmo vazios para que o cliente solicite ao audesp, o armazenamento manual citando ID do pacote transmitido, já que a entidade Fumares foi extinta.Enviar e-mail para fumaresmarilia@yahoo.com.br a/c Issamo Sasaki, com cópia para contabilidade@marilia.sp.gov.br a/c Érica, fornecendo ao cliente o ID do pacote transmitido.",
+              "contato": ""
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      },
+      "dadoAtual": {
+        "id": "f543f304-8485-478e-88d6-aed7c31be1cf",
+        "cliente": "MARILIA FUMARES",
+        "integracaoAmCp": "Não",
+        "clienteComGerador": "Não",
+        "org": "FUND",
+        "abertura": {
+          "data": "2026-02-26",
+          "tecnico": "SérgioP",
+          "webOuDd": "Web"
+        },
+        "periodos": {
+          "2025": {
+            "10": {
+              "dataValidacao": "2025-11-14",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Alisson - C251114-044"
+            },
+            "11": {
+              "dataValidacao": "2025-12-10",
+              "tecnico": "Cliente",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Alisson - consultado no audesp 11/12/2025"
+            },
+            "12": {
+              "dataValidacao": "2026-01-21",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Alison"
+            },
+            "13": {
+              "dataValidacao": "2026-02-12",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "consultado no audesp"
+            },
+            "14": {
+              "dataValidacao": "2026-02-18",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "consultado no audesp em 19/02/2026"
+            },
+            "01": {
+              "dataValidacao": "2025-03-14",
+              "tecnico": "cliente",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "C250218-242 - C250311-236 - Alisson"
+            },
+            "02": {
+              "dataValidacao": "2025-03-20",
+              "tecnico": "cliente",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Alisson"
+            },
+            "03": {
+              "dataValidacao": "2025-04-17",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Alisson - C250416-025 pesquisa no audesp 17/04/2025"
+            },
+            "04": {
+              "dataValidacao": "2025-05-21",
+              "tecnico": "SergioP",
+              "observacoes": "documento armazenado",
+              "contato": "Escritório Magnun"
+            },
+            "05": {
+              "dataValidacao": "2025-06-10",
+              "tecnico": "Carol/cliente",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Alisson - C250610-162 - consultado no audesp em 11/06"
+            },
+            "06": {
+              "dataValidacao": "2025-07-08",
+              "tecnico": "cliente",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "Alisson - Cliente enviou. Consulta no audesp em 10/07/2025"
+            },
+            "07": {
+              "dataValidacao": "2025-08-20",
+              "tecnico": "Jacque/cliente",
+              "observacoes": "Documento Validado e aguardando liberação",
+              "contato": "C250814-034/C250820-080/C250820-080"
+            },
+            "08": {
+              "dataValidacao": "2025-09-15",
+              "tecnico": "Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Consultado no audesp em 18/09/2025"
+            },
+            "09": {
+              "dataValidacao": "2025-10-14",
+              "tecnico": "Cliente",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Consultado no audesp em 16/10/2025"
+            },
+            "anual": {
+              "dataValidacao": "2026-03-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": ""
+            }
+          },
+          "2026": {
+            "10": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "11": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "12": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "13": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "14": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            },
+            "01": {
+              "dataValidacao": "2026-03-05",
+              "tecnico": "SérgioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "João Cardoso"
+            },
+            "02": {
+              "dataValidacao": "2026-03-23",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberação",
+              "contato": "João Cardoso"
+            },
+            "03": {
+              "dataValidacao": "2026-04-07",
+              "tecnico": "SergioP",
+              "observacoes": "Documento validado e aguardando liberação",
+              "contato": "Issamo"
+            },
+            "04": {
+              "dataValidacao": "2026-05-12",
+              "tecnico": "SergioP",
+              "observacoes": "documento validado e aguardando liberacao",
+              "contato": "Issamo"
+            },
+            "05": {
+              "dataValidacao": "2026-06-10",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Issamo"
+            },
+            "06": {
+              "dataValidacao": "2026-07-01",
+              "tecnico": "SergioP",
+              "observacoes": "Documento Validado e Aguardando Liberação",
+              "contato": "Issamo"
+            },
+            "07": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "no SMARcp, julho foi gerado e consistido. Os arquivos xml gerados e transmitidos ao audesp onde, os cadastros contábeis foram armazenados de imediato, os balancetes isolados como esperado, foram rejeitados por estarem vazios. Foi encaminhado e-mail ao cliente informando a ele o ID do pacote 12642490, objetivando abertura de chamado junto ao audesp solicitando validação manual. Esta Fundação foi extinta, sendo junho/2026 o último mês enviado contendo movimentação. De julho a novembro, os balancetes serão encaminhados vazios e deverão ser validados manual através de pedido por chamado no audesp. OBS: o cliente foi informado por e-mail também, que está inadimplente com a conciliação bancária e atualização do cadastro geral de entidades mensal, para as providências e regularizar estas prestações faltantes. O cliente foi orientado a solicitar auxilios necessários à SMARapd com a abertura de chamados.",
+              "contato": "Issamo Sasaki - Fundação Fumares e Érica Aparecida - PM Marília"
+            },
+            "08": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "09": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "contábil deve ser gerado e consistido, os balancetes deverão ser transmitidos mesmo vazios e o cliente orientado abrir chamado no TCESP solicitando armazenamento manual citando ID do pacote transmitido. A Fumares foi extinta.",
+              "contato": ""
+            },
+            "anual": {
+              "dataValidacao": "",
+              "tecnico": "",
+              "observacoes": "",
+              "contato": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "1785496432922-7acfr",
+      "dataHora": "2026-07-31T11:13:52.922Z",
+      "data": "31/07/2026",
+      "hora": "11:13:52",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "201.72.16.136",
+      "maquina": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36",
+      "funcionalidade": "Usuários",
+      "rotina": "POST /api/usuarios",
+      "acao": "criar_usuario",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "id": "2df1fae2-da0b-42b4-be05-4c81852d5139",
+        "nome": "Suporte CP",
+        "username": "suporte",
+        "role": "operacional",
+        "ativo": true,
+        "senhaProvisoria": true
+      }
+    },
+    {
+      "id": "1785496236937-thbrt",
+      "dataHora": "2026-07-31T11:10:36.937Z",
+      "data": "31/07/2026",
+      "hora": "11:10:36",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "20.221.69.17",
+      "maquina": "curl/8.5.0",
+      "funcionalidade": "Backup",
+      "rotina": "GET /api/exportar",
+      "acao": "exportar_backup",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "exportadoEm": "2026-07-31T11:10:36.935Z",
+        "totalClientes": 109,
+        "totalUsuarios": 16
+      }
+    },
     {
       "id": "1785495436959-lkdca",
       "dataHora": "2026-07-31T10:57:16.959Z",
