@@ -24,15 +24,6 @@ function sanitizePeriodo(src) {
   };
 }
 
-function sanitizeAbertura(src) {
-  const obj = src && typeof src === 'object' ? src : {};
-  return {
-    data: sanitizeString(obj.data, 20),
-    tecnico: sanitizeString(obj.tecnico, 120),
-    webOuDd: sanitizeEnum(obj.webOuDd, WEB_DD, '')
-  };
-}
-
 function sanitizeAno(ano) {
   const s = sanitizeString(ano, 4);
   return /^[0-9]{4}$/.test(s) ? s : null;
@@ -52,7 +43,6 @@ function sanitizePeriodosPorAno(src, anosConhecidos) {
     for (const p of PERIODOS) {
       periodosAno[p] = sanitizePeriodo(origemAno[p]);
     }
-    periodosAno.abertura = sanitizeAbertura(origemAno.abertura);
     out[ano] = periodosAno;
   }
   return out;
