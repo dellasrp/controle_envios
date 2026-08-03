@@ -20,9 +20,7 @@ function sanitizePeriodo(src) {
     dataValidacao: sanitizeString(obj.dataValidacao, 20),
     tecnico: sanitizeString(obj.tecnico, 120),
     observacoes: sanitizeString(obj.observacoes, 1000),
-    contato: sanitizeString(obj.contato, 300),
-    loginEmail: sanitizeString(obj.loginEmail, 200),
-    senhaEmail: sanitizeString(obj.senhaEmail, 200)
+    contato: sanitizeString(obj.contato, 300)
   };
 }
 
@@ -66,6 +64,8 @@ function sanitizeCliente(body, anosConhecidos) {
     integracaoAmCp: sanitizeEnum(body.integracaoAmCp, SIM_NAO, 'Não'),
     clienteComGerador: sanitizeEnum(body.clienteComGerador, SIM_NAO, 'Não'),
     org: sanitizeString(body.org, 40),
+    loginEmail: sanitizeString(body.loginEmail, 200),
+    senhaEmail: sanitizeString(body.senhaEmail, 200),
     periodos: sanitizePeriodosPorAno(body.periodos, anosConhecidos)
   };
 }
