@@ -424,13 +424,16 @@ async function salvar() {
   };
 
 
+  const loginEmailAtual = val('f_m_loginEmail') || (registro ? registro.loginEmail || '' : '');
+  const senhaEmailAtual = val('f_m_senhaEmail') || (registro ? registro.senhaEmail || '' : '');
+
   const payload = {
     cliente: nome,
     org: val('f_org'),
     integracaoAmCp: val('f_integracao'),
     clienteComGerador: val('f_gerador'),
-    loginEmail: val('f_m_loginEmail'),
-    senhaEmail: val('f_m_senhaEmail'),
+    loginEmail: loginEmailAtual,
+    senhaEmail: senhaEmailAtual,
     periodos
   };
 
