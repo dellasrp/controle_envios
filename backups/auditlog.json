@@ -1,7 +1,53 @@
 {
-  "exportadoEm": "2026-08-02T05:51:24.877Z",
-  "total": 9,
+  "exportadoEm": "2026-08-03T06:16:14.013Z",
+  "total": 11,
   "registros": [
+    {
+      "id": "1785737772646-2q70k",
+      "dataHora": "2026-08-03T06:16:12.646Z",
+      "data": "03/08/2026",
+      "hora": "06:16:12",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "172.184.214.211",
+      "maquina": "curl/8.5.0",
+      "funcionalidade": "Backup",
+      "rotina": "GET /api/exportar",
+      "acao": "exportar_backup",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "exportadoEm": "2026-08-03T06:16:12.643Z",
+        "totalClientes": 109,
+        "totalUsuarios": 17
+      }
+    },
+    {
+      "id": "1785649883699-qohb9",
+      "dataHora": "2026-08-02T05:51:23.699Z",
+      "data": "02/08/2026",
+      "hora": "05:51:23",
+      "usuario": {
+        "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
+        "nome": "Administrador",
+        "username": "admin",
+        "role": "administrador"
+      },
+      "ip": "40.65.61.34",
+      "maquina": "curl/8.5.0",
+      "funcionalidade": "Backup",
+      "rotina": "GET /api/exportar",
+      "acao": "exportar_backup",
+      "dadoAnterior": null,
+      "dadoAtual": {
+        "exportadoEm": "2026-08-02T05:51:23.697Z",
+        "totalClientes": 109,
+        "totalUsuarios": 17
+      }
+    },
     {
       "id": "1785563435984-ppajm",
       "dataHora": "2026-08-01T05:50:35.984Z",
