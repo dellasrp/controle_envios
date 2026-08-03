@@ -187,7 +187,7 @@ function atualizarSetas() {
 
 function td(texto, extra) {
   const cell = document.createElement('td');
-  cell.className = 'px-4 py-3 align-top ' + (extra || '');
+  cell.className = 'px-2 py-2 align-top text-xs ' + (extra || '');
   cell.textContent = texto;
   return cell;
 }
@@ -201,7 +201,7 @@ function badge(texto, cor) {
 
 function tdStatus(l) {
   const cell = document.createElement('td');
-  cell.className = 'px-4 py-3 align-top';
+  cell.className = 'px-2 py-2 align-top';
   let texto = l.status;
   let cor = 'bg-amber-100 text-amber-700';
   if (l.status === 'Concluído') cor = 'bg-emerald-100 text-emerald-700';
@@ -212,7 +212,7 @@ function tdStatus(l) {
 
 function tdPrazo(l) {
   const cell = document.createElement('td');
-  cell.className = 'px-4 py-3 align-top';
+  cell.className = 'px-2 py-2 align-top';
   if (l.status !== 'Concluído' || !l.prazo) {
     cell.textContent = '-';
     return cell;
@@ -227,8 +227,9 @@ function tdPrazo(l) {
 
 function tdAcoes(c) {
   const cell = document.createElement('td');
-  cell.className = 'px-4 py-3 text-right align-top';
+  cell.className = 'px-2 py-2 text-right align-top';
   if (!podeEditar) {
+    cell.className = 'px-2 py-2 text-right align-top';
     cell.textContent = '—';
     return cell;
   }
@@ -330,7 +331,7 @@ function render() {
     tr.appendChild(tdPrazo(l));
     tr.appendChild(td(l.dataValidacao ? formatarDataBr(l.dataValidacao) : '-'));
     tr.appendChild(td(l.tecnico || '-'));
-    tr.appendChild(td(l.observacoes || '-', 'max-w-xs text-slate-600'));
+    tr.appendChild(td(l.observacoes || '-', 'max-w-[10rem] text-slate-600 truncate'));
     tr.appendChild(td(l.contato || '-'));
     tr.appendChild(td(l.loginEmail || '-'));
     tr.appendChild(td(l.senhaEmail || '-'));
