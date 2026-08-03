@@ -281,8 +281,8 @@ function prepararLista() {
       tecnico: dado.tecnico || '',
       observacoes: dado.observacoes || '',
       contato: dado.contato || '',
-      loginEmail: dado.loginEmail || '',
-      senhaEmail: dado.senhaEmail || '',
+      loginEmail: c.loginEmail || '',
+      senhaEmail: c.senhaEmail || '',
       raw: c
     };
   });
@@ -364,8 +364,8 @@ function abrirModal(id) {
   setVal('f_m_tecnico', dado.tecnico);
   setVal('f_m_obs', dado.observacoes);
   setVal('f_m_contato', dado.contato);
-  setVal('f_m_loginEmail', dado.loginEmail);
-  setVal('f_m_senhaEmail', dado.senhaEmail);
+  setVal('f_m_loginEmail', registro ? registro.loginEmail : '');
+  setVal('f_m_senhaEmail', registro ? registro.senhaEmail : '');
 
   const modal = document.getElementById('modal');
   modal.classList.remove('hidden');
@@ -419,9 +419,7 @@ async function salvar() {
     dataValidacao: val('f_m_data'),
     tecnico: val('f_m_tecnico'),
     observacoes: val('f_m_obs'),
-    contato: val('f_m_contato'),
-    loginEmail: val('f_m_loginEmail'),
-    senhaEmail: val('f_m_senhaEmail')
+    contato: val('f_m_contato')
   };
 
 
@@ -430,6 +428,8 @@ async function salvar() {
     org: val('f_org'),
     integracaoAmCp: val('f_integracao'),
     clienteComGerador: val('f_gerador'),
+    loginEmail: val('f_m_loginEmail'),
+    senhaEmail: val('f_m_senhaEmail'),
     periodos
   };
 
