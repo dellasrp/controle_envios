@@ -2,7 +2,7 @@ import { readDb, writeDb, connectLambda } from './_lib/db.js';
 import { gravarLog } from './_lib/log.js';
 import { authenticate, requireRole, json, parseBody, sanitizeString } from './_lib/security.js';
 
-const PERIODOS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
+const PERIODOS = ['abertura', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
 
 function sanitizeAno(ano) {
   const s = sanitizeString(ano, 4);

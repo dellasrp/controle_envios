@@ -12,7 +12,7 @@ import {
 
 const SIM_NAO = ['Sim', 'Não'];
 const WEB_DD = ['Web', 'DD', ''];
-const PERIODOS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
+const PERIODOS = ['abertura', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
 
 function sanitizePeriodo(src) {
   const obj = src && typeof src === 'object' ? src : {};
@@ -21,6 +21,15 @@ function sanitizePeriodo(src) {
     tecnico: sanitizeString(obj.tecnico, 120),
     observacoes: sanitizeString(obj.observacoes, 1000),
     contato: sanitizeString(obj.contato, 300)
+  };
+}
+
+function sanitizeAbertura(src) {
+  const obj = src && typeof src === 'object' ? src : {};
+  return {
+    data: sanitizeString(obj.data, 20),
+    tecnico: sanitizeString(obj.tecnico, 120),
+    webOuDd: sanitizeEnum(obj.webOuDd, WEB_DD, '')
   };
 }
 
@@ -43,23 +52,18 @@ function sanitizePeriodosPorAno(src, anosConhecidos) {
     for (const p of PERIODOS) {
       periodosAno[p] = sanitizePeriodo(origemAno[p]);
     }
+    periodosAno.abertura = sanitizeAbertura(origemAno.abertura);
     out[ano] = periodosAno;
   }
   return out;
 }
 
 function sanitizeCliente(body, anosConhecidos) {
-  const abertura = body.abertura && typeof body.abertura === 'object' ? body.abertura : {};
   return {
     cliente: sanitizeString(body.cliente, 120),
     integracaoAmCp: sanitizeEnum(body.integracaoAmCp, SIM_NAO, 'Não'),
     clienteComGerador: sanitizeEnum(body.clienteComGerador, SIM_NAO, 'Não'),
     org: sanitizeString(body.org, 40),
-    abertura: {
-      data: sanitizeString(abertura.data, 20),
-      tecnico: sanitizeString(abertura.tecnico, 120),
-      webOuDd: sanitizeEnum(abertura.webOuDd, WEB_DD, '')
-    },
     periodos: sanitizePeriodosPorAno(body.periodos, anosConhecidos)
   };
 }
