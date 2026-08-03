@@ -8,8 +8,9 @@ let filtroStatus = 'todos';
 let sortCol = null;
 let sortDir = 'asc';
 
-const PERIODOS_ORDEM = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
+const PERIODOS_ORDEM = ['abertura', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
 const NOMES_PERIODO = {
+  abertura: 'Abertura Contábil',
   '01': 'Janeiro', '02': 'Fevereiro', '03': 'Março', '04': 'Abril',
   '05': 'Maio', '06': 'Junho', '07': 'Julho', '08': 'Agosto',
   '09': 'Setembro', '10': 'Outubro', '11': 'Novembro', '12': 'Dezembro',
@@ -182,6 +183,8 @@ function atualizarSetas() {
   }
 }
 
+
+
 function td(texto, extra) {
   const cell = document.createElement('td');
   cell.className = 'px-4 py-3 align-top ' + (extra || '');
@@ -272,12 +275,8 @@ function prepararLista() {
     const status = dado.dataValidacao ? 'Concluído' : 'Pendente';
     const atrasado = status === 'Pendente' && Boolean(prazoPeriodo) && hojeStr > prazoPeriodo;
     return {
-      id: c.id,
-      cliente: c.cliente,
-      org: c.org || '',
-      status,
-      atrasado,
-      prazo: prazoPeriodo || null,
+      id: c.id, cliente: c.cliente, org: c.org || '',
+      status, atrasado, prazo: prazoPeriodo || null,
       dataValidacao: dado.dataValidacao || '',
       tecnico: dado.tecnico || '',
       observacoes: dado.observacoes || '',
@@ -351,16 +350,12 @@ function abrirModal(id) {
   const registro = id ? clientes.find((c) => c.id === id) : null;
   document.getElementById('modalTitulo').textContent = registro ? 'Editar cliente' : 'Novo cliente';
 
-  const ab = (registro && registro.abertura) || {};
   const dado = registro ? periodoDoClienteRegistro(registro) : { dataValidacao: '', tecnico: '', observacoes: '', contato: '' };
 
   setVal('f_cliente', registro ? registro.cliente : '');
   setVal('f_org', registro ? registro.org : '');
   document.getElementById('f_integracao').value = registro ? registro.integracaoAmCp : 'Não';
   document.getElementById('f_gerador').value = registro ? registro.clienteComGerador : 'Não';
-  setVal('f_ab_data', ab.data);
-  setVal('f_ab_tecnico', ab.tecnico);
-  document.getElementById('f_ab_web').value = ab.webOuDd || '';
   setVal('f_m_data', dado.dataValidacao);
   setVal('f_m_tecnico', dado.tecnico);
   setVal('f_m_obs', dado.observacoes);
@@ -421,16 +416,12 @@ async function salvar() {
     contato: val('f_m_contato')
   };
 
+
   const payload = {
     cliente: nome,
     org: val('f_org'),
     integracaoAmCp: val('f_integracao'),
     clienteComGerador: val('f_gerador'),
-    abertura: {
-      data: val('f_ab_data'),
-      tecnico: val('f_ab_tecnico'),
-      webOuDd: val('f_ab_web')
-    },
     periodos
   };
 

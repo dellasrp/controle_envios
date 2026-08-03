@@ -4,8 +4,9 @@ let anoAtual = null;
 let periodoAtual = null;
 let pendentesAtuais = [];
 
-const PERIODOS_ORDEM = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
+const PERIODOS_ORDEM = ['abertura', '01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '13', '14', 'anual'];
 const NOMES_PERIODO = {
+  abertura: 'Abertura Contábil',
   '01': 'Janeiro', '02': 'Fevereiro', '03': 'Março', '04': 'Abril',
   '05': 'Maio', '06': 'Junho', '07': 'Julho', '08': 'Agosto',
   '09': 'Setembro', '10': 'Outubro', '11': 'Novembro', '12': 'Dezembro',
