@@ -13,11 +13,15 @@ function vazio() {
 
 function precisaMigrar(data) {
   if (!data || !Array.isArray(data.clientes)) return true;
-  return data.seedVersion !== initialData.seedVersion;
+  return (data.seedVersion || 0) < initialData.seedVersion;
 }
 
 function migrar(data) {
   const anos = Object.keys(initialData.prazos);
+  const sementeMap = {};
+  for (const c of initialData.clientes) {
+    sementeMap[c.cliente] = c;
+  }
 
   const clientes = data.clientes.map((c) => {
     const periodos = {};
@@ -25,8 +29,9 @@ function migrar(data) {
       const origemAno = (c.periodos && c.periodos[ano]) || {};
       periodos[ano] = {};
       for (const p of PERIODOS) {
-        periodos[ano][p] = origemAno[p]
-          ? { ...origemAno[p] }
+        const dadoExistente = origemAno[p];
+        periodos[ano][p] = dadoExistente && typeof dadoExistente === 'object'
+          ? { dataValidacao: dadoExistente.dataValidacao || '', tecnico: dadoExistente.tecnico || '', observacoes: dadoExistente.observacoes || '', contato: dadoExistente.contato || '' }
           : vazio();
       }
     }
@@ -44,7 +49,11 @@ function migrar(data) {
 
   const clientesNovos = initialData.clientes.filter(
     (ic) => !clientes.some((c) => c.cliente === ic.cliente)
-  );
+  ).map((ic) => ({
+    ...ic,
+    loginEmail: ic.loginEmail || '',
+    senhaEmail: ic.senhaEmail || ''
+  }));
 
   return {
     seedVersion: initialData.seedVersion,
