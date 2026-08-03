@@ -157,6 +157,11 @@
   ],
   "prazos": {
     "2025": {
+      "10": "2025-11-24",
+      "11": "2026-01-14",
+      "12": "2026-01-29",
+      "13": "2026-02-13",
+      "14": "2026-03-04",
       "01": "2025-03-13",
       "02": "2025-03-28",
       "03": "2025-04-23",
@@ -166,14 +171,15 @@
       "07": "2025-08-20",
       "08": "2025-09-22",
       "09": "2025-10-20",
-      "10": "2025-11-24",
-      "11": "2026-01-14",
-      "12": "2026-01-29",
-      "13": "2026-02-13",
-      "14": "2026-03-04",
       "anual": "2026-03-31"
     },
     "2026": {
+      "10": "2026-11-23",
+      "11": null,
+      "12": null,
+      "13": null,
+      "14": null,
+      "abertura": "2026-03-31",
       "01": "2026-03-19",
       "02": "2026-04-06",
       "03": "2026-04-22",
@@ -183,11 +189,6 @@
       "07": "2026-08-20",
       "08": "2026-09-21",
       "09": "2026-10-20",
-      "10": "2026-11-23",
-      "11": null,
-      "12": null,
-      "13": null,
-      "14": null,
       "anual": "2027-03-31"
     }
   },
@@ -198,12 +199,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "ericacbr@yahoo.com.br",
+      "senhaEmail": "orappa",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2025-02-26",
+            "dataValidacao": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -299,9 +302,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2025-02-26",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -403,12 +406,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "oliveira.e_silva@hotmail.com",
+      "senhaEmail": "726223",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2025-02-26",
+            "dataValidacao": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -504,9 +509,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2025-02-26",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -608,12 +613,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "gilberto@camara-americana.sp.gov.br",
+      "senhaEmail": "tce2175",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -709,9 +716,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -813,6 +820,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "DAE",
+      "loginEmail": "ivan@daeamericana.sp.gov.br",
+      "senhaEmail": "ia120013",
       "periodos": {
         "2025": {
           "abertura": {
@@ -1018,12 +1027,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND.SAÚDE",
+      "loginEmail": "lccsilva@smarapd.com.br",
+      "senhaEmail": "Larissa16@",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -1119,9 +1130,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -1223,6 +1234,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "GUARDA",
+      "loginEmail": "contabilidade@gama.sp.gov.br",
+      "senhaEmail": "070520",
       "periodos": {
         "2025": {
           "abertura": {
@@ -1428,12 +1441,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "INSTITUTO",
+      "loginEmail": "afinanceiro@ameriprev.com.br",
+      "senhaEmail": "230586",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -1529,9 +1544,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -1633,6 +1648,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "smarcp.consultoria@smarapd.com.br",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "abertura": {
@@ -1838,12 +1855,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "willian.francelino@smarapd.com.br",
+      "senhaEmail": "$marapd2011",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-16",
+            "dataValidacao": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -1939,9 +1958,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-16",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -2043,6 +2062,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "audesp@angatuba.sp.gov.br",
+      "senhaEmail": "climeni316622",
       "periodos": {
         "2025": {
           "abertura": {
@@ -2248,12 +2269,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "dataValidacao": "",
             "tecnico": "Willian",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -2349,9 +2372,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Willian",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -2453,6 +2476,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "DAE",
+      "loginEmail": "lccsilva@smarapd.com.br",
+      "senhaEmail": "Larissa16@",
       "periodos": {
         "2025": {
           "abertura": {
@@ -2658,12 +2683,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "EMDURB",
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "dataValidacao": "",
             "tecnico": "Willian",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -2759,9 +2786,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Willian",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -2863,6 +2890,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUNPREV",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -3068,6 +3097,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "ricardosenfuegos@bauru.sp.gov.br",
+      "senhaEmail": "6810lais",
       "periodos": {
         "2025": {
           "abertura": {
@@ -3273,12 +3304,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "alexandre@bertprev.sp.gov.br",
+      "senhaEmail": "95585199",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "dataValidacao": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -3374,9 +3407,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -3478,6 +3511,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -3683,12 +3718,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "andressa_5200@bertioga.sp.gov.br",
+      "senhaEmail": "13011406",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "dataValidacao": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -3784,9 +3821,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -3888,6 +3925,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "osliantonio@hotmail.com",
+      "senhaEmail": "casp2703",
       "periodos": {
         "2025": {
           "abertura": {
@@ -4093,12 +4132,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "luizantonio.cezar@hotmail.com",
+      "senhaEmail": "27215895",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-13",
+            "dataValidacao": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -4194,9 +4235,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-13",
+            "dataValidacao": "2026-05-31",
             "tecnico": "Roseane",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -4298,6 +4339,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -4503,6 +4546,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -4708,12 +4753,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "ass.gabinete@camaracravinhos.sp.gov.br",
+      "senhaEmail": "vado51",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "dataValidacao": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -4809,9 +4856,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -4913,6 +4960,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -5118,12 +5167,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "mauro_iaroszeski@yahoo.com.br",
+      "senhaEmail": "Gilberto05",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "dataValidacao": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -5219,9 +5270,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -5323,6 +5374,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -5528,13 +5581,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "contabilidadepcontas@cravinhos.sp.gov.br",
+      "senhaEmail": "Crav2025@2025",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -5629,10 +5683,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-04-09",
@@ -5733,6 +5786,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CMT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -5938,6 +5993,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -6143,6 +6200,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CMT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -6348,12 +6407,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "elaine@caixacubatao.sp.gov.br",
+      "senhaEmail": "cnw57470",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "dataValidacao": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -6449,9 +6510,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -6553,6 +6614,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -6758,13 +6821,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "camara@camaraitapolis.sp.gov.br",
+      "senhaEmail": "camara832",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-05",
@@ -6842,13 +6906,13 @@
             "dataValidacao": "2026-02-10",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
-            "contato": "C260205-179\nC260206-211"
+            "contato": "C260205-179C260206-211"
           },
           "14": {
             "dataValidacao": "2026-02-19",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
-            "contato": "C260205-179\nC260206-211"
+            "contato": "C260205-179C260206-211"
           },
           "anual": {
             "dataValidacao": "2026-03-20",
@@ -6859,10 +6923,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-18",
@@ -6963,6 +7026,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -7168,13 +7233,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "contabilidade.saaei@gmail.com",
+      "senhaEmail": "c1a2b3147",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -7269,10 +7335,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -7373,6 +7438,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -7578,13 +7645,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "cdivino@financas.itatiba.sp.gov.br",
+      "senhaEmail": "290417Rc",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -7679,10 +7747,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -7783,6 +7850,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -7988,13 +8057,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "waldemiramaro1965@gmail.com",
+      "senhaEmail": "@#buriti2016",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-04",
@@ -8089,10 +8159,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-15",
@@ -8193,6 +8262,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -8398,13 +8469,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "contabil@saaeituverava.sp.gov.br",
+      "senhaEmail": "91257536",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -8499,10 +8571,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-17",
@@ -8603,6 +8674,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -8808,6 +8881,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -9013,13 +9088,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "talita.alonso@jaboticabal.sp.gov.br",
+      "senhaEmail": "alonso88",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "data": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-17",
@@ -9114,10 +9190,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "data": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-23",
@@ -9218,6 +9293,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -9423,13 +9500,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "bruno.caruso@jaboticabal.sp.gov.br",
+      "senhaEmail": "bc070686bc",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "data": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-07",
@@ -9524,10 +9602,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "data": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -9628,6 +9705,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -9833,13 +9912,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "secretarioagricultura@luizantonio.sp.gov.br",
+      "senhaEmail": "me1234",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "data": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -9934,10 +10014,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-17",
+            "data": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -10038,6 +10117,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -10243,6 +10324,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -10448,13 +10531,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "contabilidade@luizantonio.sp.gov.br",
+      "senhaEmail": "pereira1",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-05-05",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-04-23",
@@ -10549,10 +10633,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-05-05",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-05-07",
@@ -10653,6 +10736,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -10858,13 +10943,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "Autarquia",
+      "loginEmail": "contabilidade@amaemarilia.com.br",
+      "senhaEmail": "Cont85@",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-04-23",
@@ -10959,10 +11045,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-12",
@@ -11063,6 +11148,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -11268,13 +11355,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "contabilidade@daem.com.br",
+      "senhaEmail": "daem@123",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-01-01",
@@ -11369,10 +11457,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-13",
@@ -11473,6 +11560,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -11678,13 +11767,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "contabilidade.fumes@marilia.sp.gov.br",
+      "senhaEmail": "Mari@2000",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -11779,10 +11869,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-10",
@@ -11883,6 +11972,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -12088,13 +12179,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "contabilidade@marilia.sp.gov.br",
+      "senhaEmail": "sf40",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -12189,10 +12281,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-12",
@@ -12293,6 +12384,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -12498,13 +12591,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "contabilidade@matao.sp.gov.br",
+      "senhaEmail": "rasec797914",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "data": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -12599,10 +12693,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-28",
+            "data": "",
             "tecnico": "Marcelo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-13",
@@ -12703,6 +12796,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -12908,6 +13003,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "IPM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -13113,13 +13210,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "elisangela.gomes@hotmail.com",
+      "senhaEmail": "20601271Eli*",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -13214,10 +13312,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -13318,6 +13415,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "SAE",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -13523,6 +13622,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -13728,6 +13829,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -13933,13 +14036,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -14034,10 +14138,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -14138,6 +14241,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -14343,6 +14448,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -14548,13 +14655,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "mscalisse@olimpia.sp.gov.br",
+      "senhaEmail": "melissa1605",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -14649,10 +14757,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -14753,6 +14860,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -14958,13 +15067,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "contabilidade@osasco.sp.leg.br",
+      "senhaEmail": "2025@Conti",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "-",
@@ -15059,10 +15169,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-13",
@@ -15163,6 +15272,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -15368,6 +15479,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -15573,6 +15686,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -15778,13 +15893,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "INSTITUTO",
+      "loginEmail": "lccsilva@smarapd.com.br",
+      "senhaEmail": "Larissa16@",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-07",
@@ -15879,10 +15995,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "SérgioP",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-11",
@@ -15983,6 +16098,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -16188,6 +16305,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -16393,6 +16512,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -16598,6 +16719,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -16803,13 +16926,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "willian.francelino@smarapd.com.br",
+      "senhaEmail": "$marapd2011",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -16904,10 +17028,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Gabriel Toledo",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-18",
@@ -17008,6 +17131,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -17213,13 +17338,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "greice.contabilidade@gmail.com",
+      "senhaEmail": "190500",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -17314,10 +17440,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-18",
@@ -17418,6 +17543,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -17623,13 +17750,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "contadoria@pitangueiras.sp.gov.br",
+      "senhaEmail": "paty1902",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -17724,10 +17852,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-03",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-19",
@@ -17828,6 +17955,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -18033,13 +18162,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "IPRP",
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "data": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -18134,10 +18264,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-03-02",
+            "data": "",
             "tecnico": "Roseane",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-11",
@@ -18238,6 +18367,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -18443,13 +18574,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "juniorvendramin_@hotmail.com",
+      "senhaEmail": "Camara10$",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Santana",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-07",
@@ -18544,10 +18676,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Santana",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-17",
@@ -18648,6 +18779,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "DAE",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -18853,12 +18986,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "daniela.silva@santabarbara.sp.gov.br",
+      "senhaEmail": "1479",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "dataValidacao": "",
             "tecnico": "Santana",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -18954,9 +19089,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Santana",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -19058,6 +19193,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -19263,13 +19400,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "contabilidade@sertaozinho.sp.gov.br",
+      "senhaEmail": "Dan20070",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -19364,10 +19502,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "data": "",
             "tecnico": "Willian",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-24",
@@ -19468,6 +19605,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -19673,12 +19812,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "amandabastianini@hotmail.com",
+      "senhaEmail": "A454213",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "dataValidacao": "",
             "tecnico": "Willian",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -19774,9 +19915,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-26",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Willian",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -19878,6 +20019,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -20083,13 +20226,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "contabilidade@fascs.com.br",
+      "senhaEmail": "fascs003",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -20184,10 +20328,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "data": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
-            "contato": ""
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2026-03-17",
@@ -20288,6 +20431,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -20493,12 +20638,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "FUND",
+      "loginEmail": "teresa.andrade@fpm.org.br",
+      "senhaEmail": "teca2413",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -20594,9 +20741,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-25",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Gabriel Souza",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -20698,6 +20845,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -20903,6 +21052,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -21108,6 +21259,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "CM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -21313,6 +21466,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -21518,6 +21673,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "UNI",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -21723,6 +21880,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "RPPS",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -21928,12 +22087,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
+      "loginEmail": "ivone@camaravalinhos.sp.gov.br",
+      "senhaEmail": "cmv74853621i",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "dataValidacao": "",
             "tecnico": "Santana",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -22029,9 +22190,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Santana",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
@@ -22133,6 +22294,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "abertura": {
@@ -22338,12 +22501,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
+      "loginEmail": "paulocesar@valiprev.com.br",
+      "senhaEmail": "121521Tcesp@",
       "periodos": {
         "2025": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "dataValidacao": "",
             "tecnico": "Santana",
-            "observacoes": "Web",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -22439,9 +22604,9 @@
         },
         "2026": {
           "abertura": {
-            "dataValidacao": "2026-02-27",
+            "dataValidacao": "2026-03-31",
             "tecnico": "Santana",
-            "observacoes": "Web",
+            "observacoes": "WEB",
             "contato": ""
           },
           "01": {
