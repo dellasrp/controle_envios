@@ -16,7 +16,7 @@
 </head>
 <body class="min-h-screen bg-slate-100 font-sans text-slate-800">
   <header class="border-b border-slate-200 bg-ink text-slate-100">
-    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+    <div class="mx-auto flex max-w-full items-center justify-between px-4 py-3">
       <div class="flex items-center gap-3">
         <img src="/img/logo-white.png" alt="smar(apd)" class="h-6 w-auto" />
         <span class="font-semibold tracking-tight">Controle de Envios</span>
@@ -37,7 +37,7 @@
     </div>
   </header>
 
-  <main class="mx-auto max-w-7xl px-4 py-6">
+  <main class="mx-auto max-w-full px-4 py-6">
     <div class="mb-4 flex flex-wrap items-end justify-between gap-3">
       <div>
         <h1 class="text-xl font-semibold tracking-tight">Validação de clientes</h1>
@@ -67,20 +67,20 @@
     </div>
 
     <div class="overflow-x-auto rounded-xl border border-slate-200 bg-white shadow-sm">
-      <table class="w-full text-sm">
+      <table class="w-full text-xs">
         <thead>
-          <tr class="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500">
-            <th class="cursor-pointer select-none px-4 py-3 hover:bg-slate-100" onclick="ordenarPor('cliente')">Cliente <span id="seta-cliente" class="text-slate-400"></span></th>
-            <th class="cursor-pointer select-none px-4 py-3 hover:bg-slate-100" onclick="ordenarPor('org')">Órgão <span id="seta-org" class="text-slate-400"></span></th>
-            <th class="cursor-pointer select-none px-4 py-3 hover:bg-slate-100" onclick="ordenarPor('status')">Status <span id="seta-status" class="text-slate-400"></span></th>
-            <th class="px-4 py-3">Prazo</th>
-            <th class="cursor-pointer select-none px-4 py-3 hover:bg-slate-100" onclick="ordenarPor('dataValidacao')">Data validação <span id="seta-dataValidacao" class="text-slate-400"></span></th>
-            <th class="cursor-pointer select-none px-4 py-3 hover:bg-slate-100" onclick="ordenarPor('tecnico')">Técnico <span id="seta-tecnico" class="text-slate-400"></span></th>
-            <th class="px-4 py-3">Observações</th>
-            <th class="px-4 py-3">Contato</th>
-            <th class="px-4 py-3">Login e-mail</th>
-            <th class="px-4 py-3">Senha e-mail</th>
-            <th class="px-4 py-3 text-right">Ações</th>
+          <tr class="border-b border-slate-200 bg-slate-50 text-left text-xs uppercase tracking-wide text-slate-500 whitespace-nowrap">
+            <th class="cursor-pointer select-none px-2 py-2 hover:bg-slate-100" onclick="ordenarPor('cliente')">Cliente <span id="seta-cliente" class="text-slate-400"></span></th>
+            <th class="cursor-pointer select-none px-2 py-2 hover:bg-slate-100" onclick="ordenarPor('org')">Órgão <span id="seta-org" class="text-slate-400"></span></th>
+            <th class="cursor-pointer select-none px-2 py-2 hover:bg-slate-100" onclick="ordenarPor('status')">Status <span id="seta-status" class="text-slate-400"></span></th>
+            <th class="px-2 py-2">Prazo</th>
+            <th class="cursor-pointer select-none px-2 py-2 hover:bg-slate-100" onclick="ordenarPor('dataValidacao')">Data validação <span id="seta-dataValidacao" class="text-slate-400"></span></th>
+            <th class="cursor-pointer select-none px-2 py-2 hover:bg-slate-100" onclick="ordenarPor('tecnico')">Técnico <span id="seta-tecnico" class="text-slate-400"></span></th>
+            <th class="px-2 py-2">Observações</th>
+            <th class="px-2 py-2">Contato</th>
+            <th class="px-2 py-2">Login e-mail</th>
+            <th class="px-2 py-2">Senha e-mail</th>
+            <th class="px-2 py-2 text-right">Ações</th>
           </tr>
         </thead>
         <tbody id="tabelaBody"></tbody>
