@@ -20,7 +20,9 @@ function sanitizePeriodo(src) {
     dataValidacao: sanitizeString(obj.dataValidacao, 20),
     tecnico: sanitizeString(obj.tecnico, 120),
     observacoes: sanitizeString(obj.observacoes, 1000),
-    contato: sanitizeString(obj.contato, 300)
+    contato: sanitizeString(obj.contato, 300),
+    loginEmail: sanitizeString(obj.loginEmail, 200),
+    senhaEmail: sanitizeString(obj.senhaEmail, 200)
   };
 }
 
