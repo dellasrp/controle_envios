@@ -1,29 +1,158 @@
 {
-  "seedVersion": 3,
+  "seedVersion": 5,
   "usuarios": [
     {
       "id": "798de4b3-86be-4d1c-925c-9ebc0c630d58",
       "nome": "Administrador",
       "username": "admin",
       "role": "administrador",
-      "senha": "4f5de143a61b6cd045c4b2788f9a6caf:ffa05d5b1c26b25e4b00e71f4a51969dd7b71b0db1776a2ba0cd240b7a80229ed8b8b43773bb80d39c8fd199f77d4e8fe992fd6454e5d586159bdeaf5395147e",
-      "ativo": true
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "34d0c5b1aacaa86326858c3424aa6cdb:6d5adedd4f403c9ec72772136b26c00c28179a5e04462e23f31ee44ddaf77c81fc3034ffa43236d2cf06717652b295b3a64e9f1d2f74e60399d90dc04fa5a33d"
     },
     {
       "id": "16dcbb81-67de-4bb9-8c7e-ba149607a660",
       "nome": "Diretoria",
       "username": "diretoria",
       "role": "diretoria",
-      "senha": "b2f306aa584ed73e90b02f8ba132a1ac:856c0c19bad2402e3a5a8abf07ad2621967bf0889ff281280ef97980388ee5a3450b28257a59b5965d7ed711e8c5d1c2a526b4559d124dc3c624c040f4f975b9",
-      "ativo": true
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "b2f306aa584ed73e90b02f8ba132a1ac:856c0c19bad2402e3a5a8abf07ad2621967bf0889ff281280ef97980388ee5a3450b28257a59b5965d7ed711e8c5d1c2a526b4559d124dc3c624c040f4f975b9"
     },
     {
       "id": "f92f0de5-cca3-4707-aa51-f6c5485951ac",
       "nome": "Operacional",
       "username": "operacional",
       "role": "operacional",
-      "senha": "c7ff835a596a3b2b4dec573ba24e07c2:33a9b68457a1c3345cf90cb94639864a8b34e2c6f64561588d00a7ac457aa91fed84ccd3deee916c93b358f956a3da2c3a0238e7c76b2ef7912cbbc6460bda23",
-      "ativo": true
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "c7ff835a596a3b2b4dec573ba24e07c2:33a9b68457a1c3345cf90cb94639864a8b34e2c6f64561588d00a7ac457aa91fed84ccd3deee916c93b358f956a3da2c3a0238e7c76b2ef7912cbbc6460bda23"
+    },
+    {
+      "id": "594176bc-731a-461e-812e-79be8e02f4d8",
+      "nome": "Jéssica Brito",
+      "username": "jabrito",
+      "role": "administrador",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "12242ac8f268c31cff23b79a6fccb7fd:b41a8e5e8f27a5bcd72dd6448829c02f77d36215fd0e4a4293d09635c7d115a731fa9e4073cbe20eaa3b285628b41c0840c179b156b3bf6c74b95d04f4338dbe"
+    },
+    {
+      "id": "f36dac22-f382-4444-a820-31c71ae31c74",
+      "nome": "Roseane Molina",
+      "username": "roseane.molina",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "bbcc415b12959476816d2c27daf19c1b:f7cc970bfd4050610ebc99e570770f8d777a010156a36675b7427aac4ec60c614b53d05a5b3e77d2055a5eda75c85b293e7c2020233754aaa51ad46b9ab4a5da"
+    },
+    {
+      "id": "6eccc0ff-d92d-4daa-93e9-2d1c11affd94",
+      "nome": "Jéssica Cruz",
+      "username": "jjcruz",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "b054dfcf2f8e8a715d308804bceea7d4:900d127b10752cd7c4800cc235d614601560f4aa366c9034dae4c5504f593c7bb14ea8ae2ebd718a667b52e220b1fd79f1caec16bfa583a6aab3557edff14336"
+    },
+    {
+      "id": "fc75a6e0-d0e4-493c-a27e-71511f5d7e3e",
+      "nome": "Jacqueline Rodrigues Oliveira",
+      "username": "jroliveira",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "a44404b6d82987abfd6910dc0f36484e:d75cf922e28b6cc2cb6e5cca2a6584f0e42964cfb9d411d58156ee877bda263b279b016124135e828517d86b44617eb2d24b2e5caddd5fdda28943d45159b95d"
+    },
+    {
+      "id": "79a690fd-c597-492e-b8f1-b55678790922",
+      "nome": "Rodrigo Festuccia Toneli",
+      "username": "rftoneli",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "eca1e229ecb2df1807de392a829285c7:427dcc2e2ae242f47f071a4b42cf72c2ee67eb8b6ebc93811a36d5f62feabae20b598c685a1fede12934e3ec76329d02c813c8e9e54c900de49a25bd62260739"
+    },
+    {
+      "id": "1d5d1aca-3ab0-4db0-9e20-59f706f03e00",
+      "nome": "Gabriel de Oliveira Souza",
+      "username": "gosouza",
+      "role": "administrador",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "9c7c22920ad014ed983fd02bcdff1eef:59a18d52df9155e76c1fbf7a037a45be70fdbc2719b7aa386eb251d1044e634f9c17d0fcf80bc661fd6ffe0855bf7387913c3f70744a3707086f8da6e87ca04d"
+    },
+    {
+      "id": "0d292f87-2a4b-4ef3-ad43-887f56949b8a",
+      "nome": "Sérgio Donizete Procópio",
+      "username": "soprocopio",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "8a8b40320f7760b487bc667f539a12af:79c84794bab0c9ae41d593ee64096fa52d8fa5470d2349638c6b2909aba1752252563b3d6caf8596d0b9c357bdb5848b43f40c733e48ac1b0abd6fc4cf860ea7"
+    },
+    {
+      "id": "ddedf3d2-216c-4afe-b12c-e3f1700f8c4d",
+      "nome": "Willian Francelino",
+      "username": "wsfrancelino",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "046ffda64f19599f83b4f81e93c3af10:714dd2b7d17ebefeac7b614f2025ae56505531fab87ea885cc023691833ea7e0b287bbe5d53cee56c96eb840606b567a8c128d9f971d4add04fe05b7eb81515d"
+    },
+    {
+      "id": "74241d1a-582f-4f47-bf9e-98600afedcef",
+      "nome": "Marcelo Reis da Silva",
+      "username": "mrsilva",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "70fb805fa39ef16b4fcf61d388c5ef3a:8f041bdb89aea1cd8648088efb40b96f279a49b134a807ecd7b1d7a6bf26d77661271e35f4eb4a6176674ecf1bd7da6688e1d3bb65a4ac9557f61f03e73cd799"
+    },
+    {
+      "id": "841e014c-8983-418d-b443-7d708dbe00d6",
+      "nome": "Luiz Gustavo Vittorazzi",
+      "username": "lgvittorazzi",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "4ddf891cc208ec34cfda3f0b860ed970:51eb5c2fa951d90424d6b80f190d0a053cc2e33ac37dc29163a9d6b320dc0d9c1b31d7285036d891ea18db2865a0e6c4c2e6f3368caa7eba4b26576975355424"
+    },
+    {
+      "id": "ce07d6ed-188c-45de-a216-94f6ccd056c1",
+      "nome": "Gabriel Toledo",
+      "username": "gmtoledo",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": false,
+      "senha": "4e5205bfb26f8efbea9699f217593560:c86f02562029142d65be7a9431dc5e3594d828a41749fafc74a2ce09b65cdd87248365fc809cfaa9b163f044e06ece987745839d7ef2ee3fe4dc5361c70e29a3"
+    },
+    {
+      "id": "e42eb7a2-28fc-42c1-9930-79e2fe221242",
+      "nome": "Larissa Silva",
+      "username": "lcsilva",
+      "role": "administrador",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "dc0134279c0831e0160c99bb1c9666a0:3d10818bf1238c683feb1f5612412f4d3dc12f4436698981512ec9ee9e816177f06ddf04ceb2d292f7a2e907c540efb6814c8db7a1d3d8f4485ca5655610b4ef"
+    },
+    {
+      "id": "3d6d8e21-3f59-4e24-962b-cf5281db165b",
+      "nome": "Manoel Ribeiro",
+      "username": "manoel.ribeiro",
+      "role": "administrador",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "eaa7a430fe62aeddb9174a0c05532641:7cbb465d870676456e11ee0ec887b6f12720103dc11891a9d426b772b466f347a052d053c33a3d97344c3dd3bf0227d86e7e31cc4a961cf4196fcd4e21979740"
+    },
+    {
+      "id": "2df1fae2-da0b-42b4-be05-4c81852d5139",
+      "nome": "Suporte CP",
+      "username": "suporte",
+      "role": "operacional",
+      "ativo": true,
+      "mustChangePassword": true,
+      "senha": "6778c6dec29f4673e085251273eb7159:2c6a6f0bfab3c212cf67d61500ee7fb023ce96c47d83b3612494c301f7fa005a9fd6f11b4fe5cb2d3c1d47b550ef0e1e22a6e934c58052ee1f08ab8a8a34b5c2"
     }
   ],
   "prazos": {
@@ -69,13 +198,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2025-02-26",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2025-02-26",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Carolina",
@@ -168,6 +298,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2025-02-26",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -267,13 +403,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2025-02-26",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2025-02-26",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-17",
             "tecnico": "Carolina",
@@ -366,6 +503,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2025-02-26",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Gabriel Toledo",
@@ -465,13 +608,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Carolina",
@@ -564,6 +708,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Gabriel Souza",
@@ -663,13 +813,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "DAE",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Carolina",
@@ -762,6 +913,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Souza",
@@ -861,13 +1018,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND.SAÚDE",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Marcelo",
@@ -960,6 +1118,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Gabriel Souza / Cliente",
@@ -1059,13 +1223,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "GUARDA",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Carolina",
@@ -1158,6 +1323,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Gabriel Souza",
@@ -1257,13 +1428,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "INSTITUTO",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Jéssica Brito",
@@ -1356,6 +1528,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Gabriel Souza",
@@ -1455,13 +1633,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-07",
             "tecnico": "Vittorazzi / Gabriel",
@@ -1554,6 +1733,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Gabriel Souza",
@@ -1653,13 +1838,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-16",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-16",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-02-07",
             "tecnico": "Carol/Cliente",
@@ -1752,6 +1938,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-16",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -1851,13 +2043,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-04-06",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-04-06",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-19",
             "tecnico": "Jéssica Brito",
@@ -1950,6 +2143,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-04-06",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-07",
             "tecnico": "Gabriel Toledo",
@@ -2049,13 +2248,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Roseane",
@@ -2148,6 +2348,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Willian",
@@ -2247,13 +2453,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "DAE",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Roseane",
@@ -2346,6 +2553,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Willian",
@@ -2445,13 +2658,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "EMDURB",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Roseane",
@@ -2544,6 +2758,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian",
@@ -2643,13 +2863,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUNPREV",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-05",
             "tecnico": "Roseane",
@@ -2742,6 +2963,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Roseane",
@@ -2841,13 +3068,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Roseane",
@@ -2940,6 +3168,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian",
@@ -3039,13 +3273,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Alexandre",
@@ -3138,6 +3373,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -3237,13 +3478,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Alexandre",
@@ -3336,6 +3578,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Marcelo",
@@ -3435,13 +3683,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-17",
             "tecnico": "Alexandre",
@@ -3534,6 +3783,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Marcelo",
@@ -3633,13 +3888,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-08-30",
             "tecnico": "Outra Empresa",
@@ -3732,6 +3988,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-28",
             "tecnico": "Jéssica Brito",
@@ -3831,13 +4093,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Vittorazzi",
@@ -3930,6 +4193,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Rodrigo / Gabriel Souza",
@@ -4029,13 +4298,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-03-12",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-12",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "",
             "tecnico": "",
@@ -4128,6 +4398,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-12",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-27",
             "tecnico": "Santana / Gabriel Souza",
@@ -4227,13 +4503,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-08-30",
             "tecnico": "Outra Empresa",
@@ -4326,6 +4603,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Roseane",
@@ -4425,13 +4708,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Cliente",
@@ -4524,6 +4808,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Toledo / Cliente",
@@ -4623,13 +4913,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Cliente",
@@ -4722,6 +5013,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Cliente",
@@ -4821,13 +5118,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Carolina",
@@ -4920,6 +5218,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-09",
             "tecnico": "Gabriel Toledo/ Jéssica Cruz",
@@ -5019,13 +5323,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Cliente/Larissa",
@@ -5118,6 +5423,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Gabriel Toledo",
@@ -5217,13 +5528,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Cliente",
@@ -5316,6 +5628,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-09",
             "tecnico": "Gabriel Toledo/ Jéssica Cruz",
@@ -5415,13 +5733,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CMT",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Santana",
@@ -5514,6 +5833,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Santana",
@@ -5613,13 +5938,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Santana",
@@ -5712,6 +6038,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-26",
             "tecnico": "Marcelo",
@@ -5811,13 +6143,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CMT",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Larissa",
@@ -5910,6 +6243,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Marcelo",
@@ -6009,13 +6348,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Santana",
@@ -6108,6 +6448,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Marcelo",
@@ -6207,13 +6553,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Marcelo",
@@ -6306,6 +6653,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-30",
             "tecnico": "Marcelo",
@@ -6405,13 +6758,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-05",
             "tecnico": "Carolina",
@@ -6504,6 +6858,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Willian",
@@ -6603,13 +6963,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Jéssica Brito",
@@ -6702,6 +7063,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian / Gabriel Souza",
@@ -6801,13 +7168,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Gabriel",
@@ -6900,6 +7268,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian / Marcelo",
@@ -6999,13 +7373,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Cliente",
@@ -7098,6 +7473,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Willian",
@@ -7197,13 +7578,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Gabriel",
@@ -7296,6 +7678,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian / Gabriel Toledo",
@@ -7395,13 +7783,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "SergioP",
@@ -7494,6 +7883,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-05",
             "tecnico": "SérgioP",
@@ -7593,13 +7988,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-04",
             "tecnico": "SergioP",
@@ -7692,6 +8088,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-15",
             "tecnico": "SérgioP",
@@ -7791,13 +8193,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "SergioP",
@@ -7890,6 +8293,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "SérgioP",
@@ -7989,13 +8398,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "SergioP",
@@ -8088,6 +8498,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "SérgioP",
@@ -8187,13 +8603,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-07",
             "tecnico": "Gabriel / Cliente",
@@ -8286,6 +8703,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Marcelo",
@@ -8385,13 +8808,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Carolina/Cliente",
@@ -8484,6 +8908,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Marcelo",
@@ -8583,13 +9013,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-17",
             "tecnico": "Jéssica Brito",
@@ -8682,6 +9113,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-23",
             "tecnico": "Marcelo",
@@ -8781,13 +9218,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-14",
             "tecnico": "Marcelo",
@@ -8880,6 +9318,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Marcelo",
@@ -8979,13 +9423,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-07",
             "tecnico": "empresa anterior",
@@ -9078,6 +9523,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -9177,13 +9628,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Daiane",
@@ -9276,6 +9728,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9375,13 +9833,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Daiane",
@@ -9474,6 +9933,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9573,13 +10038,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Daiane",
@@ -9672,6 +10138,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9771,13 +10243,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Daiane",
@@ -9870,6 +10343,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9969,13 +10448,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-05-05",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-05-05",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-04-23",
             "tecnico": "Daiane",
@@ -10068,6 +10548,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-05-05",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-07",
             "tecnico": "Jacque",
@@ -10167,13 +10653,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Marcelo",
@@ -10266,6 +10753,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -10365,13 +10858,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "Autarquia",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-04-23",
             "tecnico": "empresa anterior",
@@ -10464,6 +10958,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-12",
             "tecnico": "SérgioP",
@@ -10563,13 +11063,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "SergioP",
@@ -10662,6 +11163,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "SérgioP",
@@ -10761,13 +11268,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-01-01",
             "tecnico": "-",
@@ -10860,6 +11368,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "SérgioP",
@@ -10959,13 +11473,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-14",
             "tecnico": "cliente",
@@ -11058,6 +11573,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-05",
             "tecnico": "SérgioP",
@@ -11097,8 +11618,8 @@
           "07": {
             "dataValidacao": "",
             "tecnico": "",
-            "observacoes": "a partir deste mês, o contábil deve ser gerado, os balancetes isolados deverão ser transmitidos mesmo vazios para que o cliente solicite ao audesp, o armazenamento manual citando ID do pacote transmitido, já que a entidade Fumares foi extinta.",
-            "contato": ""
+            "observacoes": "no SMARcp, julho foi gerado e consistido. Os arquivos xml gerados e transmitidos ao audesp onde, os cadastros contábeis foram armazenados de imediato, os balancetes isolados como esperado, foram rejeitados por estarem vazios. Foi encaminhado e-mail ao cliente informando a ele o ID do pacote 12642490, objetivando abertura de chamado junto ao audesp solicitando validação manual. Esta Fundação foi extinta, sendo junho/2026 o último mês enviado contendo movimentação. De julho a novembro, os balancetes serão encaminhados vazios e deverão ser validados manual através de pedido por chamado no audesp. OBS: o cliente foi informado por e-mail também, que está inadimplente com a conciliação bancária e atualização do cadastro geral de entidades mensal, para as providências e regularizar estas prestações faltantes. O cliente foi orientado a solicitar auxilios necessários à SMARapd com a abertura de chamados.",
+            "contato": "Issamo Sasaki - Fundação Fumares e Érica Aparecida - PM Marília"
           },
           "08": {
             "dataValidacao": "",
@@ -11157,13 +11678,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "SergioP",
@@ -11256,6 +11778,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "SérgioP",
@@ -11355,13 +11883,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-02-28",
             "tecnico": "SergioP",
@@ -11454,6 +11983,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "SérgioP",
@@ -11553,13 +12088,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "SergioP",
@@ -11652,6 +12188,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-12",
             "tecnico": "SérgioP",
@@ -11691,7 +12233,7 @@
           "07": {
             "dataValidacao": "",
             "tecnico": "",
-            "observacoes": "",
+            "observacoes": "o cliente solicitou através de chamado C260720-213, a exclusão das anulações de pagamento, liquidação e do empenho 9583/2026. Os registros foram recuperados pela colaboradora Aline. Vida que segue.",
             "contato": ""
           },
           "08": {
@@ -11751,13 +12293,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-05",
             "tecnico": "Carolina",
@@ -11850,6 +12393,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -11949,13 +12498,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Marcelo",
@@ -12048,6 +12598,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Marcelo",
@@ -12147,13 +12703,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-09-30",
             "tecnico": "Outra Empresa",
@@ -12246,6 +12803,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Roseane",
@@ -12345,13 +12908,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "IPM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-09-30",
             "tecnico": "Outra Empresa",
@@ -12444,6 +13008,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane",
@@ -12543,13 +13113,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Jéssica Brito",
@@ -12642,6 +13213,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel / Gabriel / Marcelo",
@@ -12741,13 +13318,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "SAE",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-08-30",
             "tecnico": "Outra Empresa",
@@ -12840,6 +13418,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-12",
             "tecnico": "Roseane",
@@ -12939,13 +13523,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-06",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "",
             "tecnico": "",
@@ -13038,6 +13623,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian",
@@ -13137,13 +13728,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-06",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Willian",
@@ -13236,6 +13828,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-25",
             "tecnico": "Willian",
@@ -13335,13 +13933,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "Carolina",
@@ -13434,6 +14033,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -13533,13 +14138,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Alexandre/Cliente",
@@ -13632,6 +14238,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Toledo",
@@ -13731,13 +14343,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Alexandre / Marcelo",
@@ -13830,6 +14443,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Gabriel Toledo",
@@ -13929,13 +14548,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Alexandre",
@@ -14028,6 +14648,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -14127,13 +14753,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Gabriel",
@@ -14226,6 +14853,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Gabriel Souza",
@@ -14325,13 +14958,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "-",
             "tecnico": "Cliente",
@@ -14424,6 +15058,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Cliente",
@@ -14523,13 +15163,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-18",
             "tecnico": "Gabriel",
@@ -14622,6 +15263,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-23",
             "tecnico": "Gabriel Souza",
@@ -14721,13 +15368,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Gabriel",
@@ -14820,6 +15468,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Gabriel Souza",
@@ -14919,13 +15573,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-10",
             "tecnico": "SergioP",
@@ -15018,6 +15673,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "SérgioP",
@@ -15117,13 +15778,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "INSTITUTO",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-07",
             "tecnico": "SergioP",
@@ -15216,6 +15878,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "SérgioP",
@@ -15315,13 +15983,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-20",
             "tecnico": "SérgioP",
@@ -15414,6 +16083,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "SérgioP",
@@ -15513,13 +16188,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-07",
             "tecnico": "Gabriel",
@@ -15612,6 +16288,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Gabriel Souza",
@@ -15711,13 +16393,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Gabriel",
@@ -15810,6 +16493,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Souza",
@@ -15909,13 +16598,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Gabriel",
@@ -16008,6 +16698,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Souza",
@@ -16039,7 +16735,7 @@
             "contato": "C260615-295"
           },
           "06": {
-            "dataValidacao": "",
+            "dataValidacao": "2026-07-15",
             "tecnico": "Gabriel Souza / Marcelo",
             "observacoes": "Consistido e liberado para o cliente enviar em 15/07",
             "contato": ""
@@ -16107,13 +16803,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Jacque",
@@ -16206,6 +16903,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Gabriel Toledo",
@@ -16305,13 +17008,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-05",
             "tecnico": "Alexandre",
@@ -16404,6 +17108,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Gabriel Toledo",
@@ -16503,13 +17213,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Carolina",
@@ -16602,6 +17313,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -16701,13 +17418,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-20",
             "tecnico": "Carol/Cliente",
@@ -16800,6 +17518,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Santana",
@@ -16899,13 +17623,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Carolina",
@@ -16998,6 +17723,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Santana / Gabriel Souza",
@@ -17097,13 +17828,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Jéssica Brito",
@@ -17196,6 +17928,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Roseane",
@@ -17295,13 +18033,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "IPRP",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Jéssica Brito/Larissa",
@@ -17394,6 +18133,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Roseane",
@@ -17493,13 +18238,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Jéssica Brito/Larissa",
@@ -17592,6 +18338,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane",
@@ -17691,13 +18443,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-07",
             "tecnico": "Jéssica Brito",
@@ -17790,6 +18543,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -17889,13 +18648,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "DAE",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Jéssica Brito",
@@ -17988,6 +18748,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Roseane",
@@ -18087,13 +18853,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Santana",
@@ -18186,6 +18953,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -18285,13 +19058,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-05",
             "tecnico": "Carolina",
@@ -18384,6 +19158,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Willian",
@@ -18483,13 +19263,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Willian",
@@ -18582,6 +19363,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-24",
             "tecnico": "Willian",
@@ -18681,13 +19468,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Gabriel",
@@ -18780,6 +19568,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-15",
             "tecnico": "Willian",
@@ -18879,13 +19673,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-11",
             "tecnico": "Willian",
@@ -18978,6 +19773,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Willian",
@@ -19077,13 +19878,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Santana",
@@ -19176,6 +19978,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -19275,13 +20083,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Carolina",
@@ -19374,6 +20183,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -19473,13 +20288,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-12",
             "tecnico": "Jacque",
@@ -19572,6 +20388,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -19671,13 +20493,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Carolina",
@@ -19770,6 +20593,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -19869,13 +20698,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-13",
             "tecnico": "Carolina",
@@ -19968,6 +20798,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -20067,13 +20903,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Marcelo",
@@ -20166,6 +21003,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -20265,13 +21108,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "CM",
-      "abertura": {
-        "data": "2026-05-14",
-        "tecnico": "Empresa Antiga",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "",
             "tecnico": "",
@@ -20364,6 +21208,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-14",
             "tecnico": "Empresa Antiga",
@@ -20463,13 +21313,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "PM",
-      "abertura": {
-        "data": "2026-04-02",
-        "tecnico": "Roseane",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-04-02",
+            "tecnico": "Roseane",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "",
             "tecnico": "",
@@ -20562,6 +21413,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-04-02",
+            "tecnico": "Roseane",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-16",
             "tecnico": "Roseane",
@@ -20661,13 +21518,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "UNI",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Empresa Antiga",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "",
             "tecnico": "",
@@ -20760,6 +21618,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-02-28",
             "tecnico": "Empresa Antiga",
@@ -20859,13 +21723,14 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-05-14",
-        "tecnico": "Empresa Antiga",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "",
             "tecnico": "",
@@ -20958,6 +21823,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-14",
             "tecnico": "Empresa Antiga",
@@ -21057,13 +21928,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-06",
             "tecnico": "Marcelo",
@@ -21156,6 +22028,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Marcelo",
@@ -21255,13 +22133,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-14",
             "tecnico": "Santana",
@@ -21354,6 +22233,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Santana",
@@ -21453,13 +22338,14 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2025-03-05",
             "tecnico": "Carolina",
@@ -21552,6 +22438,12 @@
           }
         },
         "2026": {
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Marcelo",
