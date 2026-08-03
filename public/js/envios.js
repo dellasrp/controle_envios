@@ -281,6 +281,8 @@ function prepararLista() {
       tecnico: dado.tecnico || '',
       observacoes: dado.observacoes || '',
       contato: dado.contato || '',
+      loginEmail: dado.loginEmail || '',
+      senhaEmail: dado.senhaEmail || '',
       raw: c
     };
   });
@@ -313,7 +315,7 @@ function render() {
   if (linhas.length === 0) {
     const tr = document.createElement('tr');
     const cell = td('Nenhum cliente encontrado.', 'text-slate-400');
-    cell.colSpan = 9;
+    cell.colSpan = 11;
     tr.appendChild(cell);
     tbody.appendChild(tr);
     return;
@@ -330,6 +332,8 @@ function render() {
     tr.appendChild(td(l.tecnico || '-'));
     tr.appendChild(td(l.observacoes || '-', 'max-w-xs text-slate-600'));
     tr.appendChild(td(l.contato || '-'));
+    tr.appendChild(td(l.loginEmail || '-'));
+    tr.appendChild(td(l.senhaEmail || '-'));
     tr.appendChild(tdAcoes(l.raw));
     tbody.appendChild(tr);
   }
@@ -360,6 +364,8 @@ function abrirModal(id) {
   setVal('f_m_tecnico', dado.tecnico);
   setVal('f_m_obs', dado.observacoes);
   setVal('f_m_contato', dado.contato);
+  setVal('f_m_loginEmail', dado.loginEmail);
+  setVal('f_m_senhaEmail', dado.senhaEmail);
 
   const modal = document.getElementById('modal');
   modal.classList.remove('hidden');
@@ -413,7 +419,9 @@ async function salvar() {
     dataValidacao: val('f_m_data'),
     tecnico: val('f_m_tecnico'),
     observacoes: val('f_m_obs'),
-    contato: val('f_m_contato')
+    contato: val('f_m_contato'),
+    loginEmail: val('f_m_loginEmail'),
+    senhaEmail: val('f_m_senhaEmail')
   };
 
 
