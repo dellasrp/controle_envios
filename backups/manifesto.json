@@ -1,6 +1,6 @@
 {
-  "geradoEm": "2026-08-03T06:16:14Z",
-  "geradoEmBR": "03/08/2026 03:16",
+  "geradoEm": "2026-08-04T05:42:37Z",
+  "geradoEmBR": "04/08/2026 02:42",
   "fonte": "https://controleenvios.netlify.app",
   "arquivos": {
     "database.json": "Banco de dados completo (clientes, prazos, usuários com senhas)",
@@ -8,9 +8,9 @@
     "manifesto.json": "Este arquivo — metadados do backup"
   },
   "totais": {
-    "clientes": 109,
+    "clientes": 112,
     "usuarios": 17,
-    "registrosAuditoria": 11
+    "registrosAuditoria": 135
   },
   "comoRestaurar": "Acesse o sistema como Administrador, vá em Usuários → Importar backup e selecione o arquivo database.json"
 }

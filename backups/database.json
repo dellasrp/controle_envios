@@ -1,6 +1,6 @@
 {
-  "exportadoEm": "2026-08-03T06:16:12.643Z",
-  "seedVersion": 3,
+  "exportadoEm": "2026-08-04T05:42:35.891Z",
+  "seedVersion": 5,
   "prazos": {
     "2025": {
       "10": "2025-11-24",
@@ -25,6 +25,7 @@
       "12": null,
       "13": null,
       "14": null,
+      "abertura": "2026-03-31",
       "01": "2026-03-19",
       "02": "2026-04-06",
       "03": "2026-04-22",
@@ -44,11 +45,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2025-02-26",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "ericacbr@yahoo.com.br",
+      "senhaEmail": "orappa",
       "periodos": {
         "2025": {
           "10": {
@@ -79,6 +77,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -173,6 +177,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -218,7 +228,7 @@
           "08": {
             "dataValidacao": "",
             "tecnico": "",
-            "observacoes": "",
+            "observacoes": "TESTE_QA_TEMP_EDIT",
             "contato": ""
           },
           "09": {
@@ -242,11 +252,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2025-02-26",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "oliveira.e_silva@hotmail.com",
+      "senhaEmail": "726223",
       "periodos": {
         "2025": {
           "10": {
@@ -278,6 +285,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Victor Rizzo / Débora Oliveira"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-17",
@@ -371,6 +384,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Gabriel Toledo",
@@ -440,11 +459,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "gilberto@camara-americana.sp.gov.br",
+      "senhaEmail": "tce2175",
       "periodos": {
         "2025": {
           "10": {
@@ -475,6 +491,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -569,6 +591,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Gabriel Souza",
@@ -638,11 +666,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "DAE",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "ivan@daeamericana.sp.gov.br",
+      "senhaEmail": "ia120013",
       "periodos": {
         "2025": {
           "10": {
@@ -673,6 +698,12 @@
             "dataValidacao": "2026-02-21",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -767,6 +798,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Souza",
@@ -836,11 +873,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND.SAÚDE",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "lccsilva@smarapd.com.br",
+      "senhaEmail": "Larissa16@",
       "periodos": {
         "2025": {
           "10": {
@@ -871,6 +905,12 @@
             "dataValidacao": "2026-02-20",
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -965,6 +1005,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Gabriel Souza / Cliente",
@@ -1034,11 +1080,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "GUARDA",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@gama.sp.gov.br",
+      "senhaEmail": "070520",
       "periodos": {
         "2025": {
           "10": {
@@ -1069,6 +1112,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -1163,6 +1212,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Gabriel Souza",
@@ -1232,11 +1287,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "INSTITUTO",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "afinanceiro@ameriprev.com.br",
+      "senhaEmail": "230586",
       "periodos": {
         "2025": {
           "10": {
@@ -1267,6 +1319,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -1361,6 +1419,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Gabriel Souza",
@@ -1430,11 +1494,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "smarcp.consultoria@smarapd.com.br",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "10": {
@@ -1465,6 +1526,12 @@
             "dataValidacao": "2026-02-21",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -1559,6 +1626,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Gabriel Souza",
@@ -1628,11 +1701,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-16",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "willian.francelino@smarapd.com.br",
+      "senhaEmail": "$marapd2011",
       "periodos": {
         "2025": {
           "10": {
@@ -1664,6 +1734,12 @@
             "tecnico": "Gabriel Toledo / Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Roberta Cardoso"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-02-07",
@@ -1757,6 +1833,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -1826,11 +1908,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-04-06",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "audesp@angatuba.sp.gov.br",
+      "senhaEmail": "climeni316622",
       "periodos": {
         "2025": {
           "10": {
@@ -1862,6 +1941,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Armazenado",
             "contato": "C260324-255 / C260303-179 / C260324-027 / C260323-268"
+          },
+          "abertura": {
+            "dataValidacao": "2026-04-06",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-19",
@@ -1955,6 +2040,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-04-06",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-07",
             "tecnico": "Gabriel Toledo",
@@ -2024,11 +2115,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "10": {
@@ -2060,6 +2148,12 @@
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Consultado em 25/02 e 26/02 o cliente ainda não enviou. Feito novamente a cobrança C260213-076"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -2153,6 +2247,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Willian",
@@ -2222,11 +2322,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "DAE",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "lccsilva@smarapd.com.br",
+      "senhaEmail": "Larissa16@",
       "periodos": {
         "2025": {
           "10": {
@@ -2258,6 +2355,12 @@
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "liberado para o cliente enviar pois não temos autorização"
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -2351,6 +2454,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Willian",
@@ -2420,11 +2529,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "EMDURB",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "10": {
@@ -2455,6 +2561,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -2549,6 +2661,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian",
@@ -2618,11 +2736,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUNPREV",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -2653,6 +2766,12 @@
             "dataValidacao": "2025-02-16",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -2747,6 +2866,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Roseane",
@@ -2816,11 +2941,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "ricardosenfuegos@bauru.sp.gov.br",
+      "senhaEmail": "6810lais",
       "periodos": {
         "2025": {
           "10": {
@@ -2851,6 +2973,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -2945,6 +3073,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian",
@@ -3014,11 +3148,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "alexandre@bertprev.sp.gov.br",
+      "senhaEmail": "95585199",
       "periodos": {
         "2025": {
           "10": {
@@ -3049,6 +3180,12 @@
             "dataValidacao": "2026-02-27",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Marcelo",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -3143,6 +3280,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Marcelo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -3212,11 +3355,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "alexandre@bertioga.sp.leg.br",
+      "senhaEmail": "95585199",
       "periodos": {
         "2025": {
           "10": {
@@ -3247,6 +3387,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -3341,6 +3487,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Marcelo",
@@ -3410,11 +3562,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "andressa_5200@bertioga.sp.gov.br",
+      "senhaEmail": "13011406",
       "periodos": {
         "2025": {
           "10": {
@@ -3446,6 +3595,12 @@
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "teste de geracao ok"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Marcelo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-17",
@@ -3539,6 +3694,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Marcelo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Marcelo",
@@ -3608,11 +3769,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "osliantonio@hotmail.com",
+      "senhaEmail": "casp2703",
       "periodos": {
         "2025": {
           "10": {
@@ -3643,6 +3801,12 @@
             "dataValidacao": "2026-04-08",
             "tecnico": "Roseane",
             "observacoes": "Documento Armazenado pelo TCE",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -3737,6 +3901,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-28",
             "tecnico": "Jéssica Brito",
@@ -3806,11 +3976,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "luizantonio.cezar@hotmail.com",
+      "senhaEmail": "27215895",
       "periodos": {
         "2025": {
           "10": {
@@ -3841,6 +4008,12 @@
             "dataValidacao": "2026-03-02",
             "tecnico": "Rodrigo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Roseane",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -3935,6 +4108,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-05-31",
+            "tecnico": "Roseane",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Rodrigo / Gabriel Souza",
@@ -4004,11 +4183,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-03-12",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -4039,6 +4213,12 @@
             "dataValidacao": "",
             "tecnico": "",
             "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-12",
+            "tecnico": "Santana",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -4131,6 +4311,12 @@
             "dataValidacao": "",
             "tecnico": "",
             "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-12",
+            "tecnico": "Santana",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -4202,11 +4388,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "edimur@camarabirigui.sp.gov.br",
+      "senhaEmail": "bgi1922",
       "periodos": {
         "2025": {
           "10": {
@@ -4237,6 +4420,12 @@
             "dataValidacao": "2026-02-17",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -4331,6 +4520,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Roseane",
@@ -4400,11 +4595,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "ass.gabinete@camaracravinhos.sp.gov.br",
+      "senhaEmail": "vado51",
       "periodos": {
         "2025": {
           "10": {
@@ -4436,6 +4628,12 @@
             "tecnico": "Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Consulta Audesp 23/02/2026"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -4529,6 +4727,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Toledo / Cliente",
@@ -4598,11 +4802,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mauro_iaroszeski@yahoo.com.br",
+      "senhaEmail": "Gilberto05",
       "periodos": {
         "2025": {
           "10": {
@@ -4634,6 +4835,12 @@
             "tecnico": "Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Consulta Audesp 17/02/2026"
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -4727,6 +4934,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Cliente",
@@ -4796,11 +5009,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mauro_iaroszeski@yahoo.com.br",
+      "senhaEmail": "Gilberto05",
       "periodos": {
         "2025": {
           "10": {
@@ -4832,6 +5042,12 @@
             "tecnico": "Gabriel Toledo / Gabriel Souza",
             "observacoes": "Documento Armazenado pelo TCE",
             "contato": "#TEC0000179332 / C260305-048"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -4925,6 +5141,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-09",
             "tecnico": "Gabriel Toledo/ Jéssica Cruz",
@@ -4994,11 +5216,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@saaecravinhos.sp.gov.br",
+      "senhaEmail": "usr63631",
       "periodos": {
         "2025": {
           "10": {
@@ -5030,6 +5249,12 @@
             "tecnico": "Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Consulta Audesp 17/02/2026"
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -5123,6 +5348,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Gabriel Toledo",
@@ -5192,11 +5423,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidadepcontas@cravinhos.sp.gov.br",
+      "senhaEmail": "Crav2025@2025",
       "periodos": {
         "2025": {
           "10": {
@@ -5228,6 +5456,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Armazenado",
             "contato": "C260305-048"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -5321,6 +5555,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-04-09",
             "tecnico": "Gabriel Toledo/ Jéssica Cruz",
@@ -5390,11 +5630,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CMT",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -5425,6 +5660,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Santana / Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -5519,6 +5760,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Santana",
@@ -5588,11 +5835,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -5623,6 +5865,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -5717,6 +5965,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-26",
             "tecnico": "Marcelo",
@@ -5786,11 +6040,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CMT",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "10": {
@@ -5821,6 +6072,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -5915,6 +6172,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Marcelo",
@@ -5984,11 +6247,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "elaine@caixacubatao.sp.gov.br",
+      "senhaEmail": "cnw57470",
       "periodos": {
         "2025": {
           "10": {
@@ -6019,6 +6279,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Marcelo",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -6113,6 +6379,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Marcelo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Marcelo",
@@ -6182,11 +6454,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -6217,6 +6484,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -6311,6 +6584,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-30",
             "tecnico": "Marcelo",
@@ -6380,11 +6659,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
+      "loginEmail": "camara@camaraitapolis.sp.gov.br",
+      "senhaEmail": "camara832",
       "periodos": {
         "2025": {
           "10": {
@@ -6409,13 +6685,19 @@
             "dataValidacao": "2026-02-10",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
-            "contato": "C260205-179\nC260206-211"
+            "contato": "C260205-179C260206-211"
           },
           "14": {
             "dataValidacao": "2026-02-19",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
-            "contato": "C260205-179\nC260206-211"
+            "contato": "C260205-179C260206-211"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-05",
@@ -6509,6 +6791,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Willian",
@@ -6578,11 +6866,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
+      "loginEmail": "jefte2santos@gmail.com",
+      "senhaEmail": "itapolis2021",
       "periodos": {
         "2025": {
           "10": {
@@ -6614,6 +6899,12 @@
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "estornar em janeiro 2026 o lançamento em 31/12/2025  mês 12, evento 7.6.01.10.00000000000000. Usar o evento 7.6.01.11.00000000000000"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -6707,6 +6998,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian / Gabriel Souza",
@@ -6776,11 +7073,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
+      "loginEmail": "contabilidade.saaei@gmail.com",
+      "senhaEmail": "c1a2b3147",
       "periodos": {
         "2025": {
           "10": {
@@ -6812,6 +7106,12 @@
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "cliente ciente do envio"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -6905,6 +7205,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian / Marcelo",
@@ -6974,11 +7280,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
+      "loginEmail": "leonardoazevedo@camaraitatiba.sp.gov.br",
+      "senhaEmail": "le38ja40",
       "periodos": {
         "2025": {
           "10": {
@@ -7010,6 +7313,12 @@
             "tecnico": "Cliente / Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "C260206-303 - consistido sem erros e/ou inconsistencias e eliminado para o cliente gerar e atestar o erro"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -7103,6 +7412,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Willian",
@@ -7172,11 +7487,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": ""
-      },
+      "loginEmail": "cdivino@financas.itatiba.sp.gov.br",
+      "senhaEmail": "290417Rc",
       "periodos": {
         "2025": {
           "10": {
@@ -7207,6 +7519,12 @@
             "dataValidacao": "2026-02-25",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -7301,6 +7619,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian / Gabriel Toledo",
@@ -7370,11 +7694,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "secretaria@camaraituverava.sp.gov.br",
+      "senhaEmail": "2845",
       "periodos": {
         "2025": {
           "10": {
@@ -7406,6 +7727,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Valter"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -7499,6 +7826,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-05",
             "tecnico": "SérgioP",
@@ -7568,11 +7901,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "waldemiramaro1965@gmail.com",
+      "senhaEmail": "@#buriti2016",
       "periodos": {
         "2025": {
           "10": {
@@ -7604,6 +7934,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Amaro"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-04",
@@ -7697,6 +8033,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "SérgioP",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-15",
             "tecnico": "SérgioP",
@@ -7766,11 +8108,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mateus@ituverava.sp.gov.br",
+      "senhaEmail": "pmi6583001",
       "periodos": {
         "2025": {
           "10": {
@@ -7802,6 +8141,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Mateus"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -7895,6 +8240,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "SérgioP",
@@ -7964,11 +8315,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabil@saaeituverava.sp.gov.br",
+      "senhaEmail": "91257536",
       "periodos": {
         "2025": {
           "10": {
@@ -8000,6 +8348,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Sônia"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -8093,6 +8447,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "SérgioP",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "SérgioP",
@@ -8162,11 +8522,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -8198,6 +8553,12 @@
             "tecnico": "Marcelo / Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "consulta audesp em 25/02"
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-07",
@@ -8291,6 +8652,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Marcelo",
@@ -8360,11 +8727,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -8395,6 +8757,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -8489,6 +8857,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Marcelo",
@@ -8558,11 +8932,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "talita.alonso@jaboticabal.sp.gov.br",
+      "senhaEmail": "alonso88",
       "periodos": {
         "2025": {
           "10": {
@@ -8594,6 +8965,11 @@
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": ""
+          },
+          "abertura": {
+            "data": "",
+            "tecnico": "Marcelo",
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-17",
@@ -8687,6 +9063,11 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "data": "",
+            "tecnico": "Marcelo",
+            "webOuDd": ""
+          },
           "01": {
             "dataValidacao": "2026-03-23",
             "tecnico": "Marcelo",
@@ -8756,11 +9137,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@saaej.sp.gov.br",
+      "senhaEmail": "s@@ej1974",
       "periodos": {
         "2025": {
           "10": {
@@ -8791,6 +9169,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -8885,6 +9269,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Marcelo",
@@ -8954,11 +9344,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "bruno.caruso@jaboticabal.sp.gov.br",
+      "senhaEmail": "bc070686bc",
       "periodos": {
         "2025": {
           "10": {
@@ -8989,6 +9376,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Marcelo",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -9083,6 +9476,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Marcelo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -9152,11 +9551,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -9187,6 +9581,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -9281,6 +9681,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9350,11 +9756,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "secretarioagricultura@luizantonio.sp.gov.br",
+      "senhaEmail": "me1234",
       "periodos": {
         "2025": {
           "10": {
@@ -9385,6 +9788,12 @@
             "dataValidacao": "2026-03-05",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Roseane",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -9479,6 +9888,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Roseane",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9548,11 +9963,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "esporte@luizantonio.sp.gov.br",
+      "senhaEmail": "2128",
       "periodos": {
         "2025": {
           "10": {
@@ -9583,6 +9995,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -9677,6 +10095,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9746,11 +10170,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-03-17",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "",
+      "senhaEmail": "",
       "periodos": {
         "2025": {
           "10": {
@@ -9781,6 +10202,12 @@
             "dataValidacao": "2026-03-05",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -9875,6 +10302,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-17",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane/SergioP",
@@ -9908,8 +10341,8 @@
           "06": {
             "dataValidacao": "",
             "tecnico": "",
-            "observacoes": "Cliente não finalizou a execução - Contato Ana Débora em 24/07",
-            "contato": ""
+            "observacoes": "Cliente não finalizou a execução - Contato Ana Débora em 24/07 - Bom dia Jessica!Espero que este a encontre bem. Em resposta, viemos informar que o mês de junho/2026 da UG 403 encontra-se em atraso devido diferenças nos valores da folha de pagamentos da Smar para a nossa, nosso Departamento Pessoal esta em contato com a SmarRH para acertar essas diferenças de valores primeiro, para podermos posteriormente seguir com a integração da folha.",
+            "contato": "Vanessa - Assessoria Contábil do cliente"
           },
           "07": {
             "dataValidacao": "",
@@ -9944,11 +10377,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-05-05",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@luizantonio.sp.gov.br",
+      "senhaEmail": "pereira1",
       "periodos": {
         "2025": {
           "10": {
@@ -9980,6 +10410,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Armazenado",
             "contato": "C260318-068 / Sonia e Fábio"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-04-23",
@@ -10073,6 +10509,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-07",
             "tecnico": "Jacque",
@@ -10142,11 +10584,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-13",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -10177,6 +10614,12 @@
             "dataValidacao": "2026-03-02",
             "tecnico": "Rodrigo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -10271,6 +10714,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-13",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -10340,11 +10789,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "Autarquia",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@amaemarilia.com.br",
+      "senhaEmail": "Cont85@",
       "periodos": {
         "2025": {
           "10": {
@@ -10376,6 +10822,11 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Renata"
+          },
+          "abertura": {
+            "data": "",
+            "tecnico": "SérgioP",
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-04-23",
@@ -10469,6 +10920,11 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "data": "",
+            "tecnico": "SérgioP",
+            "webOuDd": ""
+          },
           "01": {
             "dataValidacao": "2026-03-12",
             "tecnico": "SérgioP",
@@ -10538,11 +10994,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "steve@camar.sp.gov.br",
+      "senhaEmail": "ssjt8888",
       "periodos": {
         "2025": {
           "10": {
@@ -10574,6 +11027,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Steve Tam"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -10667,6 +11126,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "SérgioP",
@@ -10736,11 +11201,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@daem.com.br",
+      "senhaEmail": "daem@123",
       "periodos": {
         "2025": {
           "10": {
@@ -10772,6 +11234,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Ingrid"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-01-01",
@@ -10865,6 +11333,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "SérgioP",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "SérgioP",
@@ -10934,11 +11408,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -10970,6 +11439,12 @@
             "tecnico": "cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "consultado no audesp em 19/02/2026"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-14",
@@ -11063,6 +11538,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-05",
             "tecnico": "SérgioP",
@@ -11132,11 +11613,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade.fumes@marilia.sp.gov.br",
+      "senhaEmail": "Mari@2000",
       "periodos": {
         "2025": {
           "10": {
@@ -11168,6 +11646,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Maria José"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -11261,6 +11745,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "SérgioP",
@@ -11330,11 +11820,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "financas@ipremm.com.br",
+      "senhaEmail": "Ipre321",
       "periodos": {
         "2025": {
           "10": {
@@ -11366,6 +11853,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Lilian/Guilherme"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-02-28",
@@ -11459,6 +11952,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "SérgioP",
@@ -11528,11 +12027,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@marilia.sp.gov.br",
+      "senhaEmail": "sf40",
       "periodos": {
         "2025": {
           "10": {
@@ -11564,6 +12060,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Érica"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -11657,6 +12159,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "SérgioP",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-12",
             "tecnico": "SérgioP",
@@ -11726,11 +12234,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -11761,6 +12264,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -11855,6 +12364,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Marcelo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Marcelo",
@@ -11924,11 +12439,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Marcelo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@matao.sp.gov.br",
+      "senhaEmail": "rasec797914",
       "periodos": {
         "2025": {
           "10": {
@@ -11960,6 +12472,11 @@
             "tecnico": "Marcelo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": ""
+          },
+          "abertura": {
+            "data": "",
+            "tecnico": "Marcelo",
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-13",
@@ -12053,6 +12570,11 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "data": "",
+            "tecnico": "Marcelo",
+            "webOuDd": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Marcelo",
@@ -12122,11 +12644,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -12157,6 +12674,12 @@
             "dataValidacao": "2026-02-17",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -12249,6 +12772,12 @@
             "dataValidacao": "",
             "tecnico": "",
             "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -12320,11 +12849,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "IPM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "elisangela.gomes@hotmail.com",
+      "senhaEmail": "20601271Eli*",
       "periodos": {
         "2025": {
           "10": {
@@ -12355,6 +12881,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -12449,6 +12981,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane",
@@ -12518,11 +13056,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "elisangela.gomes@hotmail.com",
+      "senhaEmail": "20601271Eli*",
       "periodos": {
         "2025": {
           "10": {
@@ -12553,6 +13088,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Roseane",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -12647,6 +13188,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Roseane",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel / Gabriel / Marcelo",
@@ -12716,11 +13263,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "SAE",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -12751,6 +13293,12 @@
             "dataValidacao": "2026-02-23",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -12845,6 +13393,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-12",
             "tecnico": "Roseane",
@@ -12914,11 +13468,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-06",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -12949,6 +13498,12 @@
             "dataValidacao": "",
             "tecnico": "",
             "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -13043,6 +13598,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Willian",
@@ -13112,11 +13673,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-06",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -13147,6 +13703,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -13241,6 +13803,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-06",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-25",
             "tecnico": "Willian",
@@ -13310,11 +13878,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "10": {
@@ -13346,6 +13911,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "C260210-012"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -13439,6 +14010,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -13508,11 +14085,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "rmpereira@daemo.sp.gov.br",
+      "senhaEmail": "25121968",
       "periodos": {
         "2025": {
           "10": {
@@ -13544,6 +14118,12 @@
             "tecnico": "Gabriel Toledo / Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Valquiria Real"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -13637,6 +14217,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Toledo",
@@ -13706,11 +14292,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -13742,6 +14323,12 @@
             "tecnico": "Gabriel Toledo / Cliente",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Valquiria Real"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -13835,6 +14422,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Gabriel Toledo",
@@ -13904,11 +14497,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mscalisse@olimpia.sp.gov.br",
+      "senhaEmail": "melissa1605",
       "periodos": {
         "2025": {
           "10": {
@@ -13940,6 +14530,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Raquel Navarini / Mauro Boizan"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -14033,6 +14629,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Gabriel Toledo",
@@ -14102,11 +14704,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "suporte.contabilidade.pmo@outlook.com smarcp.suporte@smarapd.com.br",
+      "senhaEmail": "fsampaio smar123",
       "periodos": {
         "2025": {
           "10": {
@@ -14137,6 +14736,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -14231,6 +14836,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Gabriel Souza",
@@ -14300,11 +14911,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@osasco.sp.leg.br",
+      "senhaEmail": "2025@Conti",
       "periodos": {
         "2025": {
           "10": {
@@ -14336,6 +14944,11 @@
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e aguardando liberação",
             "contato": ""
+          },
+          "abertura": {
+            "data": "",
+            "tecnico": "Gabriel Souza",
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "-",
@@ -14429,6 +15042,11 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "data": "",
+            "tecnico": "Gabriel Souza",
+            "webOuDd": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Cliente",
@@ -14498,11 +15116,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -14533,6 +15146,12 @@
             "dataValidacao": "2026-02-23",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -14627,6 +15246,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-23",
             "tecnico": "Gabriel Souza",
@@ -14696,11 +15321,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -14731,6 +15351,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -14825,6 +15451,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Gabriel Souza",
@@ -14894,11 +15526,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -14930,6 +15557,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Gunther Hítalo"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-10",
@@ -15023,6 +15656,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "SérgioP",
@@ -15092,11 +15731,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "INSTITUTO",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "lccsilva@smarapd.com.br",
+      "senhaEmail": "Larissa16@",
       "periodos": {
         "2025": {
           "10": {
@@ -15128,6 +15764,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Gabriela"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "SérgioP",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-07",
@@ -15221,6 +15863,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "SérgioP",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "SérgioP",
@@ -15290,11 +15938,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "SérgioP",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "fabiana.ferreirapinto@gmail.com   jvllibano@gmail.com",
+      "senhaEmail": "L@fille2017  fw346214",
       "periodos": {
         "2025": {
           "10": {
@@ -15326,6 +15971,12 @@
             "tecnico": "SérgioP",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "João Victor"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-20",
@@ -15419,6 +16070,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "SérgioP",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "SérgioP",
@@ -15488,11 +16145,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -15523,6 +16175,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -15617,6 +16275,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Gabriel Souza",
@@ -15686,11 +16350,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -15721,6 +16380,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -15815,6 +16480,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Souza",
@@ -15884,11 +16555,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -15919,6 +16585,12 @@
             "dataValidacao": "2026-02-23",
             "tecnico": "Gabriel Souza",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -16013,6 +16685,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Gabriel Souza",
@@ -16082,11 +16760,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "willian.francelino@smarapd.com.br",
+      "senhaEmail": "$marapd2011",
       "periodos": {
         "2025": {
           "10": {
@@ -16118,6 +16793,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "C260209-165"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -16211,6 +16892,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Gabriel Toledo",
@@ -16280,11 +16967,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Toledo",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -16316,6 +16998,12 @@
             "tecnico": "Gabriel Toledo",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Aparecida Lacerda"
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-05",
@@ -16409,6 +17097,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Toledo",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-16",
             "tecnico": "Gabriel Toledo",
@@ -16478,11 +17172,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "greice.contabilidade@gmail.com",
+      "senhaEmail": "190500",
       "periodos": {
         "2025": {
           "10": {
@@ -16514,6 +17205,11 @@
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Greice"
+          },
+          "abertura": {
+            "data": "",
+            "tecnico": "Gabriel Souza",
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -16607,6 +17303,11 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "data": "",
+            "tecnico": "Gabriel Souza",
+            "webOuDd": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -16676,11 +17377,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "pitanprevsistema@gmail.com",
+      "senhaEmail": "8089",
       "periodos": {
         "2025": {
           "10": {
@@ -16711,6 +17409,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -16805,6 +17509,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-03",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Santana",
@@ -16874,11 +17584,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-03",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contadoria@pitangueiras.sp.gov.br",
+      "senhaEmail": "paty1902",
       "periodos": {
         "2025": {
           "10": {
@@ -16910,6 +17617,12 @@
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "C260216-033"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -17003,6 +17716,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Santana / Gabriel Souza",
@@ -17072,11 +17791,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -17107,6 +17821,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Roseane",
             "observacoes": "Documento validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -17201,6 +17921,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Roseane",
@@ -17270,11 +17996,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "IPRP",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "mtcarvalho84@gmail.com",
+      "senhaEmail": "smarapd2019",
       "periodos": {
         "2025": {
           "10": {
@@ -17306,6 +18029,11 @@
             "tecnico": "Roseane",
             "observacoes": "Documento validado e aguardando liberação",
             "contato": ""
+          },
+          "abertura": {
+            "data": "",
+            "tecnico": "Roseane",
+            "webOuDd": ""
           },
           "01": {
             "dataValidacao": "2025-03-11",
@@ -17399,6 +18127,11 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "data": "",
+            "tecnico": "Roseane",
+            "webOuDd": ""
+          },
           "01": {
             "dataValidacao": "2026-03-11",
             "tecnico": "Roseane",
@@ -17468,11 +18201,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-03-02",
-        "tecnico": "Roseane",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade.sf@ribeiraopires.sp.gov.br",
+      "senhaEmail": "danmarcelcla61",
       "periodos": {
         "2025": {
           "10": {
@@ -17503,6 +18233,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Roseane",
             "observacoes": "Documento validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -17597,6 +18333,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-02",
+            "tecnico": "Roseane",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-19",
             "tecnico": "Roseane",
@@ -17666,11 +18408,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "juniorvendramin_@hotmail.com",
+      "senhaEmail": "Camara10$",
       "periodos": {
         "2025": {
           "10": {
@@ -17702,6 +18441,12 @@
             "tecnico": "Santana",
             "observacoes": "Documento validado e aguardando liberação",
             "contato": "Vilson"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Santana",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-07",
@@ -17795,6 +18540,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Santana",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -17864,11 +18615,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "DAE",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -17899,6 +18645,12 @@
             "dataValidacao": "2026-02-18",
             "tecnico": "Roseane",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -17993,6 +18745,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-09",
             "tecnico": "Roseane",
@@ -18062,11 +18820,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "anamaria.lemes@santabarbara.sp.gov.br",
+      "senhaEmail": "1479",
       "periodos": {
         "2025": {
           "10": {
@@ -18098,6 +18853,12 @@
             "tecnico": "Santana",
             "observacoes": "Documento validado e aguardando liberação",
             "contato": "Ana Maria"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Santana",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-06",
@@ -18191,6 +18952,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Santana",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -18260,11 +19027,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "jucaroline02@hotmail.com",
+      "senhaEmail": "97768402",
       "periodos": {
         "2025": {
           "10": {
@@ -18296,6 +19060,12 @@
             "tecnico": "Willian",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "C260107-003\\03"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-05",
@@ -18389,6 +19159,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Willian",
@@ -18458,11 +19234,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@sertaozinho.sp.gov.br",
+      "senhaEmail": "Dan20070",
       "periodos": {
         "2025": {
           "10": {
@@ -18493,6 +19266,12 @@
             "dataValidacao": "2026-02-19",
             "tecnico": "Willian",
             "observacoes": "Documento validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -18587,6 +19366,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-24",
             "tecnico": "Willian",
@@ -18656,11 +19441,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -18691,6 +19471,12 @@
             "dataValidacao": "2026-02-25",
             "tecnico": "Willian",
             "observacoes": "Documento validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -18785,6 +19571,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-26",
+            "tecnico": "Willian",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-15",
             "tecnico": "Willian",
@@ -18854,11 +19646,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-26",
-        "tecnico": "Willian",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "amandabastianini@hotmail.com",
+      "senhaEmail": "A454213",
       "periodos": {
         "2025": {
           "10": {
@@ -18889,6 +19678,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Willian",
             "observacoes": "Documento validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Willian",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -18983,6 +19778,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Willian",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Willian",
@@ -19052,11 +19853,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@camarascs.sp.gov.br",
+      "senhaEmail": "dof2019",
       "periodos": {
         "2025": {
           "10": {
@@ -19088,6 +19886,12 @@
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
             "contato": "Elenita"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-12",
@@ -19181,6 +19985,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -19250,11 +20060,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "contabilidade@fascs.com.br",
+      "senhaEmail": "fascs003",
       "periodos": {
         "2025": {
           "10": {
@@ -19285,6 +20092,12 @@
             "dataValidacao": "2025-02-16",
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -19379,6 +20192,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -19448,11 +20267,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -19483,6 +20297,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -19577,6 +20397,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -19646,11 +20472,8 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "teresa.andrade@fpm.org.br",
+      "senhaEmail": "teca2413",
       "periodos": {
         "2025": {
           "10": {
@@ -19681,6 +20504,12 @@
             "dataValidacao": "2025-02-16",
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -19775,6 +20604,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-17",
             "tecnico": "Santana",
@@ -19844,11 +20679,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "dforca@saesascs.sp.gov.br",
+      "senhaEmail": "Daniela2016",
       "periodos": {
         "2025": {
           "10": {
@@ -19879,6 +20711,12 @@
             "dataValidacao": "2025-02-16",
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -19973,6 +20811,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -20042,11 +20886,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "AUT",
-      "abertura": {
-        "data": "2026-02-25",
-        "tecnico": "Gabriel Souza",
-        "webOuDd": "Web"
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -20077,6 +20916,12 @@
             "dataValidacao": "2025-02-17",
             "tecnico": "Santana",
             "observacoes": "Documento Validado e Aguardando Liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
             "contato": ""
           },
           "01": {
@@ -20171,6 +21016,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-25",
+            "tecnico": "Gabriel Souza",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-18",
             "tecnico": "Santana",
@@ -20240,11 +21091,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "CM",
-      "abertura": {
-        "data": "2026-05-14",
-        "tecnico": "Empresa Antiga",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -20274,6 +21120,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
             "observacoes": "",
             "contato": ""
           },
@@ -20366,6 +21218,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
             "observacoes": "",
             "contato": ""
           },
@@ -20438,11 +21296,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "PM",
-      "abertura": {
-        "data": "2026-04-02",
-        "tecnico": "Roseane",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -20472,6 +21325,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-04-02",
+            "tecnico": "Roseane",
             "observacoes": "",
             "contato": ""
           },
@@ -20564,6 +21423,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-04-02",
+            "tecnico": "Roseane",
             "observacoes": "",
             "contato": ""
           },
@@ -20636,11 +21501,6 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Sim",
       "org": "UNI",
-      "abertura": {
-        "data": "2026-02-28",
-        "tecnico": "Empresa Antiga",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -20670,6 +21530,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Empresa Antiga",
             "observacoes": "",
             "contato": ""
           },
@@ -20762,6 +21628,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-28",
+            "tecnico": "Empresa Antiga",
             "observacoes": "",
             "contato": ""
           },
@@ -20834,11 +21706,6 @@
       "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-05-14",
-        "tecnico": "Empresa Antiga",
-        "webOuDd": ""
-      },
       "periodos": {
         "2025": {
           "10": {
@@ -20868,6 +21735,12 @@
           "14": {
             "dataValidacao": "",
             "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
             "observacoes": "",
             "contato": ""
           },
@@ -20963,6 +21836,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-05-14",
+            "tecnico": "Empresa Antiga",
+            "observacoes": "",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-05-14",
             "tecnico": "Empresa Antiga",
@@ -21032,11 +21911,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "CM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "ivone@camaravalinhos.sp.gov.br",
+      "senhaEmail": "cmv74853621i",
       "periodos": {
         "2025": {
           "10": {
@@ -21067,6 +21943,12 @@
             "dataValidacao": "2026-02-16",
             "tecnico": "Santana",
             "observacoes": "Documento validado e aguardando liberação",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Santana",
+            "observacoes": "",
             "contato": ""
           },
           "01": {
@@ -21161,6 +22043,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Santana",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-10",
             "tecnico": "Marcelo",
@@ -21230,11 +22118,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "PM",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "chdesti@valinhos.sp.gov.br",
+      "senhaEmail": "qwer7788",
       "periodos": {
         "2025": {
           "10": {
@@ -21266,6 +22151,12 @@
             "tecnico": "Santana",
             "observacoes": "Documento validado e aguardando liberação",
             "contato": "Célia"
+          },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-14",
@@ -21359,6 +22250,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-02-27",
+            "tecnico": "Santana",
+            "observacoes": "Web",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Santana",
@@ -21428,11 +22325,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "RPPS",
-      "abertura": {
-        "data": "2026-02-27",
-        "tecnico": "Santana",
-        "webOuDd": "Web"
-      },
+      "loginEmail": "paulocesar@valiprev.com.br",
+      "senhaEmail": "121521Tcesp@",
       "periodos": {
         "2025": {
           "10": {
@@ -21464,6 +22358,12 @@
             "tecnico": "Santana",
             "observacoes": "Documento validado e aguardando liberação",
             "contato": "Ionice"
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "Santana",
+            "observacoes": "",
+            "contato": ""
           },
           "01": {
             "dataValidacao": "2025-03-05",
@@ -21557,6 +22457,12 @@
             "observacoes": "",
             "contato": ""
           },
+          "abertura": {
+            "dataValidacao": "2026-03-31",
+            "tecnico": "Santana",
+            "observacoes": "WEB",
+            "contato": ""
+          },
           "01": {
             "dataValidacao": "2026-03-13",
             "tecnico": "Marcelo",
@@ -21591,6 +22497,627 @@
             "dataValidacao": "2026-07-20",
             "tecnico": "Marcelo / Cliente",
             "observacoes": "documento validado e aguardando liberacao",
+            "contato": ""
+          },
+          "07": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "08": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "09": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "anual": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "4b329688-3777-4d86-8111-376756370842",
+      "cliente": "ZZZ_TESTE_QA",
+      "integracaoAmCp": "Sim",
+      "clienteComGerador": "Não",
+      "org": "ORGAO_TESTE",
+      "loginEmail": "teste.qa@teste.com",
+      "senhaEmail": "senhaTeste123",
+      "periodos": {
+        "2025": {
+          "10": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "11": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "12": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "13": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "14": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "01": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "02": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "03": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "04": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "05": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "06": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "07": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "08": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "09": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "anual": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          }
+        },
+        "2026": {
+          "10": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "11": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "12": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "13": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "14": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "01": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "02": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "03": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "04": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "05": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "06": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "07": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "08": {
+            "dataValidacao": "2026-03-08",
+            "tecnico": "Técnico Teste QA",
+            "observacoes": "Observação de teste QA com acentuação: ção, ã, é, ü, ñ - teste especial !@#$%^&*()",
+            "contato": "Contato Teste"
+          },
+          "09": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "anual": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "ce808fe3-a6bb-4b96-bd4d-4afc9fc0d65f",
+      "cliente": "ZZZ_TESTE_QA2",
+      "integracaoAmCp": "Não",
+      "clienteComGerador": "Não",
+      "org": "",
+      "loginEmail": "",
+      "senhaEmail": "",
+      "periodos": {
+        "2025": {
+          "10": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "11": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "12": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "13": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "14": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "01": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "02": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "03": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "04": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "05": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "06": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "07": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "08": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "09": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "anual": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          }
+        },
+        "2026": {
+          "10": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "11": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "12": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "13": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "14": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "01": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "02": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "03": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "04": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "05": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "06": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "07": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "08": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "09": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "anual": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          }
+        }
+      }
+    },
+    {
+      "id": "6199924d-30bb-42a3-a959-b70af2c5c99d",
+      "cliente": "ZZZ_TESTE_QA3",
+      "integracaoAmCp": "Não",
+      "clienteComGerador": "Não",
+      "org": "",
+      "loginEmail": "",
+      "senhaEmail": "",
+      "periodos": {
+        "2025": {
+          "10": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "11": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "12": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "13": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "14": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "01": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "02": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "03": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "04": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "05": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "06": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "07": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "08": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "09": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "anual": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          }
+        },
+        "2026": {
+          "10": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "11": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "12": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "13": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "14": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "abertura": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "01": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "02": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "03": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "04": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "05": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
+            "contato": ""
+          },
+          "06": {
+            "dataValidacao": "",
+            "tecnico": "",
+            "observacoes": "",
             "contato": ""
           },
           "07": {
