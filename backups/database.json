@@ -1,5 +1,5 @@
 {
-  "exportadoEm": "2026-08-04T05:42:35.891Z",
+  "exportadoEm": "2026-08-05T05:41:34.588Z",
   "seedVersion": 5,
   "prazos": {
     "2025": {
@@ -148,15 +148,15 @@
         },
         "2026": {
           "10": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_L5VXD",
+            "observacoes": "Teste mês 10",
+            "contato": "M10-L5VXD"
           },
           "11": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
+            "dataValidacao": "2026-08-04",
+            "tecnico": "ITER_4_BN6IE",
+            "observacoes": "iter 4",
             "contato": ""
           },
           "12": {
@@ -178,64 +178,64 @@
             "contato": ""
           },
           "abertura": {
-            "dataValidacao": "2026-03-31",
-            "tecnico": "Gabriel Toledo",
-            "observacoes": "WEB",
-            "contato": ""
+            "dataValidacao": "2026-04-01",
+            "tecnico": "QA_AB_NM0ZH",
+            "observacoes": "Teste abertura contábil QA",
+            "contato": "AB-NM0ZH"
           },
           "01": {
-            "dataValidacao": "2026-03-19",
-            "tecnico": "Marcelo",
-            "observacoes": "documento validado e aguardando iberacao",
-            "contato": ""
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_BMINP",
+            "observacoes": "Teste mês 01",
+            "contato": "CTT-BMINP"
           },
           "02": {
-            "dataValidacao": "2026-05-05",
-            "tecnico": "Jacque",
-            "observacoes": "Documento armazenado",
-            "contato": "C260505-216"
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_B3QPU",
+            "observacoes": "Teste mês 02",
+            "contato": "CTT-B3QPU"
           },
           "03": {
-            "dataValidacao": "2026-05-19",
-            "tecnico": "Marcelo",
-            "observacoes": "documento armazenado",
-            "contato": "C260507-118"
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_IUYD3",
+            "observacoes": "Teste mês 03",
+            "contato": "CTT-IUYD3"
           },
           "04": {
-            "dataValidacao": "2026-05-20",
-            "tecnico": "marcelo",
-            "observacoes": "documento validado e aguardando liberacao",
-            "contato": "envio aut via zap"
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_HXPUQ",
+            "observacoes": "Teste mês 04",
+            "contato": "CTT-HXPUQ"
           },
           "05": {
-            "dataValidacao": "2026-06-22",
-            "tecnico": "Jéssica Cruz",
-            "observacoes": "Documento Validado e Aguardando Liberação",
-            "contato": "C260612-116"
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_V2MDJ",
+            "observacoes": "Teste mês 05",
+            "contato": "CTT-V2MDJ"
           },
           "06": {
-            "dataValidacao": "2026-07-08",
-            "tecnico": "Marcelo / Cliente",
-            "observacoes": "Documento Validado e Aguardando Liberação",
-            "contato": ""
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_GJ7MM",
+            "observacoes": "Teste mês 06",
+            "contato": "CTT-GJ7MM"
           },
           "07": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_G8DWY",
+            "observacoes": "Teste mês 07",
+            "contato": "M07-G8DWY"
           },
           "08": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "TESTE_QA_TEMP_EDIT",
-            "contato": ""
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_51ZN9",
+            "observacoes": "Teste mês 08",
+            "contato": "M08-51ZN9"
           },
           "09": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
+            "dataValidacao": "2026-08-04",
+            "tecnico": "QA_8G5IO",
+            "observacoes": "Teste mês 09",
+            "contato": "M09-8G5IO"
           },
           "anual": {
             "dataValidacao": "",
@@ -10170,8 +10170,8 @@
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "FUND",
-      "loginEmail": "",
-      "senhaEmail": "",
+      "loginEmail": "secretariadegoverno@luizantonio.sp.gov.br",
+      "senhaEmail": "faep2019",
       "periodos": {
         "2025": {
           "10": {
@@ -10339,10 +10339,10 @@
             "contato": "Contato Ana Débora"
           },
           "06": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "Cliente não finalizou a execução - Contato Ana Débora em 24/07 - Bom dia Jessica!Espero que este a encontre bem. Em resposta, viemos informar que o mês de junho/2026 da UG 403 encontra-se em atraso devido diferenças nos valores da folha de pagamentos da Smar para a nossa, nosso Departamento Pessoal esta em contato com a SmarRH para acertar essas diferenças de valores primeiro, para podermos posteriormente seguir com a integração da folha.",
-            "contato": "Vanessa - Assessoria Contábil do cliente"
+            "dataValidacao": "2026-08-04",
+            "tecnico": "Jéssica Brito",
+            "observacoes": "Documento Armazenado",
+            "contato": "C260803-344 - Vanessa - Assessoria Contábil do cliente"
           },
           "07": {
             "dataValidacao": "",
@@ -21498,9 +21498,11 @@
     {
       "id": "f6175fa7-678b-4235-8867-cc3e7f666bc8",
       "cliente": "SÃO JOÃO DA BOA VISTA - UNIFAE",
-      "integracaoAmCp": "Não",
+      "integracaoAmCp": "Sim",
       "clienteComGerador": "Sim",
       "org": "UNI",
+      "loginEmail": "contabilidade@fae.br",
+      "senhaEmail": "59766774",
       "periodos": {
         "2025": {
           "10": {
@@ -21675,8 +21677,8 @@
           },
           "07": {
             "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
+            "tecnico": "Roseane",
+            "observacoes": "C260727-176",
             "contato": ""
           },
           "08": {
@@ -22527,422 +22529,8 @@
       }
     },
     {
-      "id": "4b329688-3777-4d86-8111-376756370842",
-      "cliente": "ZZZ_TESTE_QA",
-      "integracaoAmCp": "Sim",
-      "clienteComGerador": "Não",
-      "org": "ORGAO_TESTE",
-      "loginEmail": "teste.qa@teste.com",
-      "senhaEmail": "senhaTeste123",
-      "periodos": {
-        "2025": {
-          "10": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "11": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "12": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "13": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "14": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "abertura": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "01": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "02": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "03": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "04": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "05": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "06": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "07": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "08": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "09": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "anual": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          }
-        },
-        "2026": {
-          "10": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "11": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "12": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "13": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "14": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "abertura": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "01": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "02": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "03": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "04": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "05": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "06": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "07": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "08": {
-            "dataValidacao": "2026-03-08",
-            "tecnico": "Técnico Teste QA",
-            "observacoes": "Observação de teste QA com acentuação: ção, ã, é, ü, ñ - teste especial !@#$%^&*()",
-            "contato": "Contato Teste"
-          },
-          "09": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "anual": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          }
-        }
-      }
-    },
-    {
       "id": "ce808fe3-a6bb-4b96-bd4d-4afc9fc0d65f",
       "cliente": "ZZZ_TESTE_QA2",
-      "integracaoAmCp": "Não",
-      "clienteComGerador": "Não",
-      "org": "",
-      "loginEmail": "",
-      "senhaEmail": "",
-      "periodos": {
-        "2025": {
-          "10": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "11": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "12": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "13": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "14": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "abertura": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "01": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "02": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "03": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "04": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "05": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "06": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "07": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "08": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "09": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "anual": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          }
-        },
-        "2026": {
-          "10": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "11": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "12": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "13": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "14": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "abertura": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "01": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "02": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "03": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "04": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "05": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "06": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "07": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "08": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "09": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          },
-          "anual": {
-            "dataValidacao": "",
-            "tecnico": "",
-            "observacoes": "",
-            "contato": ""
-          }
-        }
-      }
-    },
-    {
-      "id": "6199924d-30bb-42a3-a959-b70af2c5c99d",
-      "cliente": "ZZZ_TESTE_QA3",
       "integracaoAmCp": "Não",
       "clienteComGerador": "Não",
       "org": "",
